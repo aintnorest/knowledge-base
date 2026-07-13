@@ -19,6 +19,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](/dossiers/dspy-compiling-declarative-language-model-calls.md) — Original DSPy paper on declarative LM programs, trace bootstrapping, and metric-driven pipeline compilation
 * [Self-Consistency Improves Chain of Thought Reasoning in Language Models](/dossiers/self-consistency-improves-chain-of-thought-reasoning.md) — ICLR 2023 paper on sampling diverse reasoning paths and voting over final answers instead of greedily decoding one chain
 * [Exploring Prompt Engineering](/dossiers/exploring-prompt-engineering-swot.md) — Systematic prompt-engineering review with linguistic framing, SWOT analysis, technique taxonomy, and evaluation metrics
+* [From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents](/dossiers/auditable-enterprise-llm-harness.md) — Contract-based enterprise LLM harness with source-backed claim admission, audit traces, output validation, and deterministic fallback composition
 * [How AI Agent Memory Works](/dossiers/how-ai-agent-memory-works.md) — Interactive primer on agent memory as context construction, governed storage, hybrid retrieval, and production infrastructure
 * [Language Models are Few-Shot Learners](/dossiers/language-models-are-few-shot-learners.md) — Foundational GPT-3 paper on in-context learning, scaling, and benchmark contamination
 * [MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction](/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md) — Training-free, staged LLM extraction of verbatim aspect–opinion–sentiment triplets with triplet-set consistency checks
@@ -109,3 +110,5 @@ timestamp: 2026-07-11T16:00:00Z
 * [Rate–Distortion Memory Compaction](/vault/rate-distortion-memory-compaction.md)
 * [Reversible, Query-Conditioned Compaction](/vault/reversible-query-conditioned-compaction.md)
 * [Repeated-Compaction Evaluation](/vault/repeated-compaction-evaluation.md)
+* [Source-Backed Claim Admission](/vault/source-backed-claim-admission.md)
+* [Validated Fallback Composition](/vault/validated-fallback-composition.md)

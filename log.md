@@ -220,3 +220,9 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2607.06145` — `Prompting Complexity: Shortest Prompts for Texts and Behaviors in LLMs dossier` at `/dossiers/prompting-complexity.md` — canonical: https://arxiv.org/abs/2607.06145v1
 * **Archive**: Moved source PDF to [/archive/prompting-complexity.pdf](/archive/prompting-complexity.pdf)
 * **Vault**: Created [prompting-complexity](/vault/prompting-complexity.md), [behavioral-prompting-complexity](/vault/behavioral-prompting-complexity.md), [prompting-distance](/vault/prompting-distance.md)
+
+## 2026-07-13 (Harness Engineering)
+* **Ingest**: `arxiv:2607.08028` — `From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents dossier` at `/dossiers/auditable-enterprise-llm-harness.md` — canonical: https://arxiv.org/abs/2607.08028v1
+* **Archive**: Moved source PDF to [/archive/auditable-enterprise-llm-harness.pdf](/archive/auditable-enterprise-llm-harness.pdf)
+* **Vault**: Created [source-backed-claim-admission](/vault/source-backed-claim-admission.md)
+* **Vault**: Created [validated-fallback-composition](/vault/validated-fallback-composition.md)
