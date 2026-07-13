@@ -13,6 +13,7 @@ This directory contains immutable raw materials. Files are written once at inges
 | File | Source | Ingested | Dossier |
 |------|--------|----------|---------|
 | `automatic-prompt-optimization-heuristic-search-survey.pdf` | arXiv:2502.18746v2 / doi:10.48550/arXiv.2502.18746 | 2026-07-13 | [A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm](/dossiers/automatic-prompt-optimization-heuristic-search-survey.md) |
+| `multi-agent-design-prompts-topologies.pdf` | arXiv:2502.02533v2 | 2026-07-13 | [Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](/dossiers/multi-agent-design-prompts-topologies.md) |
 | `automatic-prompt-engineer.pdf` | arXiv:2211.01910v2 | 2026-07-13 | [Large Language Models Are Human-Level Prompt Engineers](/dossiers/automatic-prompt-engineer.md) |
 | `autopdl-automatic-prompt-optimization-llm-agents.pdf` | arXiv:2504.04365v5 / doi:10.48550/arXiv.2504.04365 | 2026-07-13 | [AutoPDL: Automatic Prompt Optimization for LLM Agents](/dossiers/autopdl-automatic-prompt-optimization-llm-agents.md) |
 | `agentic-context-engineering.pdf` | arXiv:2510.04618v3 | 2026-07-12 | [Agentic Context Engineering](/dossiers/agentic-context-engineering.md) |

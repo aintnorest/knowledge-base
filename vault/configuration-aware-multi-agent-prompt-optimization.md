@@ -21,6 +21,8 @@ In a multi-agent system, a prompt is not an isolated text artifact. Its effect d
 
 For non-terminal agents, add a downstream check between local role adherence and the final task metric. A candidate can make an agent appear more compliant while leaving its immediate consumer worse off. Preserve those local-success/global-failure traces as diagnostic cases, and refresh candidate scores when changing peer prompts shifts the messages the candidate will receive.
 
+When the topology itself remains open, do not search prompts and structure as if they were independent. A practical staged approach is to first fit prompts for a base agent and small candidate blocks, use those measured results to focus the structural search, then refit prompts for the selected full workflow. The resulting topology is still configuration-specific and needs a final held-out comparison.
+
 ## Why It Matters
 
 Agent prompts interact through messages and aggregation. An instruction that makes one worker more verbose, cautious, or specialized can improve a sequential handoff yet interfere with majority voting or overload a coordinator. More agents create more of these dependencies. Final-score optimization without configuration awareness can therefore find local improvements that do not survive the full workflow.
@@ -43,3 +45,4 @@ Agent prompts interact through messages and aggregation. An instruction that mak
 - [MAS-PromptBench dossier](/dossiers/mas-promptbench.md) — evaluates MAS-GEPA and MAS-MIPRO across task, topology, protocol, and team-size configurations; reports both gains up to 24 points and regressions down to 16 points.
 - [DSPy dossier](/dossiers/dspy-compiling-declarative-language-model-calls.md) — frames multi-stage LM programs, their traces, and end-to-end metrics as an optimization unit, while cautioning that the metric must encode relevant constraints.
 - [MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems dossier](/dossiers/maspo-joint-prompt-optimization.md) — adds direct-successor lookahead to local and final evaluation, mines local-global misalignment cases, and refreshes beam scores after peer prompts change.
+- [Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies dossier](/dossiers/multi-agent-design-prompts-topologies.md) — stages block-level prompt optimization, influence-weighted topology search, and workflow-level prompt adaptation in Mass.

@@ -20,6 +20,12 @@ maintenance as a non-ingest event.
 * **Archive**: Moved source PDF to [/archive/automatic-prompt-optimization-heuristic-search-survey.pdf](/archive/automatic-prompt-optimization-heuristic-search-survey.pdf)
 * **Vault**: Updated [prompt-optimization](/vault/prompt-optimization.md)
 
+## 2026-07-13 (Multi-Agent Design)
+* **Ingest**: `arxiv:2502.02533` — `Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies dossier` at `/dossiers/multi-agent-design-prompts-topologies.md` — canonical: https://arxiv.org/abs/2502.02533v2
+* **Archive**: Moved source PDF to [/archive/multi-agent-design-prompts-topologies.pdf](/archive/multi-agent-design-prompts-topologies.pdf)
+* **Vault**: Created [influence-weighted-topology-search](/vault/influence-weighted-topology-search.md)
+* **Vault**: Updated [configuration-aware-multi-agent-prompt-optimization](/vault/configuration-aware-multi-agent-prompt-optimization.md), [multi-agent-orchestration](/vault/multi-agent-orchestration.md), [prompt-optimization](/vault/prompt-optimization.md)
+
 ## 2026-07-13 (SCOPE)
 * **Ingest**: `arxiv:2512.15374` — `SCOPE: Prompt Evolution for Enhancing Agent Effectiveness dossier` at `/dossiers/scope-prompt-evolution-agent-effectiveness.md` — canonical: https://arxiv.org/abs/2512.15374v2
 * **Archive**: Moved source PDF to [/archive/scope-prompt-evolution-agent-effectiveness.pdf](/archive/scope-prompt-evolution-agent-effectiveness.pdf)

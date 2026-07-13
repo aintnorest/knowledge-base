@@ -51,8 +51,13 @@ Agent count, routing topology, message protocol, and aggregation rule determine 
 
 Use structured handoff contracts when downstream decisions repeatedly depend on status, evidence, confidence, or the next action. These contracts make the information flow inspectable and give local prompt changes a stable interface, but they should be validated for semantic usefulness rather than treated as formatting alone.
 
+## Search the Workflow in Stages
+
+When both role instructions and routing remain unsettled, first establish competent minimal building blocks, then search a bounded workflow grammar using measured block benefit as a sampling prior, and finally adapt the prompts to the chosen graph. This reduces waste on unpromising structures without mistaking local block scores for the final decision: every selected workflow still needs end-to-end holdout evaluation for quality, cost, and safety-relevant handoffs.
+
 ## Sources
 
 - [PaperOrchestra dossier](/dossiers/paperorchestra.md) — 5 specialized agents in a fork-join pipeline; ~60–70 LLM calls; 39.6 min mean latency
 - [MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction dossier](/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md) — sequential typed stages for aspect, opinion, sentiment, and triplet-set consistency; reported gains come with four calls per sentence and aspect-stage recall risk.
 - [MAS-PromptBench dossier](/dossiers/mas-promptbench.md) — finds that prompt-optimization effects vary by task, topology, communication structure, and team size; its tested optimizers generally benefited more from structured protocols and smaller teams.
+- [Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies dossier](/dossiers/multi-agent-design-prompts-topologies.md) — searches prompt and topology variables in three stages, prioritizing topology blocks by measured validation influence before adapting prompts to the selected workflow.

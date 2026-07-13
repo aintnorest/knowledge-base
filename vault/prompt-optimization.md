@@ -91,6 +91,11 @@ This decomposition makes a reported improvement reproducible: record the represe
 - Do not assume the result transfers across topologies or team sizes. In MAS-PromptBench, a GEPA extension achieved gains as large as 24 percentage points in one configuration but losses as large as 16 in another; structured communication and small teams were generally easier settings for the tested optimizers.
 - **Use with care**: an end-to-end score can hide unsafe or ungrounded intermediate behavior, and configuration-specific search can overfit a small validation split. Slice evaluations by the deployment-relevant configuration and add component constraints when necessary.
 
+### Staged Prompt and Topology Search
+
+- When the agent graph itself is not settled, optimize prompts for a base agent and small instances of the available topology blocks before investing in full workflow search. Use their validation benefit to prioritize a bounded topology grammar, then adapt all prompts again after selecting a workflow.
+- This sequence uses local scores to spend search budget, not to prove architectural causality. A block that is weak in isolation can be complementary, and a good standalone block can fail through added handoffs; the final choice still requires a full-system holdout comparison.
+
 ### Credit-Guided Optimization for Multi-Agent Systems
 
 - Treats agent roles and round-level aggregation prompts as separate optimization blocks rather than rewriting an entire collaboration policy after a terminal failure.
@@ -165,3 +170,4 @@ This decomposition makes a reported improvement reproducible: record the represe
 - [Promptomatix: An Automatic Prompt Optimization Framework for Large Language Models dossier](/dossiers/promptomatix-automatic-prompt-optimization.md) — proposes automatic configuration, synthetic-data generation, backend and metric selection, plus feedback-driven re-optimization; its limited experiments and configuration inconsistencies underline the need for artifact review and independent evaluation.
 - [AutoPDL: Automatic Prompt Optimization for LLM Agents dossier](/dossiers/autopdl-automatic-prompt-optimization-llm-agents.md) — jointly searches Zero-Shot, CoT, ReWOO, and ReAct programs plus instructions and demonstrations through successive halving, saving the winner as editable PDL source.
 - [A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm dossier](/dossiers/automatic-prompt-optimization-heuristic-search-survey.md) — supplies the five-axis space, target, objective, operator, and search-policy taxonomy for instruction-focused heuristic optimization.
+- [Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies dossier](/dossiers/multi-agent-design-prompts-topologies.md) — proposes Mass, which warm-starts block prompts, samples topology choices from validation-measured influence, then conducts workflow-level prompt optimization.

@@ -33,6 +33,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [How AI Agent Memory Works](/dossiers/how-ai-agent-memory-works.md) — Interactive primer on agent memory as context construction, governed storage, hybrid retrieval, and production infrastructure
 * [Language Models are Few-Shot Learners](/dossiers/language-models-are-few-shot-learners.md) — Foundational GPT-3 paper on in-context learning, scaling, and benchmark contamination
 * [MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction](/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md) — Training-free, staged LLM extraction of verbatim aspect–opinion–sentiment triplets with triplet-set consistency checks
+* [Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](/dossiers/multi-agent-design-prompts-topologies.md) — Three-stage Mass search that prompt-optimizes agent blocks, prioritizes topology choices by validation benefit, and adapts prompts to the selected workflow
 * [MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems](/dossiers/maspo-joint-prompt-optimization.md) — Trace-driven multi-agent prompt optimization using local, successor, and final-outcome evaluation with misalignment-case sampling and beam refresh
 * [Least-to-Most Prompting Enables Complex Reasoning in Large Language Models](/dossiers/least-to-most-prompting.md) — Decomposition-and-sequential-solving prompting for easy-to-hard reasoning generalization
 * [Large Language Models are Zero-Shot Reasoners](/dossiers/large-language-models-are-zero-shot-reasoners.md) — Foundational Zero-shot-CoT paper on eliciting stepwise reasoning without worked examples
@@ -67,6 +68,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Automatic Prompt Optimization Anatomy](/vault/automatic-prompt-optimization-anatomy.md)
 * [Bounded Tool Observations](/vault/bounded-tool-observations.md)
 * [Cost-Aware Inference Control](/vault/cost-aware-inference-control.md)
+* [Influence-Weighted Topology Search](/vault/influence-weighted-topology-search.md)
 * [In-Context Learning](/vault/in-context-learning.md)
 * [In-Flow Socratic Prompt Coaching](/vault/in-flow-socratic-prompt-coaching.md)
 * [Evolving Context Playbooks](/vault/evolving-context-playbooks.md)
