@@ -39,6 +39,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Remember When It Matters](/dossiers/proactive-memory-agent.md) — Proactive memory intervention for long-horizon agents
 * [Prompt Engineering is Complicated and Contingent](/dossiers/prompt-engineering-complicated-contingent.md) — Empirical report on benchmark scoring thresholds and contingent prompt effects
 * [Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development](/dossiers/prompt-coach-agentic-tutor.md) — IDE-embedded multi-agent tutor that teaches code-generation prompting through dimensional assessment and Socratic guidance
+* [Promptomatix: An Automatic Prompt Optimization Framework for Large Language Models](/dossiers/promptomatix-automatic-prompt-optimization.md) — Zero-configuration prompt-optimization wrapper that infers configuration, generates synthetic data, selects a backend and metric, and supports feedback-driven re-optimization
 * [Prompting Complexity: Shortest Prompts for Texts and Behaviors in LLMs](/dossiers/prompting-complexity.md) — Theoretical framework for model-relative shortest prompts, approximate output generation, prompt causes, and behavioral controllability
 * [Prompt Engineering Survey](/dossiers/prompt-engineering-survey.md) — Comprehensive survey of prompt engineering techniques for LLMs and VLMs
 * [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](/dossiers/prompt-report.md) — PRISMA-grounded taxonomy of prompting methods, output extraction, evaluation, safety, and engineering practice
@@ -110,6 +111,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Decomposed Prompting](/vault/decomposed-prompting.md)
 * [Active Prompt](/vault/active-prompt.md)
 * [Prompt Optimization](/vault/prompt-optimization.md)
+* [Zero-Configuration Prompt Optimization](/vault/zero-configuration-prompt-optimization.md)
 * [Prompting Complexity](/vault/prompting-complexity.md)
 * [Behavioral Prompting Complexity](/vault/behavioral-prompting-complexity.md)
 * [Prompting Distance](/vault/prompting-distance.md)

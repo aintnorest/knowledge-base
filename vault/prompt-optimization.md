@@ -3,7 +3,7 @@ type: Synthesis
 title: Prompt Optimization
 description: Automated methods for improving prompts and multi-stage LLM programs, including gradient-based, black-box, model-adaptive, agentic, cost-aware, instruction-generation, compiler-driven, and configuration-aware multi-agent approaches.
 tags: [synthesis, prompting, optimization, automated, pro-tegi, bpo, mapo, promptagent, ape, opro, dspy, multi-agent]
-timestamp: 2026-07-13T17:56:21Z
+timestamp: 2026-07-13T18:08:00Z
 ---
 
 # Prompt Optimization
@@ -65,6 +65,12 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 - Declares each component's input-output signature, then records traces from program executions that satisfy an end-to-end metric.
 - Uses accepted traces as candidate demonstrations for every component, and can search demonstrations, instructions, model choices, or fine-tuning configurations.
 - **Use with care**: final-answer success does not prove that intermediate retrieval, reasoning, or tool actions were safe or grounded. Include component-level constraints in the metric and evaluate on held-out cases.
+
+### Zero-Configuration Optimization Interfaces
+
+- A zero-configuration layer can infer a task schema, generate synthetic examples, select a prompting strategy and metric, and choose a search budget from a plain-language objective. It lowers the entry cost of running an optimization experiment, but the inferred artifacts are part of the specification and must be reviewable.
+- Keep an editable task contract and retain independent, preferably real, holdout cases. Do not use a generated validation set as the only basis for promotion, especially when safety, groundedness, tone, domain compliance, or long-horizon utility matters.
+- A low-cost single-pass meta-prompt rewrite is useful as a baseline; a structured compiler is warranted only when the task has a stable interface and a trustworthy evaluation signal. Persist the objective, data, metric, model versions, candidate results, and acceptance decision.
 
 ### Multi-Agent Prompt Optimization
 
@@ -137,3 +143,4 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 - [Large Language Models Are Human-Level Prompt Engineers dossier](/dossiers/automatic-prompt-engineer.md) — defines APE’s proposal/scoring loop, adaptive evaluation, results, and metric-gaming limitations.
 - [MAS-PromptBench dossier](/dossiers/mas-promptbench.md) — benchmarks MAS-GEPA and MAS-MIPRO across task domains, topologies, protocols, and team sizes; shows configuration-dependent improvements and regressions.
 - [Automatic Prompt Optimization for Dataset-Level Feature Discovery dossier](/dossiers/automatic-prompt-optimization-dataset-level-feature-discovery.md) — applies reflective prompt optimization and Bayesian search to global text-feature schemas, using classifier, coverage, importance, and interpretability feedback.
+- [Promptomatix: An Automatic Prompt Optimization Framework for Large Language Models dossier](/dossiers/promptomatix-automatic-prompt-optimization.md) — proposes automatic configuration, synthetic-data generation, backend and metric selection, plus feedback-driven re-optimization; its limited experiments and configuration inconsistencies underline the need for artifact review and independent evaluation.

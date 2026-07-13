@@ -276,3 +276,9 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2601.13922` — `Automatic Prompt Optimization for Dataset-Level Feature Discovery dossier` at `/dossiers/automatic-prompt-optimization-dataset-level-feature-discovery.md` — canonical: https://arxiv.org/abs/2601.13922v1
 * **Archive**: Moved source PDF to [/archive/automatic-prompt-optimization-dataset-level-feature-discovery.pdf](/archive/automatic-prompt-optimization-dataset-level-feature-discovery.pdf)
 * **Vault**: Created [dataset-level-feature-discovery](/vault/dataset-level-feature-discovery.md)
+
+## 2026-07-13 (Promptomatix)
+* **Ingest**: `arxiv:2507.14241` — `Promptomatix: An Automatic Prompt Optimization Framework for Large Language Models dossier` at `/dossiers/promptomatix-automatic-prompt-optimization.md` — canonical: https://arxiv.org/abs/2507.14241v3
+* **Archive**: Moved source PDF to [/archive/promptomatix-automatic-prompt-optimization.pdf](/archive/promptomatix-automatic-prompt-optimization.pdf)
+* **Vault**: Created [zero-configuration-prompt-optimization](/vault/zero-configuration-prompt-optimization.md)
+* **Vault**: Updated [prompt-optimization](/vault/prompt-optimization.md)
