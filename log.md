@@ -15,6 +15,12 @@ canonical URL without the scheme), or `sha256:…` when no stronger identifier
 exists. Do not add a second ingest entry for a registered key; append subsequent
 maintenance as a non-ingest event.
 
+## 2026-07-13 (LLPO)
+* **Ingest**: `doi:10.18653/v1/2026.eacl-long.204` — `Don't Generate, Classify! Low-Latency Prompt Optimization with Structured Complementary Prompt dossier` at `/dossiers/low-latency-prompt-optimization-structured-complementary-prompt.md` — canonical: https://aclanthology.org/2026.eacl-long.204/
+* **Archive**: Moved source PDF to [/archive/low-latency-prompt-optimization-structured-complementary-prompt.pdf](/archive/low-latency-prompt-optimization-structured-complementary-prompt.pdf)
+* **Vault**: Created [classifier-based-prompt-optimization](/vault/classifier-based-prompt-optimization.md)
+* **Vault**: Updated [prompt-optimization](/vault/prompt-optimization.md)
+
 ## 2026-07-13 (Automatic Prompt Optimization Heuristic Search Survey)
 * **Ingest**: `doi:10.48550/arxiv.2502.18746` — `A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm dossier` at `/dossiers/automatic-prompt-optimization-heuristic-search-survey.md` — canonical: https://arxiv.org/abs/2502.18746v2
 * **Archive**: Moved source PDF to [/archive/automatic-prompt-optimization-heuristic-search-survey.pdf](/archive/automatic-prompt-optimization-heuristic-search-survey.pdf)

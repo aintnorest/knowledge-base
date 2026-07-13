@@ -49,6 +49,13 @@ This decomposition makes a reported improvement reproducible: record the represe
 - Uses preference pairs (original vs. optimized prompts) to train a sequence-to-sequence prompt rewriter.
 - **Result**: Outperforms RLHF and DPO when used independently or in conjunction.
 
+### Classifier-Based Prompt Optimization
+
+- Treats runtime prompt optimization as prediction over a bounded structured schema rather than autoregressive prompt rewriting. An encoder can select fields such as role, audience, response format, or reasoning guidance, and a deterministic template renders the selected configuration as a system prompt.
+- The online speedup is an amortization trade: label construction, schema design, and classifier training move offline. It is appropriate only when the supported request distribution and model interface are stable enough to repay that work.
+- Validate the schema and fields individually. In LLPO's ablations, generic constraints and interactive-mode instructions could reduce benchmark performance, so a predicted field is not automatically a beneficial field.
+- **Use with care**: report end-to-end latency and quality, not only classifier time; retain a fallback for low-confidence and out-of-schema requests; version the schema, template, target model, and label pipeline together.
+
 ### MAPO (Model-Adaptive Prompt Optimization)
 
 - **Key insight**: Different LLMs respond differently to the same prompt. Optimization should adapt to the model, not just the task.
@@ -178,3 +185,4 @@ This decomposition makes a reported improvement reproducible: record the represe
 - [A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm dossier](/dossiers/automatic-prompt-optimization-heuristic-search-survey.md) — supplies the five-axis space, target, objective, operator, and search-policy taxonomy for instruction-focused heuristic optimization.
 - [Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies dossier](/dossiers/multi-agent-design-prompts-topologies.md) — proposes Mass, which warm-starts block prompts, samples topology choices from validation-measured influence, then conducts workflow-level prompt optimization.
 - [TextGrad: Automatic “Differentiation” via Text dossier](/dossiers/textgrad-automatic-differentiation-via-text.md) — generalizes textual feedback to computation graphs and distinguishes reusable-prompt optimization from test-time instance optimization.
+- [Don't Generate, Classify! Low-Latency Prompt Optimization with Structured Complementary Prompt dossier](/dossiers/low-latency-prompt-optimization-structured-complementary-prompt.md) — evaluates an eight-field classifier plus fixed template against generative prompt optimizers; its task- and field-dependent results qualify the pattern.

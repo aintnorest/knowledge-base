@@ -32,6 +32,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Structured Context Engineering for File-Native Agentic Systems](/dossiers/structured-context-engineering-file-native-agents.md) — Empirical comparison of file-native schema retrieval, prompt injection, formats, model tiers, and partitioned navigation for agentic text-to-SQL
 * [How AI Agent Memory Works](/dossiers/how-ai-agent-memory-works.md) — Interactive primer on agent memory as context construction, governed storage, hybrid retrieval, and production infrastructure
 * [Language Models are Few-Shot Learners](/dossiers/language-models-are-few-shot-learners.md) — Foundational GPT-3 paper on in-context learning, scaling, and benchmark contamination
+* [Don't Generate, Classify! Low-Latency Prompt Optimization with Structured Complementary Prompt](/dossiers/low-latency-prompt-optimization-structured-complementary-prompt.md) — EACL 2026 classifier-based system-prompt optimization with an eight-field schema, fixed renderer, and latency-quality trade-off
 * [MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction](/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md) — Training-free, staged LLM extraction of verbatim aspect–opinion–sentiment triplets with triplet-set consistency checks
 * [Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](/dossiers/multi-agent-design-prompts-topologies.md) — Three-stage Mass search that prompt-optimizes agent blocks, prioritizes topology choices by validation benefit, and adapts prompts to the selected workflow
 * [MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems](/dossiers/maspo-joint-prompt-optimization.md) — Trace-driven multi-agent prompt optimization using local, successor, and final-outcome evaluation with misalignment-case sampling and beam refresh
@@ -67,6 +68,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Action-Observation Fusion](/vault/action-observation-fusion.md)
 * [Agent-Ergonomic Interface Design](/vault/agent-ergonomic-interface-design.md)
 * [Automatic Prompt Optimization Anatomy](/vault/automatic-prompt-optimization-anatomy.md)
+* [Classifier-Based Prompt Optimization](/vault/classifier-based-prompt-optimization.md)
 * [Bounded Tool Observations](/vault/bounded-tool-observations.md)
 * [Cost-Aware Inference Control](/vault/cost-aware-inference-control.md)
 * [Influence-Weighted Topology Search](/vault/influence-weighted-topology-search.md)
