@@ -3,7 +3,7 @@ type: Synthesis
 title: Prompt Optimization
 description: Automated methods for improving prompts and multi-stage LLM programs, including gradient-based, black-box, model-adaptive, agentic, cost-aware, instruction-generation, compiler-driven, and configuration-aware multi-agent approaches.
 tags: [synthesis, prompting, optimization, automated, pro-tegi, bpo, mapo, promptagent, ape, opro, dspy, multi-agent]
-timestamp: 2026-07-13T18:08:00Z
+timestamp: 2026-07-13T18:08:50Z
 ---
 
 # Prompt Optimization
@@ -110,6 +110,12 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 - Combine downstream utility with coverage, feature importance, and explicit checks that definitions are readable, grounded in source text, and not aliases for the target label. A label-proxy feature can inflate classification F1 while defeating the purpose of interpretable feature engineering.
 - The extractor is often the cost bottleneck because every schema candidate must be realized across many texts. Budget the candidate search around extraction throughput and validate the selected schema on held-out data.
 
+### Joint Prompt-Program Search
+
+- When an application might use direct response, few-shot CoT, planned tool use, or an interactive action-observation loop, treat the *prompting pattern* as a search variable alongside instructions and demonstrations. A fixed pattern can hide the better program shape for a particular model and task.
+- Represent each candidate as executable source code, including its tools, control flow, model settings, resolved demonstrations, metric, data split, and random seed. This makes the selected artifact inspectable, rerunnable, editable, and reversible rather than a one-off prompt string.
+- For costly evaluations, use progressive allocation: run many candidates on a small validation subset, retain only leading candidates, and increase the subset for survivors. Confirm the winner on held-out data; early pruning can otherwise promote noise.
+
 ### RL-based Optimization
 
 - Defines a reward function to evaluate prompt effectiveness.
@@ -132,6 +138,7 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 | PO2G | Evaluation data | Two-gradient iterative refinement | Classification prompts with iteration cost constraints |
 | PromptWizard | Model outputs + critic | Agentic mutation of instructions/examples | Broad task suites where manual prompt design is brittle |
 | Multi-objective optimization | Metrics for several objectives | Search over tradeoff frontier | Production prompts with accuracy, cost, efficiency, or interpretability constraints |
+| Joint prompt-program search | Pattern library, examples, executable program, and validation metric | Search pattern, instruction, and demonstrations with progressive allocation | Tasks where direct prompting, CoT, and tool-use loops are plausible alternatives |
 
 ## Sources
 
@@ -144,3 +151,4 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 - [MAS-PromptBench dossier](/dossiers/mas-promptbench.md) — benchmarks MAS-GEPA and MAS-MIPRO across task domains, topologies, protocols, and team sizes; shows configuration-dependent improvements and regressions.
 - [Automatic Prompt Optimization for Dataset-Level Feature Discovery dossier](/dossiers/automatic-prompt-optimization-dataset-level-feature-discovery.md) — applies reflective prompt optimization and Bayesian search to global text-feature schemas, using classifier, coverage, importance, and interpretability feedback.
 - [Promptomatix: An Automatic Prompt Optimization Framework for Large Language Models dossier](/dossiers/promptomatix-automatic-prompt-optimization.md) — proposes automatic configuration, synthetic-data generation, backend and metric selection, plus feedback-driven re-optimization; its limited experiments and configuration inconsistencies underline the need for artifact review and independent evaluation.
+- [AutoPDL: Automatic Prompt Optimization for LLM Agents dossier](/dossiers/autopdl-automatic-prompt-optimization-llm-agents.md) — jointly searches Zero-Shot, CoT, ReWOO, and ReAct programs plus instructions and demonstrations through successive halving, saving the winner as editable PDL source.

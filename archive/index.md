@@ -13,6 +13,7 @@ This directory contains immutable raw materials. Files are written once at inges
 | File | Source | Ingested | Dossier |
 |------|--------|----------|---------|
 | `automatic-prompt-engineer.pdf` | arXiv:2211.01910v2 | 2026-07-13 | [Large Language Models Are Human-Level Prompt Engineers](/dossiers/automatic-prompt-engineer.md) |
+| `autopdl-automatic-prompt-optimization-llm-agents.pdf` | arXiv:2504.04365v5 / doi:10.48550/arXiv.2504.04365 | 2026-07-13 | [AutoPDL: Automatic Prompt Optimization for LLM Agents](/dossiers/autopdl-automatic-prompt-optimization-llm-agents.md) |
 | `agentic-context-engineering.pdf` | arXiv:2510.04618v3 | 2026-07-12 | [Agentic Context Engineering](/dossiers/agentic-context-engineering.md) |
 | `chain-of-thought-prompting-elicits-reasoning.pdf` | arXiv:2201.11903v6 | 2026-07-12 | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](/dossiers/chain-of-thought-prompting-elicits-reasoning.md) |
 | `context-engineering-talk.md` | YouTube: Mergeable by default: Building the context engine to save time and tokens | 2026-07-12 | [Mergeable by Default](/dossiers/context-engineering-talk.md) |

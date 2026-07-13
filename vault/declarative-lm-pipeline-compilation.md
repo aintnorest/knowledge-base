@@ -3,7 +3,7 @@ type: Synthesis
 title: Declarative LM Pipeline Compilation
 description: Expressing an LLM application as composable typed transformations, then compiling its prompts, demonstrations, models, or fine-tuning choices against an explicit end-to-end metric.
 tags: [synthesis, dspy, llm-programming, compilation, prompting, pipelines, optimization]
-timestamp: 2026-07-13T00:11:06Z
+timestamp: 2026-07-13T18:08:50Z
 ---
 
 # Declarative LM Pipeline Compilation
@@ -34,3 +34,4 @@ Start with a simple graph and a holdout metric. Add components only when they pr
 ## Sources
 
 - [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines dossier](/dossiers/dspy-compiling-declarative-language-model-calls.md) — introduces signatures, modules, teleprompters, and compiler-driven optimization of LM computation graphs.
+- [AutoPDL: Automatic Prompt Optimization for LLM Agents dossier](/dossiers/autopdl-automatic-prompt-optimization-llm-agents.md) — expresses candidate Zero-Shot, CoT, ReWOO, and ReAct configurations as executable YAML PDL programs, then saves a successive-halving-selected program as editable source.
