@@ -18,6 +18,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?](/dossiers/mas-promptbench.md) — Controlled benchmark of how prompt optimization varies with MAS task, topology, communication protocol, and team size
 * [Guest post: AI Inference Is Breaking Unit Economics](/dossiers/ai-inference-unit-economics.md) — Practitioner overview of AI inference cost as a unit-economics constraint and the serving techniques used to control it
 * [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](/dossiers/chain-of-thought-prompting-elicits-reasoning.md) — Foundational few-shot chain-of-thought paper on intermediate reasoning demonstrations, scaling, and model-generated rationale limits
+* [Context Engineering: From Prompts to Corporate Multi-Agent Architecture](/dossiers/context-engineering-corporate-multi-agent-architecture.md) — Practitioner framework for engineered agent state, explicit organizational intent, and machine-readable specifications
 * [Prompting Science Report 2: The Decreasing Value of Chain of Thought in Prompting](/dossiers/decreasing-value-chain-of-thought-prompting.md) — GPQA evidence that generic explicit CoT has model- and reliability-dependent value and can impose substantial latency
 * [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](/dossiers/dspy-compiling-declarative-language-model-calls.md) — Original DSPy paper on declarative LM programs, trace bootstrapping, and metric-driven pipeline compilation
 * [Self-Consistency Improves Chain of Thought Reasoning in Language Models](/dossiers/self-consistency-improves-chain-of-thought-reasoning.md) — ICLR 2023 paper on sampling diverse reasoning paths and voting over final answers instead of greedily decoding one chain
@@ -62,6 +63,8 @@ timestamp: 2026-07-11T16:00:00Z
 * [In-Flow Socratic Prompt Coaching](/vault/in-flow-socratic-prompt-coaching.md)
 * [Evolving Context Playbooks](/vault/evolving-context-playbooks.md)
 * [Context Collapse](/vault/context-collapse.md)
+* [Intent Engineering for Agents](/vault/intent-engineering-for-agents.md)
+* [Machine-Readable Agent Specifications](/vault/machine-readable-agent-specifications.md)
 * [Configuration-Aware Multi-Agent Prompt Optimization](/vault/configuration-aware-multi-agent-prompt-optimization.md)
 * [Credit-Guided Multi-Agent Prompt Optimization](/vault/credit-guided-multi-agent-prompt-optimization.md)
 * [Incremental Delta Context Updates](/vault/incremental-delta-context-updates.md)

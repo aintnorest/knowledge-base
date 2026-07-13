@@ -36,3 +36,4 @@ Strict scoping can reduce reuse and increase storage complexity. Loose scoping c
 ## Sources
 
 - [Mergeable by Default dossier](/dossiers/context-engineering-talk.md) - uses private-channel context as an example and argues that synthesis itself may need compartmentalization across permission boundaries.
+- [Context Engineering: From Prompts to Corporate Multi-Agent Architecture dossier](/dossiers/context-engineering-corporate-multi-agent-architecture.md) — frames isolation as a context-quality criterion and argues for role-bounded visibility and progressively narrowed delegation; this is a conceptual proposal.

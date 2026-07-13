@@ -15,6 +15,12 @@ canonical URL without the scheme), or `sha256:…` when no stronger identifier
 exists. Do not add a second ingest entry for a registered key; append subsequent
 maintenance as a non-ingest event.
 
+## 2026-07-13 (Context Engineering Maturity Model)
+* **Ingest**: `arxiv:2603.09619` — `Context Engineering: From Prompts to Corporate Multi-Agent Architecture dossier` at `/dossiers/context-engineering-corporate-multi-agent-architecture.md` — canonical: https://arxiv.org/abs/2603.09619v2
+* **Archive**: Moved source PDF to [/archive/context-engineering-corporate-multi-agent-architecture.pdf](/archive/context-engineering-corporate-multi-agent-architecture.pdf)
+* **Vault**: Created [intent-engineering-for-agents](/vault/intent-engineering-for-agents.md), [machine-readable-agent-specifications](/vault/machine-readable-agent-specifications.md)
+* **Vault**: Updated [permission-scoped-synthesis](/vault/permission-scoped-synthesis.md)
+
 ## 2026-07-13 (Temporal and Structural Credit Assignment)
 * **Ingest**: `arxiv:2605.30227` — `Unifying Temporal and Structural Credit Assignment in LLM-Based Multi-Agent Prompt Optimization dossier` at `/dossiers/temporal-structural-credit-assignment-multi-agent-prompt-optimization.md` — canonical: https://arxiv.org/abs/2605.30227v1
 * **Archive**: Moved source PDF to [/archive/temporal-structural-credit-assignment-multi-agent-prompt-optimization.pdf](/archive/temporal-structural-credit-assignment-multi-agent-prompt-optimization.pdf)
