@@ -73,6 +73,13 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 - Do not assume the result transfers across topologies or team sizes. In MAS-PromptBench, a GEPA extension achieved gains as large as 24 percentage points in one configuration but losses as large as 16 in another; structured communication and small teams were generally easier settings for the tested optimizers.
 - **Use with care**: an end-to-end score can hide unsafe or ungrounded intermediate behavior, and configuration-specific search can overfit a small validation split. Slice evaluations by the deployment-relevant configuration and add component constraints when necessary.
 
+### Credit-Guided Optimization for Multi-Agent Systems
+
+- Treats agent roles and round-level aggregation prompts as separate optimization blocks rather than rewriting an entire collaboration policy after a terminal failure.
+- Uses critic assessments of each role's contribution across rounds and of each round's shared state to select the smallest set of low-credit prompts for revision.
+- Alternates role-prompt and aggregation-prompt updates, re-evaluating each block while the other is fixed. This can reduce coupled drift, but it does not establish causal attribution.
+- **Use with care**: retain trajectories, critic judgments, prompt versions, and selection criteria; validate against a held-out multi-objective suite rather than a critic score or final accuracy alone.
+
 ### PO2G (Prompt Optimization with Two Gradients)
 
 - Uses two gradient signals to refine classification prompts more efficiently.
@@ -109,6 +116,7 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 | OPRO | Scored prompt or solution history | LLM-as-optimizer iterative proposal | Prompt search when examples and metrics are available |
 | DSPy-style compilation | Traceable program + end-to-end metric | Optimize per-module prompts and demonstrations from accepted execution traces | Multi-stage pipelines with sparse intermediate labels |
 | Multi-agent configuration optimization | Traceable MAS + held-out team metric | Search prompts under a fixed topology, protocol, aggregation, and team size | Stable multi-agent systems where the full configuration can be evaluated |
+| Credit-guided multi-agent optimization | Repeated roles, round states, and critic evaluations | Targeted textual edits to low-credit roles or aggregation rounds | Multi-round collaboration with diagnosable handoffs |
 | PO2G | Evaluation data | Two-gradient iterative refinement | Classification prompts with iteration cost constraints |
 | PromptWizard | Model outputs + critic | Agentic mutation of instructions/examples | Broad task suites where manual prompt design is brittle |
 | Multi-objective optimization | Metrics for several objectives | Search over tradeoff frontier | Production prompts with accuracy, cost, efficiency, or interpretability constraints |
@@ -119,5 +127,6 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 - [Smarter AI Through Prompt Engineering dossier](/dossiers/smarter-ai-through-prompt-engineering.md) - surveys PO2G, PromptWizard, MAPO, evolutionary search, cost-aware schema matching, and multi-objective prompt optimization.
 - [A Systematic Survey of Prompt Engineering in Large Language Models dossier](/dossiers/systematic-survey-prompt-engineering-llms.md) - covers APE and OPRO as automatic instruction-generation and LLM-as-optimizer approaches.
 - [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines dossier](/dossiers/dspy-compiling-declarative-language-model-calls.md) - introduces metric-driven compilation for declarative multi-stage LM programs.
+- [Unifying Temporal and Structural Credit Assignment in LLM-Based Multi-Agent Prompt Optimization dossier](/dossiers/temporal-structural-credit-assignment-multi-agent-prompt-optimization.md) — proposes role- and round-level credit signals for selective multi-agent prompt edits.
 - [Large Language Models Are Human-Level Prompt Engineers dossier](/dossiers/automatic-prompt-engineer.md) — defines APE’s proposal/scoring loop, adaptive evaluation, results, and metric-gaming limitations.
 - [MAS-PromptBench dossier](/dossiers/mas-promptbench.md) — benchmarks MAS-GEPA and MAS-MIPRO across task domains, topologies, protocols, and team sizes; shows configuration-dependent improvements and regressions.

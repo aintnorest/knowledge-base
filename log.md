@@ -15,6 +15,12 @@ canonical URL without the scheme), or `sha256:…` when no stronger identifier
 exists. Do not add a second ingest entry for a registered key; append subsequent
 maintenance as a non-ingest event.
 
+## 2026-07-13 (Temporal and Structural Credit Assignment)
+* **Ingest**: `arxiv:2605.30227` — `Unifying Temporal and Structural Credit Assignment in LLM-Based Multi-Agent Prompt Optimization dossier` at `/dossiers/temporal-structural-credit-assignment-multi-agent-prompt-optimization.md` — canonical: https://arxiv.org/abs/2605.30227v1
+* **Archive**: Moved source PDF to [/archive/temporal-structural-credit-assignment-multi-agent-prompt-optimization.pdf](/archive/temporal-structural-credit-assignment-multi-agent-prompt-optimization.pdf)
+* **Vault**: Created [credit-guided-multi-agent-prompt-optimization](/vault/credit-guided-multi-agent-prompt-optimization.md)
+* **Vault**: Updated [prompt-optimization](/vault/prompt-optimization.md)
+
 ## 2026-07-11
 * **Ingest**: `arxiv:2604.05018` — [PaperOrchestra dossier](/dossiers/paperorchestra.md) — canonical: https://arxiv.org/abs/2604.05018v1
 * **Vault**: Created [multi-agent-orchestration](/vault/multi-agent-orchestration.md)
