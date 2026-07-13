@@ -12,6 +12,8 @@ timestamp: 2026-07-11T16:00:00Z
 
 * [Large Language Models Are Human-Level Prompt Engineers](/dossiers/automatic-prompt-engineer.md) — Automatic Prompt Engineer: black-box instruction proposal, target-model scoring, and selection from demonstrations
 * [Agentic Context Engineering](/dossiers/agentic-context-engineering.md) — Evolving context playbooks for self-improving LLM agents and domain reasoning
+* [AXI: Agent eXperience Interface](/dossiers/axi-agent-experience-interface.md) — Ten testable principles for bounded, discoverable agent-facing CLI interfaces and fused action-observation operations
+* [Guest post: AI Inference Is Breaking Unit Economics](/dossiers/ai-inference-unit-economics.md) — Practitioner overview of AI inference cost as a unit-economics constraint and the serving techniques used to control it
 * [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](/dossiers/chain-of-thought-prompting-elicits-reasoning.md) — Foundational few-shot chain-of-thought paper on intermediate reasoning demonstrations, scaling, and model-generated rationale limits
 * [Prompting Science Report 2: The Decreasing Value of Chain of Thought in Prompting](/dossiers/decreasing-value-chain-of-thought-prompting.md) — GPQA evidence that generic explicit CoT has model- and reliability-dependent value and can impose substantial latency
 * [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](/dossiers/dspy-compiling-declarative-language-model-calls.md) — Original DSPy paper on declarative LM programs, trace bootstrapping, and metric-driven pipeline compilation
@@ -23,8 +25,10 @@ timestamp: 2026-07-11T16:00:00Z
 * [Large Language Models are Zero-Shot Reasoners](/dossiers/large-language-models-are-zero-shot-reasoners.md) — Foundational Zero-shot-CoT paper on eliciting stepwise reasoning without worked examples
 * [Mergeable by Default](/dossiers/context-engineering-talk.md) — Context engine design for coding agents, organizational memory, conflict handling, and permissions
 * [PaperOrchestra](/dossiers/paperorchestra.md) — Multi-agent framework for automated AI research paper writing
+* [Performance vs Practicality: A Comparison of vLLM and Ollama](/dossiers/vllm-ollama-performance-practicality.md) — Practitioner benchmark and deployment trade-off analysis of concurrency-oriented vLLM and locally convenient Ollama
 * [Remember When It Matters](/dossiers/proactive-memory-agent.md) — Proactive memory intervention for long-horizon agents
 * [Prompt Engineering is Complicated and Contingent](/dossiers/prompt-engineering-complicated-contingent.md) — Empirical report on benchmark scoring thresholds and contingent prompt effects
+* [Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development](/dossiers/prompt-coach-agentic-tutor.md) — IDE-embedded multi-agent tutor that teaches code-generation prompting through dimensional assessment and Socratic guidance
 * [Prompt Engineering Survey](/dossiers/prompt-engineering-survey.md) — Comprehensive survey of prompt engineering techniques for LLMs and VLMs
 * [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](/dossiers/prompt-report.md) — PRISMA-grounded taxonomy of prompting methods, output extraction, evaluation, safety, and engineering practice
 * [ReAct: Synergizing Reasoning and Acting in Language Models](/dossiers/react-synergizing-reasoning-and-acting.md) — Primary ReAct paper on interleaving thoughts, tool actions, and observations for grounded reasoning and decision making
@@ -33,17 +37,27 @@ timestamp: 2026-07-11T16:00:00Z
 * [A Survey of Prompt Engineering Methods in Large Language Models for Different NLP Tasks](/dossiers/survey-prompt-engineering-methods-nlp-tasks.md) — Task-centered map of 39 prompting methods, 29 NLP tasks, datasets, model families, and conditional reported leaders
 * [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](/dossiers/tree-of-thoughts-deliberate-problem-solving.md) — Inference-time LLM reasoning via thought-level generation, self-evaluation, and tree search
 * [Validating Agentic Behavior When Correct Isn't Deterministic](/dossiers/validating-agentic-behavior.md) — GitHub's dominator-analysis Trust Layer for validating non-deterministic computer-use agent execution from successful traces
+* [vLLM or llama.cpp: Choosing the right LLM inference engine for your use case](/dossiers/vllm-or-llamacpp-inference-engine-selection.md) — Red Hat's controlled H200 comparison of concurrency-oriented vLLM and portability-oriented llama.cpp serving
+* [Continually Improving Our Agent Harness](/dossiers/continually-improving-agent-harness.md) — Cursor's dynamic-context, layered-evaluation, reliability, and model-adaptation practices for coding agents
+* [Designing, Refining, and Maintaining Agent Skills at Perplexity](/dossiers/designing-refining-maintaining-agent-skills-perplexity.md) — Perplexity's guide to Skill routing, progressive context, evaluations, and failure-driven maintenance
+* [What You're Actually Writing When You Write a SKILL.md](/dossiers/skill-md-loader-specification.md) — Skill architecture as staged context loading, with portable environment guidance and model-aware evaluation
 
 ## Vault
 
 * [Application-Centric Prompt Taxonomy](/vault/application-centric-prompt-taxonomy.md)
+* [Action-Observation Fusion](/vault/action-observation-fusion.md)
+* [Agent-Ergonomic Interface Design](/vault/agent-ergonomic-interface-design.md)
+* [Bounded Tool Observations](/vault/bounded-tool-observations.md)
+* [Cost-Aware Inference Control](/vault/cost-aware-inference-control.md)
 * [In-Context Learning](/vault/in-context-learning.md)
+* [In-Flow Socratic Prompt Coaching](/vault/in-flow-socratic-prompt-coaching.md)
 * [Evolving Context Playbooks](/vault/evolving-context-playbooks.md)
 * [Context Collapse](/vault/context-collapse.md)
 * [Incremental Delta Context Updates](/vault/incremental-delta-context-updates.md)
 * [Feedback-Grounded Context Adaptation](/vault/feedback-grounded-context-adaptation.md)
 * [Conflict-Aware Context Retrieval](/vault/conflict-aware-context-retrieval.md)
 * [Expert-Weighted Retrieval](/vault/expert-weighted-retrieval.md)
+* [Evaluated Skill Routing](/vault/evaluated-skill-routing.md)
 * [Permission-Scoped Synthesis](/vault/permission-scoped-synthesis.md)
 * [Behavioral State Decay](/vault/behavioral-state-decay.md)
 * [Proactive Memory Intervention](/vault/proactive-memory-intervention.md)
@@ -76,8 +90,12 @@ timestamp: 2026-07-11T16:00:00Z
 * [Prompt Contingency](/vault/prompt-contingency.md)
 * [Retrieval Augmentation](/vault/retrieval-augmentation.md)
 * [VLM Prompt Learning](/vault/vlm-prompt-learning.md)
+* [Workload-Aligned Inference Engine Selection](/vault/workload-aligned-inference-engine-selection.md)
 * [Prompt Security Taxonomy](/vault/prompt-security-taxonomy.md)
 * [LLM Evaluation Methods](/vault/llm-evaluation-methods.md)
 * [AI Agent Evolution](/vault/ai-agent-evolution.md)
 * [Least-to-Most Prompting](/vault/least-to-most-prompting.md)
 * [Answer Engineering](/vault/answer-engineering.md)
+* [Outcome-Grounded Agent Evaluation](/vault/outcome-grounded-agent-evaluation.md)
+* [Model-Aware Harness Design](/vault/model-aware-harness-design.md)
+* [Progressive Skill Disclosure](/vault/progressive-skill-disclosure.md)

@@ -15,7 +15,7 @@ This is a **zettelkasten-style** knowledge base with two layers:
 knowledge/
 ├── README.md              ← this file
 ├── index.md               ← table of contents (dossiers + vault pages)
-├── log.md                 ← append-only ingest history
+├── log.md                 ← authoritative source registry and append-only ingest history
 ├── inbox/                 ← drop zone: put PDFs/files here to ingest
 ├── archive/               ← immutable raw material, written once, never edited
 │   └── paperorchestra.pdf
@@ -38,8 +38,7 @@ knowledge/
 
 ## Workflow
 
-The complete agent procedure is in [`INGEST.md`](INGEST.md). The reusable
-invocation is in [`INGEST_PROMPT.md`](INGEST_PROMPT.md).
+The complete agent procedure is in [`INGEST.md`](INGEST.md).
 
 ### 1. Ingest
 
@@ -94,13 +93,17 @@ A quality-control pattern where an agent iteratively revises a manuscript based 
 
 Add links to new dossiers and vault pages in `index.md`.
 
-### 5. Log the Ingest
+### 5. Register the Ingest
 
-Append to `log.md`:
+`log.md` is the authoritative list of ingested sources and the chronological
+record of changes. Check its source key before ingesting. Append one entry for
+each successful source using its stable key: `doi:…`, `ssrn:…`, `arxiv:…`
+(without a revision suffix), `url:…` (a normalized canonical URL without the
+scheme), or `sha256:…` when no stronger identifier exists.
 
 ```markdown
 ## 2026-07-11
-* **Ingest**: Added [PaperOrchestra dossier](/dossiers/paperorchestra.md) from arXiv:2604.05018v1
+* **Ingest**: `arxiv:2604.05018` — [PaperOrchestra dossier](/dossiers/paperorchestra.md) — canonical: https://arxiv.org/abs/2604.05018v1
 * **Vault**: Created [score-gated-refinement](/vault/score-gated-refinement.md), [hybrid-discovery-verification](/vault/hybrid-discovery-verification.md)
 ```
 
