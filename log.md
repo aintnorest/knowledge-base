@@ -226,3 +226,9 @@ maintenance as a non-ingest event.
 * **Archive**: Moved source PDF to [/archive/auditable-enterprise-llm-harness.pdf](/archive/auditable-enterprise-llm-harness.pdf)
 * **Vault**: Created [source-backed-claim-admission](/vault/source-backed-claim-admission.md)
 * **Vault**: Created [validated-fallback-composition](/vault/validated-fallback-composition.md)
+
+## 2026-07-13 (Agent-Native Memory Systems)
+* **Ingest**: `arxiv:2606.24775` — `Are We Ready For An Agent-Native Memory System? dossier` at `/dossiers/agent-native-memory-system-readiness.md` — canonical: https://arxiv.org/abs/2606.24775v1
+* **Archive**: Moved source PDF to [/archive/agent-native-memory-system-readiness.pdf](/archive/agent-native-memory-system-readiness.pdf)
+* **Vault**: Created [workload-aligned-agent-memory-architecture](/vault/workload-aligned-agent-memory-architecture.md)
+* **Vault**: Updated [hybrid-memory-retrieval-pipeline](/vault/hybrid-memory-retrieval-pipeline.md), [memory-lifecycle-governance](/vault/memory-lifecycle-governance.md)

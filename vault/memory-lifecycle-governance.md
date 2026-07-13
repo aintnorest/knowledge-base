@@ -3,7 +3,7 @@ type: Synthesis
 title: Memory Lifecycle Governance
 description: Treating agent memory as governed records with provenance, scope, validity, supersession, redaction, deletion, and auditability rather than an append-only store.
 tags: [synthesis, agent-memory, governance, privacy, provenance, temporal-data]
-timestamp: 2026-07-13T02:43:17Z
+timestamp: 2026-07-13T17:56:03Z
 ---
 
 # Memory Lifecycle Governance
@@ -32,6 +32,13 @@ Use explicit record metadata such as source, writer, created time, effective tim
 
 Metadata and propagation add operational work, especially for summaries that combine records from different scopes. Policies must also distinguish genuine updates from ambiguity: conflicting facts should not automatically overwrite each other.
 
+## Maintenance Scope and Consolidation
+
+Governance policy also determines the physical cost and information loss of maintenance. Prefer updates that touch the smallest evidence region justified by a new observation: version or invalidate the affected record, retain recoverable detail, and avoid global re-summarization unless a real dependency requires it. Broad consolidation can make a store look tidy while discarding exact phrasing and temporal cues needed later.
+
+Consolidation should be conservative rather than delayed indefinitely or made aggressively coarse. Experimental comparisons of agent-memory variants find better long-horizon answerability from selective merging than from delaying backend writes or forcing heterogeneous material into one summary. This is a design rule to validate per workload, not a substitute for an explicit retention, conflict, and deletion policy.
+
 ## Sources
 
 - [How AI Agent Memory Works dossier](/dossiers/how-ai-agent-memory-works.md) — presents write, age, supersede, redact, forget, and audit as the memory lifecycle, with temporal updates, PII filtering, scoped sharing, and deletion propagation.
+- [Are We Ready For An Agent-Native Memory System? dossier](/dossiers/agent-native-memory-system-readiness.md) — evaluates timestamped versioning, eviction, and consolidation designs; its controlled maintenance results favor conservative, localized integration over delayed flushing and overly coarse summaries.

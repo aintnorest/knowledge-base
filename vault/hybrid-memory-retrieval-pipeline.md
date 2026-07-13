@@ -3,7 +3,7 @@ type: Synthesis
 title: Hybrid Memory Retrieval Pipeline
 description: A staged memory-retrieval pattern that combines need detection, query shaping, dense and sparse retrieval, fusion, reranking, policy filters, and compact context packing.
 tags: [synthesis, agent-memory, retrieval, hybrid-search, rag, reranking, context-engineering]
-timestamp: 2026-07-13T02:43:17Z
+timestamp: 2026-07-13T17:56:03Z
 ---
 
 # Hybrid Memory Retrieval Pipeline
@@ -31,6 +31,13 @@ Run independent retrievers in parallel on the request path and reserve expensive
 
 More stages add latency, cost, and failure modes. Need detection can skip an essential lookup; fusion and reranking can bury a crucial minority result; policy filters can leave too little context. Instrument each stage and retain retrieval traces so the system can distinguish “not found,” “filtered,” “reranked out,” and “not retrieved.”
 
+## Evidence-Completion and Routing Discipline
+
+Hybrid retrieval should optimize more than the first relevant hit. Questions about a temporal state, a multi-step procedure, or a relationship assembled across sessions may require several complementary records. Track top-1 relevance separately from whether the retrieved set contains enough evidence to answer; then use links, hierarchy, or a bounded expansion policy when the workload needs reconstruction.
+
+Use the minimum reasoning needed to route the query. In a controlled comparison, moderate dense–sparse fusion outperformed a sparse-leaning mixture, and one explicit query-planning step outperformed both direct retrieval and planning plus an extra reflection step. The direction is workload-dependent, but the pattern cautions against treating additional deliberation as a free accuracy improvement.
+
 ## Sources
 
 - [How AI Agent Memory Works dossier](/dossiers/how-ai-agent-memory-works.md) — describes need detection, HyDE-style query shaping, dense/sparse/graph retrieval, RRF fusion, reranking, scope and temporal filters, and provenance-aware prompt packing.
+- [Are We Ready For An Agent-Native Memory System? dossier](/dossiers/agent-native-memory-system-readiness.md) — reports that structured retrieval improves evidence completeness for temporally distant support; its A-MEM and SimpleMem ablations favor balanced fusion and lightweight planning over sparse-heavy fusion or added reflection.

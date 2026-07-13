@@ -38,3 +38,4 @@ This directory contains immutable raw materials. Files are written once at inges
 | `rate-distortion-memory-compaction.pdf` | arXiv:2607.08032v1 | 2026-07-13 | [What to Keep, What to Forget: A Rate–Distortion View of Memory Compaction in LLMs and Agents](/dossiers/rate-distortion-memory-compaction.md) |
 | `prompting-complexity.pdf` | arXiv:2607.06145v1 | 2026-07-13 | [Prompting Complexity: Shortest Prompts for Texts and Behaviors in LLMs](/dossiers/prompting-complexity.md) |
 | `auditable-enterprise-llm-harness.pdf` | arXiv:2607.08028v1 | 2026-07-13 | [From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents](/dossiers/auditable-enterprise-llm-harness.md) |
+| `agent-native-memory-system-readiness.pdf` | arXiv:2606.24775v1 | 2026-07-13 | [Are We Ready For An Agent-Native Memory System?](/dossiers/agent-native-memory-system-readiness.md) |

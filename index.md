@@ -12,6 +12,7 @@ timestamp: 2026-07-11T16:00:00Z
 
 * [Large Language Models Are Human-Level Prompt Engineers](/dossiers/automatic-prompt-engineer.md) — Automatic Prompt Engineer: black-box instruction proposal, target-model scoring, and selection from demonstrations
 * [Agentic Context Engineering](/dossiers/agentic-context-engineering.md) — Evolving context playbooks for self-improving LLM agents and domain reasoning
+* [Are We Ready For An Agent-Native Memory System?](/dossiers/agent-native-memory-system-readiness.md) — Data-management evaluation of agent-memory architecture, evidence retrieval, update robustness, long-horizon stability, and operational cost
 * [AXI: Agent eXperience Interface](/dossiers/axi-agent-experience-interface.md) — Ten testable principles for bounded, discoverable agent-facing CLI interfaces and fused action-observation operations
 * [Guest post: AI Inference Is Breaking Unit Economics](/dossiers/ai-inference-unit-economics.md) — Practitioner overview of AI inference cost as a unit-economics constraint and the serving techniques used to control it
 * [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](/dossiers/chain-of-thought-prompting-elicits-reasoning.md) — Foundational few-shot chain-of-thought paper on intermediate reasoning demonstrations, scaling, and model-generated rationale limits
@@ -98,6 +99,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Prompt Contingency](/vault/prompt-contingency.md)
 * [Retrieval Augmentation](/vault/retrieval-augmentation.md)
 * [VLM Prompt Learning](/vault/vlm-prompt-learning.md)
+* [Workload-Aligned Agent Memory Architecture](/vault/workload-aligned-agent-memory-architecture.md)
 * [Workload-Aligned Inference Engine Selection](/vault/workload-aligned-inference-engine-selection.md)
 * [Prompt Security Taxonomy](/vault/prompt-security-taxonomy.md)
 * [LLM Evaluation Methods](/vault/llm-evaluation-methods.md)
