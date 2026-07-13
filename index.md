@@ -1,0 +1,83 @@
+---
+type: Directory Index
+title: Knowledge Base Index
+description: Table of contents for all dossiers and vault pages in this knowledge corpus.
+tags: [index, knowledge-base, toc]
+timestamp: 2026-07-11T16:00:00Z
+---
+
+# Knowledge Base
+
+## Dossiers
+
+* [Large Language Models Are Human-Level Prompt Engineers](/dossiers/automatic-prompt-engineer.md) — Automatic Prompt Engineer: black-box instruction proposal, target-model scoring, and selection from demonstrations
+* [Agentic Context Engineering](/dossiers/agentic-context-engineering.md) — Evolving context playbooks for self-improving LLM agents and domain reasoning
+* [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](/dossiers/chain-of-thought-prompting-elicits-reasoning.md) — Foundational few-shot chain-of-thought paper on intermediate reasoning demonstrations, scaling, and model-generated rationale limits
+* [Prompting Science Report 2: The Decreasing Value of Chain of Thought in Prompting](/dossiers/decreasing-value-chain-of-thought-prompting.md) — GPQA evidence that generic explicit CoT has model- and reliability-dependent value and can impose substantial latency
+* [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](/dossiers/dspy-compiling-declarative-language-model-calls.md) — Original DSPy paper on declarative LM programs, trace bootstrapping, and metric-driven pipeline compilation
+* [Self-Consistency Improves Chain of Thought Reasoning in Language Models](/dossiers/self-consistency-improves-chain-of-thought-reasoning.md) — ICLR 2023 paper on sampling diverse reasoning paths and voting over final answers instead of greedily decoding one chain
+* [Exploring Prompt Engineering](/dossiers/exploring-prompt-engineering-swot.md) — Systematic prompt-engineering review with linguistic framing, SWOT analysis, technique taxonomy, and evaluation metrics
+* [How AI Agent Memory Works](/dossiers/how-ai-agent-memory-works.md) — Interactive primer on agent memory as context construction, governed storage, hybrid retrieval, and production infrastructure
+* [Language Models are Few-Shot Learners](/dossiers/language-models-are-few-shot-learners.md) — Foundational GPT-3 paper on in-context learning, scaling, and benchmark contamination
+* [Least-to-Most Prompting Enables Complex Reasoning in Large Language Models](/dossiers/least-to-most-prompting.md) — Decomposition-and-sequential-solving prompting for easy-to-hard reasoning generalization
+* [Large Language Models are Zero-Shot Reasoners](/dossiers/large-language-models-are-zero-shot-reasoners.md) — Foundational Zero-shot-CoT paper on eliciting stepwise reasoning without worked examples
+* [Mergeable by Default](/dossiers/context-engineering-talk.md) — Context engine design for coding agents, organizational memory, conflict handling, and permissions
+* [PaperOrchestra](/dossiers/paperorchestra.md) — Multi-agent framework for automated AI research paper writing
+* [Remember When It Matters](/dossiers/proactive-memory-agent.md) — Proactive memory intervention for long-horizon agents
+* [Prompt Engineering is Complicated and Contingent](/dossiers/prompt-engineering-complicated-contingent.md) — Empirical report on benchmark scoring thresholds and contingent prompt effects
+* [Prompt Engineering Survey](/dossiers/prompt-engineering-survey.md) — Comprehensive survey of prompt engineering techniques for LLMs and VLMs
+* [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](/dossiers/prompt-report.md) — PRISMA-grounded taxonomy of prompting methods, output extraction, evaluation, safety, and engineering practice
+* [ReAct: Synergizing Reasoning and Acting in Language Models](/dossiers/react-synergizing-reasoning-and-acting.md) — Primary ReAct paper on interleaving thoughts, tool actions, and observations for grounded reasoning and decision making
+* [Smarter AI Through Prompt Engineering](/dossiers/smarter-ai-through-prompt-engineering.md) — Review of prompt engineering case studies, optimization frameworks, and data science deployment tradeoffs
+* [A Systematic Survey of Prompt Engineering in Large Language Models](/dossiers/systematic-survey-prompt-engineering-llms.md) — Application-centric taxonomy of prompt engineering techniques for LLMs
+* [A Survey of Prompt Engineering Methods in Large Language Models for Different NLP Tasks](/dossiers/survey-prompt-engineering-methods-nlp-tasks.md) — Task-centered map of 39 prompting methods, 29 NLP tasks, datasets, model families, and conditional reported leaders
+* [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](/dossiers/tree-of-thoughts-deliberate-problem-solving.md) — Inference-time LLM reasoning via thought-level generation, self-evaluation, and tree search
+* [Validating Agentic Behavior When Correct Isn't Deterministic](/dossiers/validating-agentic-behavior.md) — GitHub's dominator-analysis Trust Layer for validating non-deterministic computer-use agent execution from successful traces
+
+## Vault
+
+* [Application-Centric Prompt Taxonomy](/vault/application-centric-prompt-taxonomy.md)
+* [In-Context Learning](/vault/in-context-learning.md)
+* [Evolving Context Playbooks](/vault/evolving-context-playbooks.md)
+* [Context Collapse](/vault/context-collapse.md)
+* [Incremental Delta Context Updates](/vault/incremental-delta-context-updates.md)
+* [Feedback-Grounded Context Adaptation](/vault/feedback-grounded-context-adaptation.md)
+* [Conflict-Aware Context Retrieval](/vault/conflict-aware-context-retrieval.md)
+* [Expert-Weighted Retrieval](/vault/expert-weighted-retrieval.md)
+* [Permission-Scoped Synthesis](/vault/permission-scoped-synthesis.md)
+* [Behavioral State Decay](/vault/behavioral-state-decay.md)
+* [Proactive Memory Intervention](/vault/proactive-memory-intervention.md)
+* [Structured Execution Memory](/vault/structured-execution-memory.md)
+* [Memory Lifecycle Governance](/vault/memory-lifecycle-governance.md)
+* [Multi-Agent Orchestration](/vault/multi-agent-orchestration.md)
+* [Metric-Gated Trace Bootstrapping](/vault/metric-gated-trace-bootstrapping.md)
+* [Hybrid Discovery + Verification](/vault/hybrid-discovery-verification.md)
+* [Hybrid Memory Retrieval Pipeline](/vault/hybrid-memory-retrieval-pipeline.md)
+* [Score-Gated Refinement](/vault/score-gated-refinement.md)
+* [Closed-Loop VLM Visual Generation](/vault/closed-loop-vlm-visual-generation.md)
+* [Benchmark Reverse Engineering](/vault/benchmark-reverse-engineering.md)
+* [Anti-Leakage Evaluation](/vault/anti-leakage-evaluation.md)
+* [Sparse Concept Note Prompt](/vault/sparse-concept-note-prompt.md)
+* [Dense Technical Proposal Prompt](/vault/dense-technical-proposal-prompt.md)
+* [Declarative LM Pipeline Compilation](/vault/declarative-lm-pipeline-compilation.md)
+* [Dominator-Based Agent Validation](/vault/dominator-based-agent-validation.md)
+* [Experimental Log Extraction Prompt](/vault/experimental-log-extraction-prompt.md)
+* [Anti-Leakage System Prompt](/vault/anti-leakage-system-prompt.md)
+* [Citation F1 Metric](/vault/citation-f1-metric.md)
+* [LLM-as-Judge with Anti-Inflation](/vault/llm-as-judge-with-anti-inflation.md)
+* [Chain-of-Thought Prompting](/vault/chain-of-thought-prompting.md)
+* [Self-Consistency Decoding](/vault/self-consistency-decoding.md)
+* [Tree of Thoughts](/vault/tree-of-thoughts.md)
+* [ReAct Framework](/vault/react-framework.md)
+* [Decomposed Prompting](/vault/decomposed-prompting.md)
+* [Active Prompt](/vault/active-prompt.md)
+* [Prompt Optimization](/vault/prompt-optimization.md)
+* [Prompt-Technique SWOT Analysis](/vault/prompt-technique-swot-analysis.md)
+* [Prompt Contingency](/vault/prompt-contingency.md)
+* [Retrieval Augmentation](/vault/retrieval-augmentation.md)
+* [VLM Prompt Learning](/vault/vlm-prompt-learning.md)
+* [Prompt Security Taxonomy](/vault/prompt-security-taxonomy.md)
+* [LLM Evaluation Methods](/vault/llm-evaluation-methods.md)
+* [AI Agent Evolution](/vault/ai-agent-evolution.md)
+* [Least-to-Most Prompting](/vault/least-to-most-prompting.md)
+* [Answer Engineering](/vault/answer-engineering.md)
