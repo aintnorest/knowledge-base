@@ -23,6 +23,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Prompting Science Report 2: The Decreasing Value of Chain of Thought in Prompting](/dossiers/decreasing-value-chain-of-thought-prompting.md) — GPQA evidence that generic explicit CoT has model- and reliability-dependent value and can impose substantial latency
 * [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](/dossiers/dspy-compiling-declarative-language-model-calls.md) — Original DSPy paper on declarative LM programs, trace bootstrapping, and metric-driven pipeline compilation
 * [Self-Consistency Improves Chain of Thought Reasoning in Language Models](/dossiers/self-consistency-improves-chain-of-thought-reasoning.md) — ICLR 2023 paper on sampling diverse reasoning paths and voting over final answers instead of greedily decoding one chain
+* [SCOPE: Prompt Evolution for Enhancing Agent Effectiveness](/dossiers/scope-prompt-evolution-agent-effectiveness.md) — Trace-driven, step-level prompt evolution with scoped guideline memory, persistent-memory consolidation, and efficiency/thoroughness strategy streams
 * [Exploring Prompt Engineering](/dossiers/exploring-prompt-engineering-swot.md) — Systematic prompt-engineering review with linguistic framing, SWOT analysis, technique taxonomy, and evaluation metrics
 * [From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents](/dossiers/auditable-enterprise-llm-harness.md) — Contract-based enterprise LLM harness with source-backed claim admission, audit traces, output validation, and deterministic fallback composition
 * [Structured Context Engineering for File-Native Agentic Systems](/dossiers/structured-context-engineering-file-native-agents.md) — Empirical comparison of file-native schema retrieval, prompt injection, formats, model tiers, and partitioned navigation for agentic text-to-SQL
@@ -88,6 +89,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Hybrid Discovery + Verification](/vault/hybrid-discovery-verification.md)
 * [Hybrid Memory Retrieval Pipeline](/vault/hybrid-memory-retrieval-pipeline.md)
 * [Score-Gated Refinement](/vault/score-gated-refinement.md)
+* [Scoped Guideline Memory](/vault/scoped-guideline-memory.md)
 * [Closed-Loop VLM Visual Generation](/vault/closed-loop-vlm-visual-generation.md)
 * [Benchmark Reverse Engineering](/vault/benchmark-reverse-engineering.md)
 * [Anti-Leakage Evaluation](/vault/anti-leakage-evaluation.md)
@@ -102,6 +104,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [LLM-as-Judge with Anti-Inflation](/vault/llm-as-judge-with-anti-inflation.md)
 * [Chain-of-Thought Prompting](/vault/chain-of-thought-prompting.md)
 * [Self-Consistency Decoding](/vault/self-consistency-decoding.md)
+* [Step-Level Prompt Adaptation](/vault/step-level-prompt-adaptation.md)
 * [Tree of Thoughts](/vault/tree-of-thoughts.md)
 * [ReAct Framework](/vault/react-framework.md)
 * [Decomposed Prompting](/vault/decomposed-prompting.md)
@@ -130,4 +133,5 @@ timestamp: 2026-07-11T16:00:00Z
 * [Reversible, Query-Conditioned Compaction](/vault/reversible-query-conditioned-compaction.md)
 * [Repeated-Compaction Evaluation](/vault/repeated-compaction-evaluation.md)
 * [Source-Backed Claim Admission](/vault/source-backed-claim-admission.md)
+* [Perspective-Diverse Prompt Evolution](/vault/perspective-diverse-prompt-evolution.md)
 * [Validated Fallback Composition](/vault/validated-fallback-composition.md)
