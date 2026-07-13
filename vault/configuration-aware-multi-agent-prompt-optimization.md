@@ -3,7 +3,7 @@ type: Synthesis
 title: Configuration-Aware Multi-Agent Prompt Optimization
 description: Treating the joint prompts of a multi-agent system as configuration-dependent parameters that must be optimized and validated against the deployed task, graph, protocol, aggregation, and team size.
 tags: [synthesis, multi-agent-systems, prompt-optimization, evaluation, coordination, system-prompts]
-timestamp: 2026-07-13T17:56:21Z
+timestamp: 2026-07-13T18:01:03Z
 ---
 
 # Configuration-Aware Multi-Agent Prompt Optimization
@@ -18,6 +18,8 @@ In a multi-agent system, a prompt is not an isolated text artifact. Its effect d
 4. Use team-level outcomes and relevant local evidence to select candidates; require a validation improvement over the seed before deployment.
 5. Re-evaluate the selected configuration on cases excluded from search, and retain the seed as a rollback option.
 6. Slice results by task type, topology, protocol, and team size. A positive global average can conceal a serious regression in a deployment-relevant slice.
+
+For non-terminal agents, add a downstream check between local role adherence and the final task metric. A candidate can make an agent appear more compliant while leaving its immediate consumer worse off. Preserve those local-success/global-failure traces as diagnostic cases, and refresh candidate scores when changing peer prompts shifts the messages the candidate will receive.
 
 ## Why It Matters
 
@@ -40,3 +42,4 @@ Agent prompts interact through messages and aggregation. An instruction that mak
 
 - [MAS-PromptBench dossier](/dossiers/mas-promptbench.md) — evaluates MAS-GEPA and MAS-MIPRO across task, topology, protocol, and team-size configurations; reports both gains up to 24 points and regressions down to 16 points.
 - [DSPy dossier](/dossiers/dspy-compiling-declarative-language-model-calls.md) — frames multi-stage LM programs, their traces, and end-to-end metrics as an optimization unit, while cautioning that the metric must encode relevant constraints.
+- [MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems dossier](/dossiers/maspo-joint-prompt-optimization.md) — adds direct-successor lookahead to local and final evaluation, mines local-global misalignment cases, and refreshes beam scores after peer prompts change.

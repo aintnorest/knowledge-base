@@ -25,6 +25,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [How AI Agent Memory Works](/dossiers/how-ai-agent-memory-works.md) — Interactive primer on agent memory as context construction, governed storage, hybrid retrieval, and production infrastructure
 * [Language Models are Few-Shot Learners](/dossiers/language-models-are-few-shot-learners.md) — Foundational GPT-3 paper on in-context learning, scaling, and benchmark contamination
 * [MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction](/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md) — Training-free, staged LLM extraction of verbatim aspect–opinion–sentiment triplets with triplet-set consistency checks
+* [MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems](/dossiers/maspo-joint-prompt-optimization.md) — Trace-driven multi-agent prompt optimization using local, successor, and final-outcome evaluation with misalignment-case sampling and beam refresh
 * [Least-to-Most Prompting Enables Complex Reasoning in Large Language Models](/dossiers/least-to-most-prompting.md) — Decomposition-and-sequential-solving prompting for easy-to-hard reasoning generalization
 * [Large Language Models are Zero-Shot Reasoners](/dossiers/large-language-models-are-zero-shot-reasoners.md) — Foundational Zero-shot-CoT paper on eliciting stepwise reasoning without worked examples
 * [Mergeable by Default](/dossiers/context-engineering-talk.md) — Context engine design for coding agents, organizational memory, conflict handling, and permissions
@@ -75,6 +76,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Structured Agent Communication Contracts](/vault/structured-agent-communication-contracts.md)
 * [Memory Lifecycle Governance](/vault/memory-lifecycle-governance.md)
 * [Multi-Agent Orchestration](/vault/multi-agent-orchestration.md)
+* [Downstream-Aware Prompt Evaluation](/vault/downstream-aware-prompt-evaluation.md)
 * [Metric-Gated Trace Bootstrapping](/vault/metric-gated-trace-bootstrapping.md)
 * [Hybrid Discovery + Verification](/vault/hybrid-discovery-verification.md)
 * [Hybrid Memory Retrieval Pipeline](/vault/hybrid-memory-retrieval-pipeline.md)

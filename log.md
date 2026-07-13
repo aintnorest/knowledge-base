@@ -244,3 +244,9 @@ maintenance as a non-ingest event.
 * **Archive**: Moved source PDF to [/archive/mas-promptbench.pdf](/archive/mas-promptbench.pdf)
 * **Vault**: Created [configuration-aware-multi-agent-prompt-optimization](/vault/configuration-aware-multi-agent-prompt-optimization.md), [structured-agent-communication-contracts](/vault/structured-agent-communication-contracts.md)
 * **Vault**: Updated [prompt-optimization](/vault/prompt-optimization.md), [multi-agent-orchestration](/vault/multi-agent-orchestration.md)
+
+## 2026-07-13 (MASPO)
+* **Ingest**: `arxiv:2605.06623` — `MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems dossier` at `/dossiers/maspo-joint-prompt-optimization.md` — canonical: https://arxiv.org/abs/2605.06623v1
+* **Archive**: Moved source PDF to [/archive/maspo-joint-prompt-optimization.pdf](/archive/maspo-joint-prompt-optimization.pdf)
+* **Vault**: Created [downstream-aware-prompt-evaluation](/vault/downstream-aware-prompt-evaluation.md)
+* **Vault**: Updated [configuration-aware-multi-agent-prompt-optimization](/vault/configuration-aware-multi-agent-prompt-optimization.md)
