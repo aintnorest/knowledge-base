@@ -21,6 +21,11 @@ maintenance as a non-ingest event.
 * **Vault**: Created [intent-engineering-for-agents](/vault/intent-engineering-for-agents.md), [machine-readable-agent-specifications](/vault/machine-readable-agent-specifications.md)
 * **Vault**: Updated [permission-scoped-synthesis](/vault/permission-scoped-synthesis.md)
 
+## 2026-07-13 (File-Native Context Engineering)
+* **Ingest**: `arxiv:2602.05447` — `Structured Context Engineering for File-Native Agentic Systems dossier` at `/dossiers/structured-context-engineering-file-native-agents.md` — canonical: https://arxiv.org/abs/2602.05447v2
+* **Archive**: Moved source PDF to [/archive/structured-context-engineering-file-native-agents.pdf](/archive/structured-context-engineering-file-native-agents.pdf)
+* **Vault**: Created [file-native-context-retrieval](/vault/file-native-context-retrieval.md), [retrieval-interface-tax](/vault/retrieval-interface-tax.md)
+
 ## 2026-07-13 (Temporal and Structural Credit Assignment)
 * **Ingest**: `arxiv:2605.30227` — `Unifying Temporal and Structural Credit Assignment in LLM-Based Multi-Agent Prompt Optimization dossier` at `/dossiers/temporal-structural-credit-assignment-multi-agent-prompt-optimization.md` — canonical: https://arxiv.org/abs/2605.30227v1
 * **Archive**: Moved source PDF to [/archive/temporal-structural-credit-assignment-multi-agent-prompt-optimization.pdf](/archive/temporal-structural-credit-assignment-multi-agent-prompt-optimization.pdf)

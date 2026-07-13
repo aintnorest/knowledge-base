@@ -19,6 +19,7 @@ This directory contains immutable raw materials. Files are written once at inges
 | `context-engineering-corporate-multi-agent-architecture.pdf` | arXiv:2603.09619v2 | 2026-07-13 | [Context Engineering: From Prompts to Corporate Multi-Agent Architecture](/dossiers/context-engineering-corporate-multi-agent-architecture.md) |
 | `temporal-structural-credit-assignment-multi-agent-prompt-optimization.pdf` | arXiv:2605.30227v1 | 2026-07-13 | [Unifying Temporal and Structural Credit Assignment in LLM-Based Multi-Agent Prompt Optimization](/dossiers/temporal-structural-credit-assignment-multi-agent-prompt-optimization.md) |
 | `exploring-prompt-engineering-swot.pdf` | arXiv:2410.12843v1 | 2026-07-12 | [Exploring Prompt Engineering](/dossiers/exploring-prompt-engineering-swot.md) |
+| `structured-context-engineering-file-native-agents.pdf` | arXiv:2602.05447v2 | 2026-07-13 | [Structured Context Engineering for File-Native Agentic Systems](/dossiers/structured-context-engineering-file-native-agents.md) |
 | `paperorchestra.pdf` | arXiv:2604.05018v1 | 2026-07-11 | [PaperOrchestra](/dossiers/paperorchestra.md) |
 | `prompt-engineering-complicated-contingent.pdf` | SSRN 5165270 / arXiv:2503.04818 | 2026-07-12 | [Prompt Engineering is Complicated and Contingent](/dossiers/prompt-engineering-complicated-contingent.md) |
 | `prompt-engineering-survey.pdf` | arXiv:2310.14735v6 | 2026-07-11 | [Prompt Engineering Survey](/dossiers/prompt-engineering-survey.md) |

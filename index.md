@@ -24,6 +24,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Self-Consistency Improves Chain of Thought Reasoning in Language Models](/dossiers/self-consistency-improves-chain-of-thought-reasoning.md) — ICLR 2023 paper on sampling diverse reasoning paths and voting over final answers instead of greedily decoding one chain
 * [Exploring Prompt Engineering](/dossiers/exploring-prompt-engineering-swot.md) — Systematic prompt-engineering review with linguistic framing, SWOT analysis, technique taxonomy, and evaluation metrics
 * [From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents](/dossiers/auditable-enterprise-llm-harness.md) — Contract-based enterprise LLM harness with source-backed claim admission, audit traces, output validation, and deterministic fallback composition
+* [Structured Context Engineering for File-Native Agentic Systems](/dossiers/structured-context-engineering-file-native-agents.md) — Empirical comparison of file-native schema retrieval, prompt injection, formats, model tiers, and partitioned navigation for agentic text-to-SQL
 * [How AI Agent Memory Works](/dossiers/how-ai-agent-memory-works.md) — Interactive primer on agent memory as context construction, governed storage, hybrid retrieval, and production infrastructure
 * [Language Models are Few-Shot Learners](/dossiers/language-models-are-few-shot-learners.md) — Foundational GPT-3 paper on in-context learning, scaling, and benchmark contamination
 * [MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction](/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md) — Training-free, staged LLM extraction of verbatim aspect–opinion–sentiment triplets with triplet-set consistency checks
@@ -69,6 +70,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Credit-Guided Multi-Agent Prompt Optimization](/vault/credit-guided-multi-agent-prompt-optimization.md)
 * [Incremental Delta Context Updates](/vault/incremental-delta-context-updates.md)
 * [Feedback-Grounded Context Adaptation](/vault/feedback-grounded-context-adaptation.md)
+* [File-Native Context Retrieval](/vault/file-native-context-retrieval.md)
 * [Grounded Structured Extraction](/vault/grounded-structured-extraction.md)
 * [Conflict-Aware Context Retrieval](/vault/conflict-aware-context-retrieval.md)
 * [Expert-Weighted Retrieval](/vault/expert-weighted-retrieval.md)
@@ -109,6 +111,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Prompt-Technique SWOT Analysis](/vault/prompt-technique-swot-analysis.md)
 * [Prompt Contingency](/vault/prompt-contingency.md)
 * [Retrieval Augmentation](/vault/retrieval-augmentation.md)
+* [Retrieval Interface Tax](/vault/retrieval-interface-tax.md)
 * [VLM Prompt Learning](/vault/vlm-prompt-learning.md)
 * [Workload-Aligned Agent Memory Architecture](/vault/workload-aligned-agent-memory-architecture.md)
 * [Workload-Aligned Inference Engine Selection](/vault/workload-aligned-inference-engine-selection.md)
