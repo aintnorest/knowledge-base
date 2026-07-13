@@ -232,3 +232,9 @@ maintenance as a non-ingest event.
 * **Archive**: Moved source PDF to [/archive/agent-native-memory-system-readiness.pdf](/archive/agent-native-memory-system-readiness.pdf)
 * **Vault**: Created [workload-aligned-agent-memory-architecture](/vault/workload-aligned-agent-memory-architecture.md)
 * **Vault**: Updated [hybrid-memory-retrieval-pipeline](/vault/hybrid-memory-retrieval-pipeline.md), [memory-lifecycle-governance](/vault/memory-lifecycle-governance.md)
+
+## 2026-07-13 (MAS-PromptBench)
+* **Ingest**: `arxiv:2606.23664` — `MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems? dossier` at `/dossiers/mas-promptbench.md` — canonical: https://arxiv.org/abs/2606.23664v1
+* **Archive**: Moved source PDF to [/archive/mas-promptbench.pdf](/archive/mas-promptbench.pdf)
+* **Vault**: Created [configuration-aware-multi-agent-prompt-optimization](/vault/configuration-aware-multi-agent-prompt-optimization.md), [structured-agent-communication-contracts](/vault/structured-agent-communication-contracts.md)
+* **Vault**: Updated [prompt-optimization](/vault/prompt-optimization.md), [multi-agent-orchestration](/vault/multi-agent-orchestration.md)

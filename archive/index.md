@@ -35,6 +35,7 @@ This directory contains immutable raw materials. Files are written once at inges
 | `decreasing-value-chain-of-thought-prompting.pdf` | SSRN 5285532 | 2026-07-13 | [Prompting Science Report 2: The Decreasing Value of Chain of Thought in Prompting](/dossiers/decreasing-value-chain-of-thought-prompting.md) |
 | `prompt-coach-agentic-tutor.pdf` | arXiv:2607.06074v1 | 2026-07-13 | [Prompt Coach](/dossiers/prompt-coach-agentic-tutor.md) |
 | `maste-zero-shot-aspect-sentiment-triplet-extraction.pdf` | arXiv:2607.08080v1 | 2026-07-13 | [MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction](/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md) |
+| `mas-promptbench.pdf` | arXiv:2606.23664v1 | 2026-07-13 | [MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?](/dossiers/mas-promptbench.md) |
 | `rate-distortion-memory-compaction.pdf` | arXiv:2607.08032v1 | 2026-07-13 | [What to Keep, What to Forget: A Rate–Distortion View of Memory Compaction in LLMs and Agents](/dossiers/rate-distortion-memory-compaction.md) |
 | `prompting-complexity.pdf` | arXiv:2607.06145v1 | 2026-07-13 | [Prompting Complexity: Shortest Prompts for Texts and Behaviors in LLMs](/dossiers/prompting-complexity.md) |
 | `auditable-enterprise-llm-harness.pdf` | arXiv:2607.08028v1 | 2026-07-13 | [From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents](/dossiers/auditable-enterprise-llm-harness.md) |

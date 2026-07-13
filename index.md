@@ -14,6 +14,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Agentic Context Engineering](/dossiers/agentic-context-engineering.md) — Evolving context playbooks for self-improving LLM agents and domain reasoning
 * [Are We Ready For An Agent-Native Memory System?](/dossiers/agent-native-memory-system-readiness.md) — Data-management evaluation of agent-memory architecture, evidence retrieval, update robustness, long-horizon stability, and operational cost
 * [AXI: Agent eXperience Interface](/dossiers/axi-agent-experience-interface.md) — Ten testable principles for bounded, discoverable agent-facing CLI interfaces and fused action-observation operations
+* [MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?](/dossiers/mas-promptbench.md) — Controlled benchmark of how prompt optimization varies with MAS task, topology, communication protocol, and team size
 * [Guest post: AI Inference Is Breaking Unit Economics](/dossiers/ai-inference-unit-economics.md) — Practitioner overview of AI inference cost as a unit-economics constraint and the serving techniques used to control it
 * [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](/dossiers/chain-of-thought-prompting-elicits-reasoning.md) — Foundational few-shot chain-of-thought paper on intermediate reasoning demonstrations, scaling, and model-generated rationale limits
 * [Prompting Science Report 2: The Decreasing Value of Chain of Thought in Prompting](/dossiers/decreasing-value-chain-of-thought-prompting.md) — GPQA evidence that generic explicit CoT has model- and reliability-dependent value and can impose substantial latency
@@ -58,6 +59,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [In-Flow Socratic Prompt Coaching](/vault/in-flow-socratic-prompt-coaching.md)
 * [Evolving Context Playbooks](/vault/evolving-context-playbooks.md)
 * [Context Collapse](/vault/context-collapse.md)
+* [Configuration-Aware Multi-Agent Prompt Optimization](/vault/configuration-aware-multi-agent-prompt-optimization.md)
 * [Incremental Delta Context Updates](/vault/incremental-delta-context-updates.md)
 * [Feedback-Grounded Context Adaptation](/vault/feedback-grounded-context-adaptation.md)
 * [Grounded Structured Extraction](/vault/grounded-structured-extraction.md)
@@ -68,6 +70,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Behavioral State Decay](/vault/behavioral-state-decay.md)
 * [Proactive Memory Intervention](/vault/proactive-memory-intervention.md)
 * [Structured Execution Memory](/vault/structured-execution-memory.md)
+* [Structured Agent Communication Contracts](/vault/structured-agent-communication-contracts.md)
 * [Memory Lifecycle Governance](/vault/memory-lifecycle-governance.md)
 * [Multi-Agent Orchestration](/vault/multi-agent-orchestration.md)
 * [Metric-Gated Trace Bootstrapping](/vault/metric-gated-trace-bootstrapping.md)

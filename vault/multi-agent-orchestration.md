@@ -1,9 +1,9 @@
 ---
 type: Synthesis
 title: Multi-Agent Orchestration
-description: Decomposing a complex task into specialized agents that run in a coordinated pipeline, with parallel execution where dependencies allow.
-tags: [synthesis, multi-agent, orchestration, pipeline, specialization]
-timestamp: 2026-07-11T16:00:00Z
+description: Decomposing a complex task into specialized agents that run in a coordinated pipeline, with explicit handoffs, configuration-aware evaluation, and parallel execution where dependencies allow.
+tags: [synthesis, multi-agent, orchestration, pipeline, specialization, communication-protocols, evaluation]
+timestamp: 2026-07-13T17:56:21Z
 ---
 
 # Multi-Agent Orchestration
@@ -45,7 +45,14 @@ When later decisions depend on earlier structured outputs, sequence can be more 
 
 The trade-off is compounding omissions and added inference cost. If an early candidate stage is mandatory, its false negatives can block later recovery. Use deterministic checks at handoffs, permit a final verifier to reopen only clearly supported omissions where appropriate, and evaluate the latency/precision/recall trade-off against a direct baseline.
 
+## Coordination Is an Optimization Boundary
+
+Agent count, routing topology, message protocol, and aggregation rule determine whether a local behavior improvement reaches the final outcome. They should be versioned and evaluated with prompts as one deployed configuration. More agents are not automatically better: each added handoff can dilute a useful change, create inconsistent agent assumptions, or raise the cost of attributing failures.
+
+Use structured handoff contracts when downstream decisions repeatedly depend on status, evidence, confidence, or the next action. These contracts make the information flow inspectable and give local prompt changes a stable interface, but they should be validated for semantic usefulness rather than treated as formatting alone.
+
 ## Sources
 
 - [PaperOrchestra dossier](/dossiers/paperorchestra.md) — 5 specialized agents in a fork-join pipeline; ~60–70 LLM calls; 39.6 min mean latency
 - [MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction dossier](/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md) — sequential typed stages for aspect, opinion, sentiment, and triplet-set consistency; reported gains come with four calls per sentence and aspect-stage recall risk.
+- [MAS-PromptBench dossier](/dossiers/mas-promptbench.md) — finds that prompt-optimization effects vary by task, topology, communication structure, and team size; its tested optimizers generally benefited more from structured protocols and smaller teams.

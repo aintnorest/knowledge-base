@@ -1,9 +1,9 @@
 ---
 type: Synthesis
 title: Prompt Optimization
-description: Automated methods for improving prompts and multi-stage LLM programs, including gradient-based, black-box, model-adaptive, agentic, cost-aware, instruction-generation, and compiler-driven approaches.
-tags: [synthesis, prompting, optimization, automated, pro-tegi, bpo, mapo, promptagent, ape, opro, dspy]
-timestamp: 2026-07-13T00:11:06Z
+description: Automated methods for improving prompts and multi-stage LLM programs, including gradient-based, black-box, model-adaptive, agentic, cost-aware, instruction-generation, compiler-driven, and configuration-aware multi-agent approaches.
+tags: [synthesis, prompting, optimization, automated, pro-tegi, bpo, mapo, promptagent, ape, opro, dspy, multi-agent]
+timestamp: 2026-07-13T17:56:21Z
 ---
 
 # Prompt Optimization
@@ -66,6 +66,13 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 - Uses accepted traces as candidate demonstrations for every component, and can search demonstrations, instructions, model choices, or fine-tuning configurations.
 - **Use with care**: final-answer success does not prove that intermediate retrieval, reasoning, or tool actions were safe or grounded. Include component-level constraints in the metric and evaluate on held-out cases.
 
+### Multi-Agent Prompt Optimization
+
+- In a multi-agent system, each agent's instruction is coupled to the task metric, topology, message protocol, aggregation rule, models, tools, and team size. The optimized object is therefore a joint configuration, not a portable one-agent prompt.
+- A tractable baseline is to revise one agent at a time from its local trace, surrounding interaction context, and team-level feedback while holding other prompts fixed. Keep the seed configuration and adopt a candidate only after it wins on held-out validation.
+- Do not assume the result transfers across topologies or team sizes. In MAS-PromptBench, a GEPA extension achieved gains as large as 24 percentage points in one configuration but losses as large as 16 in another; structured communication and small teams were generally easier settings for the tested optimizers.
+- **Use with care**: an end-to-end score can hide unsafe or ungrounded intermediate behavior, and configuration-specific search can overfit a small validation split. Slice evaluations by the deployment-relevant configuration and add component constraints when necessary.
+
 ### PO2G (Prompt Optimization with Two Gradients)
 
 - Uses two gradient signals to refine classification prompts more efficiently.
@@ -101,6 +108,7 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 | APE | Candidate prompts + task feedback | LLM proposal, target-model scoring, successive filtering | Instruction induction and task-specific prompt discovery |
 | OPRO | Scored prompt or solution history | LLM-as-optimizer iterative proposal | Prompt search when examples and metrics are available |
 | DSPy-style compilation | Traceable program + end-to-end metric | Optimize per-module prompts and demonstrations from accepted execution traces | Multi-stage pipelines with sparse intermediate labels |
+| Multi-agent configuration optimization | Traceable MAS + held-out team metric | Search prompts under a fixed topology, protocol, aggregation, and team size | Stable multi-agent systems where the full configuration can be evaluated |
 | PO2G | Evaluation data | Two-gradient iterative refinement | Classification prompts with iteration cost constraints |
 | PromptWizard | Model outputs + critic | Agentic mutation of instructions/examples | Broad task suites where manual prompt design is brittle |
 | Multi-objective optimization | Metrics for several objectives | Search over tradeoff frontier | Production prompts with accuracy, cost, efficiency, or interpretability constraints |
@@ -112,3 +120,4 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 - [A Systematic Survey of Prompt Engineering in Large Language Models dossier](/dossiers/systematic-survey-prompt-engineering-llms.md) - covers APE and OPRO as automatic instruction-generation and LLM-as-optimizer approaches.
 - [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines dossier](/dossiers/dspy-compiling-declarative-language-model-calls.md) - introduces metric-driven compilation for declarative multi-stage LM programs.
 - [Large Language Models Are Human-Level Prompt Engineers dossier](/dossiers/automatic-prompt-engineer.md) — defines APE’s proposal/scoring loop, adaptive evaluation, results, and metric-gaming limitations.
+- [MAS-PromptBench dossier](/dossiers/mas-promptbench.md) — benchmarks MAS-GEPA and MAS-MIPRO across task domains, topologies, protocols, and team sizes; shows configuration-dependent improvements and regressions.
