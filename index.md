@@ -21,6 +21,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Exploring Prompt Engineering](/dossiers/exploring-prompt-engineering-swot.md) — Systematic prompt-engineering review with linguistic framing, SWOT analysis, technique taxonomy, and evaluation metrics
 * [How AI Agent Memory Works](/dossiers/how-ai-agent-memory-works.md) — Interactive primer on agent memory as context construction, governed storage, hybrid retrieval, and production infrastructure
 * [Language Models are Few-Shot Learners](/dossiers/language-models-are-few-shot-learners.md) — Foundational GPT-3 paper on in-context learning, scaling, and benchmark contamination
+* [MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction](/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md) — Training-free, staged LLM extraction of verbatim aspect–opinion–sentiment triplets with triplet-set consistency checks
 * [Least-to-Most Prompting Enables Complex Reasoning in Large Language Models](/dossiers/least-to-most-prompting.md) — Decomposition-and-sequential-solving prompting for easy-to-hard reasoning generalization
 * [Large Language Models are Zero-Shot Reasoners](/dossiers/large-language-models-are-zero-shot-reasoners.md) — Foundational Zero-shot-CoT paper on eliciting stepwise reasoning without worked examples
 * [Mergeable by Default](/dossiers/context-engineering-talk.md) — Context engine design for coding agents, organizational memory, conflict handling, and permissions
@@ -55,6 +56,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Context Collapse](/vault/context-collapse.md)
 * [Incremental Delta Context Updates](/vault/incremental-delta-context-updates.md)
 * [Feedback-Grounded Context Adaptation](/vault/feedback-grounded-context-adaptation.md)
+* [Grounded Structured Extraction](/vault/grounded-structured-extraction.md)
 * [Conflict-Aware Context Retrieval](/vault/conflict-aware-context-retrieval.md)
 * [Expert-Weighted Retrieval](/vault/expert-weighted-retrieval.md)
 * [Evaluated Skill Routing](/vault/evaluated-skill-routing.md)

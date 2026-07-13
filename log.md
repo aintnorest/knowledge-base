@@ -204,3 +204,9 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2607.06074` — [Prompt Coach dossier](/dossiers/prompt-coach-agentic-tutor.md) — canonical: https://arxiv.org/abs/2607.06074v1
 * **Archive**: Moved source PDF to [/archive/prompt-coach-agentic-tutor.pdf](/archive/prompt-coach-agentic-tutor.pdf)
 * **Vault**: Created [in-flow-socratic-prompt-coaching](/vault/in-flow-socratic-prompt-coaching.md)
+
+## 2026-07-13 (MASTE)
+* **Ingest**: `arxiv:2607.08080` — `MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction dossier` at `/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md` — canonical: https://arxiv.org/abs/2607.08080v1
+* **Archive**: Moved source PDF to [/archive/maste-zero-shot-aspect-sentiment-triplet-extraction.pdf](/archive/maste-zero-shot-aspect-sentiment-triplet-extraction.pdf)
+* **Vault**: Created [grounded-structured-extraction](/vault/grounded-structured-extraction.md)
+* **Vault**: Updated [multi-agent-orchestration](/vault/multi-agent-orchestration.md)

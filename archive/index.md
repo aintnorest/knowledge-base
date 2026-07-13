@@ -34,3 +34,4 @@ This directory contains immutable raw materials. Files are written once at inges
 | `survey-prompt-engineering-methods-nlp-tasks.pdf` | arXiv:2407.12994v2 | 2026-07-13 | [A Survey of Prompt Engineering Methods in Large Language Models for Different NLP Tasks dossier](/dossiers/survey-prompt-engineering-methods-nlp-tasks.md) |
 | `decreasing-value-chain-of-thought-prompting.pdf` | SSRN 5285532 | 2026-07-13 | [Prompting Science Report 2: The Decreasing Value of Chain of Thought in Prompting](/dossiers/decreasing-value-chain-of-thought-prompting.md) |
 | `prompt-coach-agentic-tutor.pdf` | arXiv:2607.06074v1 | 2026-07-13 | [Prompt Coach](/dossiers/prompt-coach-agentic-tutor.md) |
+| `maste-zero-shot-aspect-sentiment-triplet-extraction.pdf` | arXiv:2607.08080v1 | 2026-07-13 | [MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction](/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md) |
