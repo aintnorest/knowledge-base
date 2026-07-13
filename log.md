@@ -215,3 +215,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2607.08032` — What to Keep, What to Forget: A Rate–Distortion View of Memory Compaction in LLMs and Agents dossier at `/dossiers/rate-distortion-memory-compaction.md` — canonical: https://arxiv.org/abs/2607.08032v1
 * **Archive**: Moved source PDF to [/archive/rate-distortion-memory-compaction.pdf](/archive/rate-distortion-memory-compaction.pdf)
 * **Vault**: Created [rate-distortion-memory-compaction](/vault/rate-distortion-memory-compaction.md), [reversible-query-conditioned-compaction](/vault/reversible-query-conditioned-compaction.md), [repeated-compaction-evaluation](/vault/repeated-compaction-evaluation.md)
+
+## 2026-07-13 (Prompting Complexity)
+* **Ingest**: `arxiv:2607.06145` — `Prompting Complexity: Shortest Prompts for Texts and Behaviors in LLMs dossier` at `/dossiers/prompting-complexity.md` — canonical: https://arxiv.org/abs/2607.06145v1
+* **Archive**: Moved source PDF to [/archive/prompting-complexity.pdf](/archive/prompting-complexity.pdf)
+* **Vault**: Created [prompting-complexity](/vault/prompting-complexity.md), [behavioral-prompting-complexity](/vault/behavioral-prompting-complexity.md), [prompting-distance](/vault/prompting-distance.md)
