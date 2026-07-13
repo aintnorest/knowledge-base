@@ -10,6 +10,7 @@ timestamp: 2026-07-11T16:00:00Z
 
 ## Dossiers
 
+* [Automatic Prompt Optimization for Dataset-Level Feature Discovery](/dossiers/automatic-prompt-optimization-dataset-level-feature-discovery.md) — Multi-agent prompt optimization for a shared, interpretable text-feature schema using downstream performance and label-proxy resistance
 * [Brevity Constraints Reverse Performance Hierarchies in Language Models](/dossiers/brevity-constraints-reverse-performance-hierarchies.md) — Preprint on item-level inverse scaling under fixed prompts and the task-dependent effects of concise-response instructions
 * [Large Language Models Are Human-Level Prompt Engineers](/dossiers/automatic-prompt-engineer.md) — Automatic Prompt Engineer: black-box instruction proposal, target-model scoring, and selection from demonstrations
 * [Agentic Context Engineering](/dossiers/agentic-context-engineering.md) — Evolving context playbooks for self-improving LLM agents and domain reasoning
@@ -92,6 +93,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Anti-Leakage Evaluation](/vault/anti-leakage-evaluation.md)
 * [Sparse Concept Note Prompt](/vault/sparse-concept-note-prompt.md)
 * [Dense Technical Proposal Prompt](/vault/dense-technical-proposal-prompt.md)
+* [Dataset-Level Feature Discovery](/vault/dataset-level-feature-discovery.md)
 * [Declarative LM Pipeline Compilation](/vault/declarative-lm-pipeline-compilation.md)
 * [Dominator-Based Agent Validation](/vault/dominator-based-agent-validation.md)
 * [Experimental Log Extraction Prompt](/vault/experimental-log-extraction-prompt.md)

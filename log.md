@@ -266,3 +266,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2604.00025` — `Brevity Constraints Reverse Performance Hierarchies in Language Models dossier` at `/dossiers/brevity-constraints-reverse-performance-hierarchies.md` — canonical: https://arxiv.org/abs/2604.00025v1
 * **Archive**: Moved source PDF to [/archive/brevity-constraints-reverse-performance-hierarchies.pdf](/archive/brevity-constraints-reverse-performance-hierarchies.pdf)
 * **Vault**: Created [reasoning-budget-calibration](/vault/reasoning-budget-calibration.md)
+
+## 2026-07-13 (Dataset-Level Feature Discovery)
+* **Ingest**: `doi:10.48550/arxiv.2601.13922` — `Automatic Prompt Optimization for Dataset-Level Feature Discovery dossier` at `/dossiers/automatic-prompt-optimization-dataset-level-feature-discovery.md` — canonical: https://arxiv.org/abs/2601.13922v1
+* **Archive**: Moved source PDF to [/archive/automatic-prompt-optimization-dataset-level-feature-discovery.pdf](/archive/automatic-prompt-optimization-dataset-level-feature-discovery.pdf)
+* **Vault**: Created [dataset-level-feature-discovery](/vault/dataset-level-feature-discovery.md)

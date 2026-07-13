@@ -98,6 +98,12 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 - Multi-objective methods optimize several dimensions at once, such as accuracy, efficiency, and interpretability.
 - These methods are useful when a prompt is a production artifact with latency, spend, auditability, and reliability constraints.
 
+### Dataset-Level Feature-Schema Optimization
+
+- When a prompt induces one reusable feature schema for an entire text corpus, score the schema after extracting it across a representative split, rather than assigning a separate reward to each document.
+- Combine downstream utility with coverage, feature importance, and explicit checks that definitions are readable, grounded in source text, and not aliases for the target label. A label-proxy feature can inflate classification F1 while defeating the purpose of interpretable feature engineering.
+- The extractor is often the cost bottleneck because every schema candidate must be realized across many texts. Budget the candidate search around extraction throughput and validate the selected schema on held-out data.
+
 ### RL-based Optimization
 
 - Defines a reward function to evaluate prompt effectiveness.
@@ -130,3 +136,4 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 - [Unifying Temporal and Structural Credit Assignment in LLM-Based Multi-Agent Prompt Optimization dossier](/dossiers/temporal-structural-credit-assignment-multi-agent-prompt-optimization.md) — proposes role- and round-level credit signals for selective multi-agent prompt edits.
 - [Large Language Models Are Human-Level Prompt Engineers dossier](/dossiers/automatic-prompt-engineer.md) — defines APE’s proposal/scoring loop, adaptive evaluation, results, and metric-gaming limitations.
 - [MAS-PromptBench dossier](/dossiers/mas-promptbench.md) — benchmarks MAS-GEPA and MAS-MIPRO across task domains, topologies, protocols, and team sizes; shows configuration-dependent improvements and regressions.
+- [Automatic Prompt Optimization for Dataset-Level Feature Discovery dossier](/dossiers/automatic-prompt-optimization-dataset-level-feature-discovery.md) — applies reflective prompt optimization and Bayesian search to global text-feature schemas, using classifier, coverage, importance, and interpretability feedback.
