@@ -36,6 +36,12 @@ This decomposition makes a reported improvement reproducible: record the represe
 - Uses beam search + bandit selection to explore the prompt space efficiently.
 - **Result**: Up to 31% improvement over initial prompts.
 
+### TextGrad (Graph-Structured Textual Feedback)
+
+- Generalizes the textual-gradient idea from one prompt to a computation graph of text-valued variables. A backward LLM receives the forward conversation, a variable's role, and downstream critique, then writes feedback for that specific variable; an LLM optimizer turns the feedback into replacement text.
+- For shared-prompt optimization, aggregate feedback from a minibatch, evaluate each candidate on validation, and retain a new instruction only after it beats the incumbent. The paper used GPT-4o as the feedback engine while optimizing an instruction-only GPT-3.5-Turbo prompt.
+- **Use with care**: textual feedback is not a numerical gradient or causal proof. Record the trace, keep independent holdouts and component-level constraints, and compare against equal-cost baselines because backward calls grow with graph size.
+
 ### BPO (Black-box Prompt Optimization)
 
 - **Model-agnostic**: Works on any LLM, open-source or API-based, without access to internals.
@@ -171,3 +177,4 @@ This decomposition makes a reported improvement reproducible: record the represe
 - [AutoPDL: Automatic Prompt Optimization for LLM Agents dossier](/dossiers/autopdl-automatic-prompt-optimization-llm-agents.md) — jointly searches Zero-Shot, CoT, ReWOO, and ReAct programs plus instructions and demonstrations through successive halving, saving the winner as editable PDL source.
 - [A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm dossier](/dossiers/automatic-prompt-optimization-heuristic-search-survey.md) — supplies the five-axis space, target, objective, operator, and search-policy taxonomy for instruction-focused heuristic optimization.
 - [Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies dossier](/dossiers/multi-agent-design-prompts-topologies.md) — proposes Mass, which warm-starts block prompts, samples topology choices from validation-measured influence, then conducts workflow-level prompt optimization.
+- [TextGrad: Automatic “Differentiation” via Text dossier](/dossiers/textgrad-automatic-differentiation-via-text.md) — generalizes textual feedback to computation graphs and distinguishes reusable-prompt optimization from test-time instance optimization.

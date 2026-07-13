@@ -52,3 +52,4 @@ This directory contains immutable raw materials. Files are written once at inges
 | `scope-prompt-evolution-agent-effectiveness.pdf` | arXiv:2512.15374v2 | 2026-07-13 | [SCOPE: Prompt Evolution for Enhancing Agent Effectiveness](/dossiers/scope-prompt-evolution-agent-effectiveness.md) |
 | `promptomatix-automatic-prompt-optimization.pdf` | arXiv:2507.14241v3 | 2026-07-13 | [Promptomatix: An Automatic Prompt Optimization Framework for Large Language Models](/dossiers/promptomatix-automatic-prompt-optimization.md) |
 | `automatic-prompt-optimization-techniques.pdf` | arXiv:2502.16923v2 | 2026-07-13 | [A Systematic Survey of Automatic Prompt Optimization Techniques](/dossiers/automatic-prompt-optimization-techniques.md) |
+| `textgrad-automatic-differentiation-via-text.pdf` | arXiv:2406.07496v1 | 2026-07-13 | [TextGrad: Automatic “Differentiation” via Text](/dossiers/textgrad-automatic-differentiation-via-text.md) |

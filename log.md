@@ -303,3 +303,9 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2502.16923` — `A Systematic Survey of Automatic Prompt Optimization Techniques dossier` at `/dossiers/automatic-prompt-optimization-techniques.md` — canonical: https://arxiv.org/abs/2502.16923v2
 * **Archive**: Moved source PDF to [/archive/automatic-prompt-optimization-techniques.pdf](/archive/automatic-prompt-optimization-techniques.pdf)
 * **Vault**: Created [automatic-prompt-optimization-anatomy](/vault/automatic-prompt-optimization-anatomy.md)
+
+## 2026-07-13 (TextGrad)
+* **Ingest**: `arxiv:2406.07496` — `TextGrad: Automatic “Differentiation” via Text dossier` at `/dossiers/textgrad-automatic-differentiation-via-text.md` — canonical: https://arxiv.org/abs/2406.07496v1
+* **Archive**: Moved source PDF to [/archive/textgrad-automatic-differentiation-via-text.pdf](/archive/textgrad-automatic-differentiation-via-text.pdf)
+* **Vault**: Created [textual-feedback-backpropagation](/vault/textual-feedback-backpropagation.md)
+* **Vault**: Updated [prompt-optimization](/vault/prompt-optimization.md)

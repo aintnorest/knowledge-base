@@ -51,6 +51,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Smarter AI Through Prompt Engineering](/dossiers/smarter-ai-through-prompt-engineering.md) — Review of prompt engineering case studies, optimization frameworks, and data science deployment tradeoffs
 * [A Systematic Survey of Prompt Engineering in Large Language Models](/dossiers/systematic-survey-prompt-engineering-llms.md) — Application-centric taxonomy of prompt engineering techniques for LLMs
 * [A Survey of Prompt Engineering Methods in Large Language Models for Different NLP Tasks](/dossiers/survey-prompt-engineering-methods-nlp-tasks.md) — Task-centered map of 39 prompting methods, 29 NLP tasks, datasets, model families, and conditional reported leaders
+* [TextGrad: Automatic “Differentiation” via Text](/dossiers/textgrad-automatic-differentiation-via-text.md) — Computation-graph framework for propagating LLM textual critiques to optimize compound AI-system components
 * [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](/dossiers/tree-of-thoughts-deliberate-problem-solving.md) — Inference-time LLM reasoning via thought-level generation, self-evaluation, and tree search
 * [Unifying Temporal and Structural Credit Assignment in LLM-Based Multi-Agent Prompt Optimization](/dossiers/temporal-structural-credit-assignment-multi-agent-prompt-optimization.md) — Credit-guided test-time refinement that targets weak recurring roles and aggregation rounds in multi-agent reasoning
 * [Validating Agentic Behavior When Correct Isn't Deterministic](/dossiers/validating-agentic-behavior.md) — GitHub's dominator-analysis Trust Layer for validating non-deterministic computer-use agent execution from successful traces
@@ -104,6 +105,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Dense Technical Proposal Prompt](/vault/dense-technical-proposal-prompt.md)
 * [Dataset-Level Feature Discovery](/vault/dataset-level-feature-discovery.md)
 * [Declarative LM Pipeline Compilation](/vault/declarative-lm-pipeline-compilation.md)
+* [Textual Feedback Backpropagation](/vault/textual-feedback-backpropagation.md)
 * [Dominator-Based Agent Validation](/vault/dominator-based-agent-validation.md)
 * [Experimental Log Extraction Prompt](/vault/experimental-log-extraction-prompt.md)
 * [Anti-Leakage System Prompt](/vault/anti-leakage-system-prompt.md)
