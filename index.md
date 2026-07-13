@@ -18,6 +18,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Agentic Context Engineering](/dossiers/agentic-context-engineering.md) — Evolving context playbooks for self-improving LLM agents and domain reasoning
 * [Are We Ready For An Agent-Native Memory System?](/dossiers/agent-native-memory-system-readiness.md) — Data-management evaluation of agent-memory architecture, evidence retrieval, update robustness, long-horizon stability, and operational cost
 * [AXI: Agent eXperience Interface](/dossiers/axi-agent-experience-interface.md) — Ten testable principles for bounded, discoverable agent-facing CLI interfaces and fused action-observation operations
+* [A Systematic Survey of Automatic Prompt Optimization Techniques](/dossiers/automatic-prompt-optimization-techniques.md) — Five-part taxonomy of black-box automatic prompt optimization: seed prompts, feedback, candidate generation, retention, and iteration control
 * [MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?](/dossiers/mas-promptbench.md) — Controlled benchmark of how prompt optimization varies with MAS task, topology, communication protocol, and team size
 * [Guest post: AI Inference Is Breaking Unit Economics](/dossiers/ai-inference-unit-economics.md) — Practitioner overview of AI inference cost as a unit-economics constraint and the serving techniques used to control it
 * [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](/dossiers/chain-of-thought-prompting-elicits-reasoning.md) — Foundational few-shot chain-of-thought paper on intermediate reasoning demonstrations, scaling, and model-generated rationale limits
@@ -63,6 +64,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Application-Centric Prompt Taxonomy](/vault/application-centric-prompt-taxonomy.md)
 * [Action-Observation Fusion](/vault/action-observation-fusion.md)
 * [Agent-Ergonomic Interface Design](/vault/agent-ergonomic-interface-design.md)
+* [Automatic Prompt Optimization Anatomy](/vault/automatic-prompt-optimization-anatomy.md)
 * [Bounded Tool Observations](/vault/bounded-tool-observations.md)
 * [Cost-Aware Inference Control](/vault/cost-aware-inference-control.md)
 * [In-Context Learning](/vault/in-context-learning.md)

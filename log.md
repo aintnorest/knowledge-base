@@ -292,3 +292,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2504.04365` — `AutoPDL: Automatic Prompt Optimization for LLM Agents dossier` at `/dossiers/autopdl-automatic-prompt-optimization-llm-agents.md` — canonical: https://arxiv.org/abs/2504.04365v5
 * **Archive**: Moved source PDF to [/archive/autopdl-automatic-prompt-optimization-llm-agents.pdf](/archive/autopdl-automatic-prompt-optimization-llm-agents.pdf)
 * **Vault**: Updated [prompt-optimization](/vault/prompt-optimization.md), [declarative-lm-pipeline-compilation](/vault/declarative-lm-pipeline-compilation.md)
+
+## 2026-07-13 (Automatic Prompt Optimization Survey)
+* **Ingest**: `arxiv:2502.16923` — `A Systematic Survey of Automatic Prompt Optimization Techniques dossier` at `/dossiers/automatic-prompt-optimization-techniques.md` — canonical: https://arxiv.org/abs/2502.16923v2
+* **Archive**: Moved source PDF to [/archive/automatic-prompt-optimization-techniques.pdf](/archive/automatic-prompt-optimization-techniques.pdf)
+* **Vault**: Created [automatic-prompt-optimization-anatomy](/vault/automatic-prompt-optimization-anatomy.md)
