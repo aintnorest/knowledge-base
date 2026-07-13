@@ -250,3 +250,8 @@ maintenance as a non-ingest event.
 * **Archive**: Moved source PDF to [/archive/maspo-joint-prompt-optimization.pdf](/archive/maspo-joint-prompt-optimization.pdf)
 * **Vault**: Created [downstream-aware-prompt-evaluation](/vault/downstream-aware-prompt-evaluation.md)
 * **Vault**: Updated [configuration-aware-multi-agent-prompt-optimization](/vault/configuration-aware-multi-agent-prompt-optimization.md)
+
+## 2026-07-13 (Brevity Constraints)
+* **Ingest**: `arxiv:2604.00025` — `Brevity Constraints Reverse Performance Hierarchies in Language Models dossier` at `/dossiers/brevity-constraints-reverse-performance-hierarchies.md` — canonical: https://arxiv.org/abs/2604.00025v1
+* **Archive**: Moved source PDF to [/archive/brevity-constraints-reverse-performance-hierarchies.pdf](/archive/brevity-constraints-reverse-performance-hierarchies.pdf)
+* **Vault**: Created [reasoning-budget-calibration](/vault/reasoning-budget-calibration.md)

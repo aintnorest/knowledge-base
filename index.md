@@ -10,6 +10,7 @@ timestamp: 2026-07-11T16:00:00Z
 
 ## Dossiers
 
+* [Brevity Constraints Reverse Performance Hierarchies in Language Models](/dossiers/brevity-constraints-reverse-performance-hierarchies.md) — Preprint on item-level inverse scaling under fixed prompts and the task-dependent effects of concise-response instructions
 * [Large Language Models Are Human-Level Prompt Engineers](/dossiers/automatic-prompt-engineer.md) — Automatic Prompt Engineer: black-box instruction proposal, target-model scoring, and selection from demonstrations
 * [Agentic Context Engineering](/dossiers/agentic-context-engineering.md) — Evolving context playbooks for self-improving LLM agents and domain reasoning
 * [Are We Ready For An Agent-Native Memory System?](/dossiers/agent-native-memory-system-readiness.md) — Data-management evaluation of agent-memory architecture, evidence retrieval, update robustness, long-horizon stability, and operational cost
@@ -117,6 +118,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Model-Aware Harness Design](/vault/model-aware-harness-design.md)
 * [Progressive Skill Disclosure](/vault/progressive-skill-disclosure.md)
 * [Rate–Distortion Memory Compaction](/vault/rate-distortion-memory-compaction.md)
+* [Reasoning-Budget Calibration](/vault/reasoning-budget-calibration.md)
 * [Reversible, Query-Conditioned Compaction](/vault/reversible-query-conditioned-compaction.md)
 * [Repeated-Compaction Evaluation](/vault/repeated-compaction-evaluation.md)
 * [Source-Backed Claim Admission](/vault/source-backed-claim-admission.md)
