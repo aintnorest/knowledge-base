@@ -14,6 +14,18 @@ A family of techniques for automatically refining input prompts or the prompt-be
 
 Crafting effective prompts manually requires extensive expertise and trial-and-error. Automated optimization reduces this burden and can discover prompts that humans might not conceive.
 
+## Search Design
+
+Automatic prompt optimization is a search-system design problem, not a single technique. Define five choices explicitly:
+
+1. **Space** — optimize soft embeddings, deployable discrete text, or a controlled projection between them.
+2. **Target** — optimize only an instruction, an instruction plus demonstrations, or let zero-shot and few-shot variants compete.
+3. **Objective** — measure task performance, generalization, safety, cost, or a declared multi-objective trade-off.
+4. **Candidate operator** — generate prompts from no parent (behavioral induction or a learned/surrogate proposer), one parent (rewrite, feedback, edit), or several parents (score-conditioned synthesis, crossover, difference).
+5. **Search policy** — allocate evaluation through bandits, beam search, sampling, Monte Carlo methods, evolutionary/metaheuristic procedures, phased search, or iterative refinement.
+
+This decomposition makes a reported improvement reproducible: record the representation, prompt components, evaluator and data split, candidate generator, search budget, and survivor-selection rule. It also prevents a common category error—assuming that an effective instruction rewrite will transfer when examples, target model, metric, or search budget change.
+
 ## Methods
 
 ### ProTeGi (Prompt Optimization with Textual Gradients)
@@ -152,3 +164,4 @@ Crafting effective prompts manually requires extensive expertise and trial-and-e
 - [Automatic Prompt Optimization for Dataset-Level Feature Discovery dossier](/dossiers/automatic-prompt-optimization-dataset-level-feature-discovery.md) — applies reflective prompt optimization and Bayesian search to global text-feature schemas, using classifier, coverage, importance, and interpretability feedback.
 - [Promptomatix: An Automatic Prompt Optimization Framework for Large Language Models dossier](/dossiers/promptomatix-automatic-prompt-optimization.md) — proposes automatic configuration, synthetic-data generation, backend and metric selection, plus feedback-driven re-optimization; its limited experiments and configuration inconsistencies underline the need for artifact review and independent evaluation.
 - [AutoPDL: Automatic Prompt Optimization for LLM Agents dossier](/dossiers/autopdl-automatic-prompt-optimization-llm-agents.md) — jointly searches Zero-Shot, CoT, ReWOO, and ReAct programs plus instructions and demonstrations through successive halving, saving the winner as editable PDL source.
+- [A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm dossier](/dossiers/automatic-prompt-optimization-heuristic-search-survey.md) — supplies the five-axis space, target, objective, operator, and search-policy taxonomy for instruction-focused heuristic optimization.

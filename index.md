@@ -12,6 +12,7 @@ timestamp: 2026-07-11T16:00:00Z
 
 * [Automatic Prompt Optimization for Dataset-Level Feature Discovery](/dossiers/automatic-prompt-optimization-dataset-level-feature-discovery.md) — Multi-agent prompt optimization for a shared, interpretable text-feature schema using downstream performance and label-proxy resistance
 * [AutoPDL: Automatic Prompt Optimization for LLM Agents](/dossiers/autopdl-automatic-prompt-optimization-llm-agents.md) — Joint AutoML search over executable Zero-Shot, CoT, ReWOO, and ReAct programs, instructions, and few-shot demonstrations
+* [A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm](/dossiers/automatic-prompt-optimization-heuristic-search-survey.md) — Five-axis taxonomy of instruction-focused automatic prompt optimization by space, target, objective, operator, and search algorithm
 * [Brevity Constraints Reverse Performance Hierarchies in Language Models](/dossiers/brevity-constraints-reverse-performance-hierarchies.md) — Preprint on item-level inverse scaling under fixed prompts and the task-dependent effects of concise-response instructions
 * [Large Language Models Are Human-Level Prompt Engineers](/dossiers/automatic-prompt-engineer.md) — Automatic Prompt Engineer: black-box instruction proposal, target-model scoring, and selection from demonstrations
 * [Agentic Context Engineering](/dossiers/agentic-context-engineering.md) — Evolving context playbooks for self-improving LLM agents and domain reasoning
