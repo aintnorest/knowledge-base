@@ -42,6 +42,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Continually Improving Our Agent Harness](/dossiers/continually-improving-agent-harness.md) — Cursor's dynamic-context, layered-evaluation, reliability, and model-adaptation practices for coding agents
 * [Designing, Refining, and Maintaining Agent Skills at Perplexity](/dossiers/designing-refining-maintaining-agent-skills-perplexity.md) — Perplexity's guide to Skill routing, progressive context, evaluations, and failure-driven maintenance
 * [What You're Actually Writing When You Write a SKILL.md](/dossiers/skill-md-loader-specification.md) — Skill architecture as staged context loading, with portable environment guidance and model-aware evaluation
+* [What to Keep, What to Forget: A Rate–Distortion View of Memory Compaction in LLMs and Agents](/dossiers/rate-distortion-memory-compaction.md) — Survey framing KV, prompt, architectural, and agent-memory compaction as a shared rate–distortion decision
 
 ## Vault
 
@@ -101,3 +102,6 @@ timestamp: 2026-07-11T16:00:00Z
 * [Outcome-Grounded Agent Evaluation](/vault/outcome-grounded-agent-evaluation.md)
 * [Model-Aware Harness Design](/vault/model-aware-harness-design.md)
 * [Progressive Skill Disclosure](/vault/progressive-skill-disclosure.md)
+* [Rate–Distortion Memory Compaction](/vault/rate-distortion-memory-compaction.md)
+* [Reversible, Query-Conditioned Compaction](/vault/reversible-query-conditioned-compaction.md)
+* [Repeated-Compaction Evaluation](/vault/repeated-compaction-evaluation.md)

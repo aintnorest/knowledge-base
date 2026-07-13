@@ -210,3 +210,8 @@ maintenance as a non-ingest event.
 * **Archive**: Moved source PDF to [/archive/maste-zero-shot-aspect-sentiment-triplet-extraction.pdf](/archive/maste-zero-shot-aspect-sentiment-triplet-extraction.pdf)
 * **Vault**: Created [grounded-structured-extraction](/vault/grounded-structured-extraction.md)
 * **Vault**: Updated [multi-agent-orchestration](/vault/multi-agent-orchestration.md)
+
+## 2026-07-13 (Memory Compaction Survey)
+* **Ingest**: `arxiv:2607.08032` — What to Keep, What to Forget: A Rate–Distortion View of Memory Compaction in LLMs and Agents dossier at `/dossiers/rate-distortion-memory-compaction.md` — canonical: https://arxiv.org/abs/2607.08032v1
+* **Archive**: Moved source PDF to [/archive/rate-distortion-memory-compaction.pdf](/archive/rate-distortion-memory-compaction.pdf)
+* **Vault**: Created [rate-distortion-memory-compaction](/vault/rate-distortion-memory-compaction.md), [reversible-query-conditioned-compaction](/vault/reversible-query-conditioned-compaction.md), [repeated-compaction-evaluation](/vault/repeated-compaction-evaluation.md)
