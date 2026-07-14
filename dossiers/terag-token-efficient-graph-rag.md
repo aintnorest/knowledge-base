@@ -10,9 +10,9 @@ timestamp: 2026-07-14T15:53:34Z
 
 # TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation — Study Notes
 
-**Authors**: Qiao Xiao, Hong Ting Tsang, and Jiaxin Bai  
-**Venue**: arXiv:2509.18667v3 [cs.AI]  
-**Version date**: November 10, 2025  
+**Authors**: Qiao Xiao, Hong Ting Tsang, and Jiaxin Bai
+**Venue**: arXiv:2509.18667v3 [cs.AI]
+**Version date**: November 10, 2025
 **Pages**: 16
 
 ## What It Is
