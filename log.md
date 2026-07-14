@@ -325,3 +325,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2307.03172` — `Lost in the Middle: How Language Models Use Long Contexts dossier` at `/dossiers/lost-in-the-middle-long-contexts.md` — canonical: https://arxiv.org/abs/2307.03172v3
 * **Archive**: Moved source PDF to [/archive/lost-in-the-middle-long-contexts.pdf](/archive/lost-in-the-middle-long-contexts.pdf)
 * **Vault**: Created [position-robust-context-evaluation](/vault/position-robust-context-evaluation.md), [context-ordering-as-retrieval-control](/vault/context-ordering-as-retrieval-control.md)
+
+## 2026-07-14 (SupervisorAgent)
+* **Ingest**: `arxiv:2510.26585` — `Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems dossier` at `/dossiers/supervisoragent-efficient-runtime-multi-agent-systems.md` — canonical: https://arxiv.org/abs/2510.26585v2
+* **Archive**: Moved source PDF to [/archive/supervisoragent-efficient-runtime-multi-agent-systems.pdf](/archive/supervisoragent-efficient-runtime-multi-agent-systems.pdf)
+* **Vault**: Created [adaptive-runtime-agent-supervision](/vault/adaptive-runtime-agent-supervision.md)

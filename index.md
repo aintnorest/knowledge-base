@@ -51,6 +51,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](/dossiers/prompt-report.md) — PRISMA-grounded taxonomy of prompting methods, output extraction, evaluation, safety, and engineering practice
 * [ReAct: Synergizing Reasoning and Acting in Language Models](/dossiers/react-synergizing-reasoning-and-acting.md) — Primary ReAct paper on interleaving thoughts, tool actions, and observations for grounded reasoning and decision making
 * [Smarter AI Through Prompt Engineering](/dossiers/smarter-ai-through-prompt-engineering.md) — Review of prompt engineering case studies, optimization frameworks, and data science deployment tradeoffs
+* [Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems](/dossiers/supervisoragent-efficient-runtime-multi-agent-systems.md) — Runtime meta-agent supervision that gates error correction, inefficiency guidance, and observation purification to reduce MAS token use
 * [A Systematic Survey of Prompt Engineering in Large Language Models](/dossiers/systematic-survey-prompt-engineering-llms.md) — Application-centric taxonomy of prompt engineering techniques for LLMs
 * [A Survey of Prompt Engineering Methods in Large Language Models for Different NLP Tasks](/dossiers/survey-prompt-engineering-methods-nlp-tasks.md) — Task-centered map of 39 prompting methods, 29 NLP tasks, datasets, model families, and conditional reported leaders
 * [TextGrad: Automatic “Differentiation” via Text](/dossiers/textgrad-automatic-differentiation-via-text.md) — Computation-graph framework for propagating LLM textual critiques to optimize compound AI-system components
@@ -69,6 +70,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Application-Centric Prompt Taxonomy](/vault/application-centric-prompt-taxonomy.md)
 * [Action-Observation Fusion](/vault/action-observation-fusion.md)
 * [Agent-Ergonomic Interface Design](/vault/agent-ergonomic-interface-design.md)
+* [Adaptive Runtime Agent Supervision](/vault/adaptive-runtime-agent-supervision.md)
 * [Automatic Prompt Optimization Anatomy](/vault/automatic-prompt-optimization-anatomy.md)
 * [Classifier-Based Prompt Optimization](/vault/classifier-based-prompt-optimization.md)
 * [Bounded Tool Observations](/vault/bounded-tool-observations.md)
