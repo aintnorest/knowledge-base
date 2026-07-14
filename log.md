@@ -395,3 +395,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2603.30016` — `Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks dossier` at `/dossiers/architecting-secure-ai-agents.md` — canonical: https://arxiv.org/abs/2603.30016v1
 * **Archive**: Moved source PDF to [/archive/architecting-secure-ai-agents.pdf](/archive/architecting-secure-ai-agents.pdf)
 * **Vault**: Created [security-aware-replanning](/vault/security-aware-replanning.md), [bounded-model-security-adjudication](/vault/bounded-model-security-adjudication.md)
+
+## 2026-07-14 (AUTHGRAPH)
+* **Ingest**: `arxiv:2605.26497` — `Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents dossier` at `/dossiers/authgraph-dual-graph-defense.md` — canonical: https://arxiv.org/abs/2605.26497v1
+* **Archive**: Moved source PDF to [/archive/authgraph-dual-graph-defense.pdf](/archive/authgraph-dual-graph-defense.pdf)
+* **Vault**: Created [authorization-provenance-graph-alignment](/vault/authorization-provenance-graph-alignment.md)

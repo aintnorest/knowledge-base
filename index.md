@@ -77,6 +77,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Quantifying Frontier LLM Capabilities for Container Sandbox Escape](/dossiers/sandbox-escape-benchmark.md) — Nested-sandbox CTF evaluation of agentic container escape across known orchestration, runtime, and kernel weakness classes
 * [Agent-Sentry: Bounding LLM Agents via Execution Provenance](/dossiers/agent-sentry-execution-provenance.md) — Runtime defense that learns provenance-aware bounds on tool actions, using deterministic checks for routine calls and a bounded LLM judge for residual ambiguity
 * [Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks](/dossiers/architecting-secure-ai-agents.md) — Position paper advocating security-aware dynamic replanning, bounded learned judgments over structured artifacts, and human resolution of irreducibly ambiguous security decisions
+* [Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents](/dossiers/authgraph-dual-graph-defense.md) — AUTHGRAPH aligns a clean authorization graph with execution provenance to block unauthorized tools and wrong-source parameters
 
 ## Vault
 
@@ -188,3 +189,4 @@ timestamp: 2026-07-11T16:00:00Z
 * [Provenance-Conditioned Action Admission](/vault/provenance-conditioned-action-admission.md)
 * [Security-Aware Replanning](/vault/security-aware-replanning.md)
 * [Bounded Model Security Adjudication](/vault/bounded-model-security-adjudication.md)
+* [Authorization–Provenance Graph Alignment](/vault/authorization-provenance-graph-alignment.md)
