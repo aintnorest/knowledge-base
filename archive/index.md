@@ -60,3 +60,4 @@ This directory contains immutable raw materials. Files are written once at inges
 | `tearag-token-efficient-agentic-rag.pdf` | arXiv:2511.05385v1 | 2026-07-14 | [TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework](/dossiers/tearag-token-efficient-agentic-rag.md) |
 | `supervisoragent-efficient-runtime-multi-agent-systems.pdf` | arXiv:2510.26585v2 | 2026-07-14 | [Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems](/dossiers/supervisoragent-efficient-runtime-multi-agent-systems.md) |
 | `codebase-memory-tree-sitter-knowledge-graphs.pdf` | arXiv:2603.27277v1 / doi:10.48550/arXiv.2603.27277 | 2026-07-14 | [Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP](/dossiers/codebase-memory-tree-sitter-knowledge-graphs.md) |
+| `agents-last-exam.pdf` | arXiv:2606.05405v2 | 2026-07-14 | [Agents’ Last Exam](/dossiers/agents-last-exam.md) |

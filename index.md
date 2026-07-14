@@ -10,6 +10,7 @@ timestamp: 2026-07-11T16:00:00Z
 
 ## Dossiers
 
+* [Agents’ Last Exam](/dossiers/agents-last-exam.md) — Benchmark of long-horizon, deliverable-verified professional workflows for generalist computer-use agents across 55 industry subdomains
 * [Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP](/dossiers/codebase-memory-tree-sitter-knowledge-graphs.md) — Persistent Tree-Sitter/SQLite code graph for MCP-based structural exploration, incremental refresh, hybrid source fallback, and tool-server supply-chain controls
 * [Automatic Prompt Optimization for Dataset-Level Feature Discovery](/dossiers/automatic-prompt-optimization-dataset-level-feature-discovery.md) — Multi-agent prompt optimization for a shared, interpretable text-feature schema using downstream performance and label-proxy resistance
 * [AutoPDL: Automatic Prompt Optimization for LLM Agents](/dossiers/autopdl-automatic-prompt-optimization-llm-agents.md) — Joint AutoML search over executable Zero-Shot, CoT, ReWOO, and ReAct programs, instructions, and few-shot demonstrations
@@ -70,6 +71,7 @@ timestamp: 2026-07-11T16:00:00Z
 
 ## Vault
 
+* [Artifact-Gated Agent Evaluation](/vault/artifact-gated-agent-evaluation.md)
 * [Structural Code Retrieval](/vault/structural-code-retrieval.md)
 * [Query-Class Retrieval Routing](/vault/query-class-retrieval-routing.md)
 * [MCP Tool Supply-Chain Assurance](/vault/mcp-tool-supply-chain-assurance.md)

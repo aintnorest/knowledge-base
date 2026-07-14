@@ -345,3 +345,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2603.27277` — `Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP dossier` at `/dossiers/codebase-memory-tree-sitter-knowledge-graphs.md` — canonical: https://arxiv.org/abs/2603.27277v1
 * **Archive**: Moved source PDF to [/archive/codebase-memory-tree-sitter-knowledge-graphs.pdf](/archive/codebase-memory-tree-sitter-knowledge-graphs.pdf)
 * **Vault**: Created [structural-code-retrieval](/vault/structural-code-retrieval.md), [query-class-retrieval-routing](/vault/query-class-retrieval-routing.md), [mcp-tool-supply-chain-assurance](/vault/mcp-tool-supply-chain-assurance.md)
+
+## 2026-07-14 (Agents’ Last Exam)
+* **Ingest**: `arxiv:2606.05405` — `Agents’ Last Exam dossier` at `/dossiers/agents-last-exam.md` — canonical: https://arxiv.org/abs/2606.05405v2
+* **Archive**: Moved source PDF to [/archive/agents-last-exam.pdf](/archive/agents-last-exam.pdf)
+* **Vault**: Created [artifact-gated-agent-evaluation](/vault/artifact-gated-agent-evaluation.md)
