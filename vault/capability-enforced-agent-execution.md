@@ -42,3 +42,4 @@ This is a reference-monitor design: its security promise depends on complete med
 ## Sources
 
 - [Defeating Prompt Injections by Design dossier](/dossiers/defeating-prompt-injections-by-design.md) — CaMeL propagates provenance and allowed-reader capabilities through a restricted interpreter, enforcing per-tool policies in AgentDojo.
+- [Parallax: Why AI Agents That Think Must Never Act dossier](/dossiers/parallax-architecturally-safe-autonomous-execution.md) — proposes executor-side sensitivity tags that propagate through agent operations and are checked before writes or network egress; the implementation and results are author-reported.

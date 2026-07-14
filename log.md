@@ -385,3 +385,9 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2603.02277` — `Quantifying Frontier LLM Capabilities for Container Sandbox Escape dossier` at `/dossiers/sandbox-escape-benchmark.md` — canonical: https://arxiv.org/abs/2603.02277v2
 * **Archive**: Moved source PDF to [/archive/sandbox-escape-benchmark.pdf](/archive/sandbox-escape-benchmark.pdf)
 * **Vault**: Created [nested-sandbox-capability-evaluation](/vault/nested-sandbox-capability-evaluation.md), [intended-path-benchmark-validation](/vault/intended-path-benchmark-validation.md)
+
+## 2026-07-14 (Parallax)
+* **Ingest**: `doi:10.48550/arxiv.2604.12986` — `Parallax: Why AI Agents That Think Must Never Act dossier` at `/dossiers/parallax-architecturally-safe-autonomous-execution.md` — canonical: https://arxiv.org/abs/2604.12986v1
+* **Archive**: Moved source PDF to [/archive/parallax-architecturally-safe-autonomous-execution.pdf](/archive/parallax-architecturally-safe-autonomous-execution.pdf)
+* **Vault**: Created [assume-compromise-boundary-testing](/vault/assume-compromise-boundary-testing.md)
+* **Vault**: Updated [mediated-agent-execution-isolation](/vault/mediated-agent-execution-isolation.md), [capability-enforced-agent-execution](/vault/capability-enforced-agent-execution.md)

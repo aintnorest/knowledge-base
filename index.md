@@ -74,11 +74,13 @@ timestamp: 2026-07-11T16:00:00Z
 * [TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework](/dossiers/tearag-token-efficient-agentic-rag.md) — Agentic hybrid RAG that packs co-occurring chunks and triplets with PPR and trains concise evidence-gathering paths with process-aware DPO
 * [ISOLATE GPT: An Execution Isolation Architecture for LLM-Based Agentic Systems](/dossiers/isolate-gpt-execution-isolation-agentic-systems.md) — Hub-and-spoke execution isolation for third-party LLM apps, with typed mediated collaboration and permission-gated cross-app data flow
 * [Design Patterns for Securing LLM Agents against Prompt Injections](/dossiers/design-patterns-securing-llm-agents-prompt-injections.md) — System-design patterns that constrain how untrusted language can influence an agent's tools, control flow, and privileged context
+* [Parallax: Why AI Agents That Think Must Never Act](/dossiers/parallax-architecturally-safe-autonomous-execution.md) — Proposed process-separated agent architecture with independent action validation, sensitivity tracking, rollback, and compromise-assuming boundary tests
 * [Quantifying Frontier LLM Capabilities for Container Sandbox Escape](/dossiers/sandbox-escape-benchmark.md) — Nested-sandbox CTF evaluation of agentic container escape across known orchestration, runtime, and kernel weakness classes
 
 ## Vault
 
 * [Artifact-Gated Agent Evaluation](/vault/artifact-gated-agent-evaluation.md)
+* [Assume-Compromise Boundary Testing](/vault/assume-compromise-boundary-testing.md)
 * [Structural Code Retrieval](/vault/structural-code-retrieval.md)
 * [Query-Class Retrieval Routing](/vault/query-class-retrieval-routing.md)
 * [MCP Tool Supply-Chain Assurance](/vault/mcp-tool-supply-chain-assurance.md)
