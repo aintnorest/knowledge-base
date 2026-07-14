@@ -360,3 +360,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2606.05405` — `Agents’ Last Exam dossier` at `/dossiers/agents-last-exam.md` — canonical: https://arxiv.org/abs/2606.05405v2
 * **Archive**: Moved source PDF to [/archive/agents-last-exam.pdf](/archive/agents-last-exam.pdf)
 * **Vault**: Created [artifact-gated-agent-evaluation](/vault/artifact-gated-agent-evaluation.md)
+
+## 2026-07-14 (CaMeL)
+* **Ingest**: `doi:10.48550/arxiv.2503.18813` — `Defeating Prompt Injections by Design dossier` at `/dossiers/defeating-prompt-injections-by-design.md` — canonical: https://arxiv.org/abs/2503.18813v2
+* **Archive**: Moved source PDF to [/archive/defeating-prompt-injections-by-design.pdf](/archive/defeating-prompt-injections-by-design.pdf)
+* **Vault**: Created [capability-enforced-agent-execution](/vault/capability-enforced-agent-execution.md), [control-data-plane-separation-for-agents](/vault/control-data-plane-separation-for-agents.md)
