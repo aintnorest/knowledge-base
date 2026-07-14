@@ -401,3 +401,8 @@ maintenance as a non-ingest event.
 * **Archive**: Moved source PDF to [/archive/parallax-architecturally-safe-autonomous-execution.pdf](/archive/parallax-architecturally-safe-autonomous-execution.pdf)
 * **Vault**: Created [assume-compromise-boundary-testing](/vault/assume-compromise-boundary-testing.md)
 * **Vault**: Updated [mediated-agent-execution-isolation](/vault/mediated-agent-execution-isolation.md), [capability-enforced-agent-execution](/vault/capability-enforced-agent-execution.md)
+
+## 2026-07-14 (AUTHGRAPH)
+* **Ingest**: `arxiv:2605.26497` — `Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents dossier` at `/dossiers/authgraph-dual-graph-defense.md` — canonical: https://arxiv.org/abs/2605.26497v1
+* **Archive**: Moved source PDF to [/archive/authgraph-dual-graph-defense.pdf](/archive/authgraph-dual-graph-defense.pdf)
+* **Vault**: Created [authorization-provenance-graph-alignment](/vault/authorization-provenance-graph-alignment.md)
