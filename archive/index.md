@@ -65,3 +65,4 @@ This directory contains immutable raw materials. Files are written once at inges
 | `agents-last-exam.pdf` | arXiv:2606.05405v2 | 2026-07-14 | [Agents’ Last Exam](/dossiers/agents-last-exam.md) |
 | `reducing-token-usage-software-engineering-agents.pdf` | doi:10.34726/hss.2025.136382 | 2026-07-14 | [Reducing Token Usage of Software Engineering Agents](/dossiers/reducing-token-usage-software-engineering-agents.md) |
 | `isolate-gpt-execution-isolation-agentic-systems.pdf` | NDSS 2025 / doi:10.14722/ndss.2025.241131 / arXiv:2403.04960v2 | 2026-07-14 | [ISOLATE GPT: An Execution Isolation Architecture for LLM-Based Agentic Systems](/dossiers/isolate-gpt-execution-isolation-agentic-systems.md) |
+| `sandbox-escape-benchmark.pdf` | arXiv:2603.02277v2 | 2026-07-14 | [Quantifying Frontier LLM Capabilities for Container Sandbox Escape](/dossiers/sandbox-escape-benchmark.md) |

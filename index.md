@@ -72,6 +72,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation](/dossiers/terag-token-efficient-graph-rag.md) — Token-budgeted graph RAG that combines one-pass LLM concept extraction, deterministic graph construction, and frequency-aware personalized PageRank
 * [TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework](/dossiers/tearag-token-efficient-agentic-rag.md) — Agentic hybrid RAG that packs co-occurring chunks and triplets with PPR and trains concise evidence-gathering paths with process-aware DPO
 * [ISOLATE GPT: An Execution Isolation Architecture for LLM-Based Agentic Systems](/dossiers/isolate-gpt-execution-isolation-agentic-systems.md) — Hub-and-spoke execution isolation for third-party LLM apps, with typed mediated collaboration and permission-gated cross-app data flow
+* [Quantifying Frontier LLM Capabilities for Container Sandbox Escape](/dossiers/sandbox-escape-benchmark.md) — Nested-sandbox CTF evaluation of agentic container escape across known orchestration, runtime, and kernel weakness classes
 
 ## Vault
 
@@ -174,3 +175,5 @@ timestamp: 2026-07-11T16:00:00Z
 * [Perspective-Diverse Prompt Evolution](/vault/perspective-diverse-prompt-evolution.md)
 * [Validated Fallback Composition](/vault/validated-fallback-composition.md)
 * [Mediated Agent Execution Isolation](/vault/mediated-agent-execution-isolation.md)
+* [Nested Sandbox Capability Evaluation](/vault/nested-sandbox-capability-evaluation.md)
+* [Intended-Path Benchmark Validation](/vault/intended-path-benchmark-validation.md)

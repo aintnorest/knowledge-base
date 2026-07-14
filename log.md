@@ -370,3 +370,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.14722/ndss.2025.241131` — `ISOLATE GPT: An Execution Isolation Architecture for LLM-Based Agentic Systems dossier` at `/dossiers/isolate-gpt-execution-isolation-agentic-systems.md` — canonical: https://doi.org/10.14722/ndss.2025.241131
 * **Archive**: Moved source PDF to [/archive/isolate-gpt-execution-isolation-agentic-systems.pdf](/archive/isolate-gpt-execution-isolation-agentic-systems.pdf)
 * **Vault**: Created [mediated-agent-execution-isolation](/vault/mediated-agent-execution-isolation.md)
+
+## 2026-07-14 (SANDBOXESCAPEBENCH)
+* **Ingest**: `arxiv:2603.02277` — `Quantifying Frontier LLM Capabilities for Container Sandbox Escape dossier` at `/dossiers/sandbox-escape-benchmark.md` — canonical: https://arxiv.org/abs/2603.02277v2
+* **Archive**: Moved source PDF to [/archive/sandbox-escape-benchmark.pdf](/archive/sandbox-escape-benchmark.pdf)
+* **Vault**: Created [nested-sandbox-capability-evaluation](/vault/nested-sandbox-capability-evaluation.md), [intended-path-benchmark-validation](/vault/intended-path-benchmark-validation.md)
