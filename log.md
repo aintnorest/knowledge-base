@@ -406,3 +406,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2605.26497` — `Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents dossier` at `/dossiers/authgraph-dual-graph-defense.md` — canonical: https://arxiv.org/abs/2605.26497v1
 * **Archive**: Moved source PDF to [/archive/authgraph-dual-graph-defense.pdf](/archive/authgraph-dual-graph-defense.pdf)
 * **Vault**: Created [authorization-provenance-graph-alignment](/vault/authorization-provenance-graph-alignment.md)
+
+## 2026-07-14 (Sandlock)
+* **Ingest**: `doi:10.48550/arxiv.2605.26298` — `Sandlock: Confining AI Agent Code with Unprivileged Linux Primitives dossier` at `/dossiers/sandlock-unprivileged-linux-agent-sandbox.md` — canonical: https://arxiv.org/abs/2605.26298v1
+* **Archive**: Moved source PDF to [/archive/sandlock-unprivileged-linux-agent-sandbox.pdf](/archive/sandlock-unprivileged-linux-agent-sandbox.pdf)
+* **Vault**: Created [kernel-first-split-enforcement](/vault/kernel-first-split-enforcement.md)

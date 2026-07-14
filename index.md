@@ -79,6 +79,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Agent-Sentry: Bounding LLM Agents via Execution Provenance](/dossiers/agent-sentry-execution-provenance.md) — Runtime defense that learns provenance-aware bounds on tool actions, using deterministic checks for routine calls and a bounded LLM judge for residual ambiguity
 * [Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks](/dossiers/architecting-secure-ai-agents.md) — Position paper advocating security-aware dynamic replanning, bounded learned judgments over structured artifacts, and human resolution of irreducibly ambiguous security decisions
 * [Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents](/dossiers/authgraph-dual-graph-defense.md) — AUTHGRAPH aligns a clean authorization graph with execution provenance to block unauthorized tools and wrong-source parameters
+* [Sandlock: Confining AI Agent Code with Unprivileged Linux Primitives](/dossiers/sandlock-unprivileged-linux-agent-sandbox.md) — Unprivileged Linux agent sandbox that compiles static policy into Landlock/seccomp and uses a narrow, TOCTOU-conscious supervisor for dynamic decisions and reversible effects
 
 ## Vault
 
@@ -182,6 +183,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Perspective-Diverse Prompt Evolution](/vault/perspective-diverse-prompt-evolution.md)
 * [Validated Fallback Composition](/vault/validated-fallback-composition.md)
 * [Mediated Agent Execution Isolation](/vault/mediated-agent-execution-isolation.md)
+* [Kernel-First Split Enforcement](/vault/kernel-first-split-enforcement.md)
 * [Capability-Enforced Agent Execution](/vault/capability-enforced-agent-execution.md)
 * [Control-Data Plane Separation for Agents](/vault/control-data-plane-separation-for-agents.md)
 * [Privileged–Quarantined Agent Split](/vault/privileged-quarantined-agent-split.md)
