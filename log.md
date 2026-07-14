@@ -380,3 +380,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2506.08837` — `Design Patterns for Securing LLM Agents against Prompt Injections dossier` at `/dossiers/design-patterns-securing-llm-agents-prompt-injections.md` — canonical: https://arxiv.org/abs/2506.08837v3
 * **Archive**: Moved source PDF to [/archive/design-patterns-securing-llm-agents-prompt-injections.pdf](/archive/design-patterns-securing-llm-agents-prompt-injections.pdf)
 * **Vault**: Created [privileged-quarantined-agent-split](/vault/privileged-quarantined-agent-split.md), [intent-then-isolate-execution](/vault/intent-then-isolate-execution.md)
+
+## 2026-07-14 (SANDBOXESCAPEBENCH)
+* **Ingest**: `arxiv:2603.02277` — `Quantifying Frontier LLM Capabilities for Container Sandbox Escape dossier` at `/dossiers/sandbox-escape-benchmark.md` — canonical: https://arxiv.org/abs/2603.02277v2
+* **Archive**: Moved source PDF to [/archive/sandbox-escape-benchmark.pdf](/archive/sandbox-escape-benchmark.pdf)
+* **Vault**: Created [nested-sandbox-capability-evaluation](/vault/nested-sandbox-capability-evaluation.md), [intended-path-benchmark-validation](/vault/intended-path-benchmark-validation.md)
