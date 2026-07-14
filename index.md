@@ -49,6 +49,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Prompt Engineering Survey](/dossiers/prompt-engineering-survey.md) — Comprehensive survey of prompt engineering techniques for LLMs and VLMs
 * [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](/dossiers/prompt-report.md) — PRISMA-grounded taxonomy of prompting methods, output extraction, evaluation, safety, and engineering practice
 * [ReAct: Synergizing Reasoning and Acting in Language Models](/dossiers/react-synergizing-reasoning-and-acting.md) — Primary ReAct paper on interleaving thoughts, tool actions, and observations for grounded reasoning and decision making
+* [Reducing Cost of LLM Agents with Trajectory Reduction](/dossiers/reducing-cost-of-llm-agents-trajectory-reduction.md) — AgentDiet's delayed local reflection module removes obsolete, redundant, and verbose coding-agent trajectory content while measuring total cost and task success
 * [Smarter AI Through Prompt Engineering](/dossiers/smarter-ai-through-prompt-engineering.md) — Review of prompt engineering case studies, optimization frameworks, and data science deployment tradeoffs
 * [A Systematic Survey of Prompt Engineering in Large Language Models](/dossiers/systematic-survey-prompt-engineering-llms.md) — Application-centric taxonomy of prompt engineering techniques for LLMs
 * [A Survey of Prompt Engineering Methods in Large Language Models for Different NLP Tasks](/dossiers/survey-prompt-engineering-methods-nlp-tasks.md) — Task-centered map of 39 prompting methods, 29 NLP tasks, datasets, model families, and conditional reported leaders
@@ -107,6 +108,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Dense Technical Proposal Prompt](/vault/dense-technical-proposal-prompt.md)
 * [Dataset-Level Feature Discovery](/vault/dataset-level-feature-discovery.md)
 * [Declarative LM Pipeline Compilation](/vault/declarative-lm-pipeline-compilation.md)
+* [Delayed Local Trajectory Reduction](/vault/delayed-local-trajectory-reduction.md)
 * [Textual Feedback Backpropagation](/vault/textual-feedback-backpropagation.md)
 * [Dominator-Based Agent Validation](/vault/dominator-based-agent-validation.md)
 * [Experimental Log Extraction Prompt](/vault/experimental-log-extraction-prompt.md)

@@ -15,6 +15,11 @@ canonical URL without the scheme), or `sha256:…` when no stronger identifier
 exists. Do not add a second ingest entry for a registered key; append subsequent
 maintenance as a non-ingest event.
 
+## 2026-07-14 (AgentDiet)
+* **Ingest**: `doi:10.1145/3797084` — `Reducing Cost of LLM Agents with Trajectory Reduction dossier` at `/dossiers/reducing-cost-of-llm-agents-trajectory-reduction.md` — canonical: https://doi.org/10.1145/3797084
+* **Archive**: Moved source PDF to [/archive/reducing-cost-of-llm-agents-trajectory-reduction.pdf](/archive/reducing-cost-of-llm-agents-trajectory-reduction.pdf)
+* **Vault**: Created [delayed-local-trajectory-reduction](/vault/delayed-local-trajectory-reduction.md)
+
 ## 2026-07-13 (LLPO)
 * **Ingest**: `doi:10.18653/v1/2026.eacl-long.204` — `Don't Generate, Classify! Low-Latency Prompt Optimization with Structured Complementary Prompt dossier` at `/dossiers/low-latency-prompt-optimization-structured-complementary-prompt.md` — canonical: https://aclanthology.org/2026.eacl-long.204/
 * **Archive**: Moved source PDF to [/archive/low-latency-prompt-optimization-structured-complementary-prompt.pdf](/archive/low-latency-prompt-optimization-structured-complementary-prompt.pdf)
