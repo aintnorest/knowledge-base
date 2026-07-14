@@ -15,6 +15,11 @@ canonical URL without the scheme), or `sha256:…` when no stronger identifier
 exists. Do not add a second ingest entry for a registered key; append subsequent
 maintenance as a non-ingest event.
 
+## 2026-07-14 (Landlock/Seccomp Science Gateways)
+* **Ingest**: `doi:10.48550/arxiv.2509.18548` — `Locking Down Science Gateways with Landlock and Seccomp dossier` at `/dossiers/locking-down-science-gateways-landlock-seccomp.md` — canonical: https://arxiv.org/abs/2509.18548v2
+* **Archive**: Moved source PDF to [/archive/locking-down-science-gateways-landlock-seccomp.pdf](/archive/locking-down-science-gateways-landlock-seccomp.pdf)
+* **Vault**: Created [runtime-activated-application-sandboxing](/vault/runtime-activated-application-sandboxing.md)
+
 ## 2026-07-14 (TERAG)
 * **Ingest**: `arxiv:2509.18667` — `TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation dossier` at `/dossiers/terag-token-efficient-graph-rag.md` — canonical: https://arxiv.org/abs/2509.18667v3
 * **Archive**: Moved source PDF to [/archive/terag-token-efficient-graph-rag.pdf](/archive/terag-token-efficient-graph-rag.pdf)

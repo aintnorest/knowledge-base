@@ -12,6 +12,7 @@ This directory contains immutable raw materials. Files are written once at inges
 
 | File | Source | Ingested | Dossier |
 |------|--------|----------|---------|
+| `locking-down-science-gateways-landlock-seccomp.pdf` | arXiv:2509.18548v2 / doi:10.48550/arXiv.2509.18548 | 2026-07-14 | [Locking Down Science Gateways with Landlock and Seccomp](/dossiers/locking-down-science-gateways-landlock-seccomp.md) |
 | `automatic-prompt-optimization-heuristic-search-survey.pdf` | arXiv:2502.18746v2 / doi:10.48550/arXiv.2502.18746 | 2026-07-13 | [A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm](/dossiers/automatic-prompt-optimization-heuristic-search-survey.md) |
 | `multi-agent-design-prompts-topologies.pdf` | arXiv:2502.02533v2 | 2026-07-13 | [Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](/dossiers/multi-agent-design-prompts-topologies.md) |
 | `automatic-prompt-engineer.pdf` | arXiv:2211.01910v2 | 2026-07-13 | [Large Language Models Are Human-Level Prompt Engineers](/dossiers/automatic-prompt-engineer.md) |

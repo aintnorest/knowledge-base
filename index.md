@@ -10,6 +10,7 @@ timestamp: 2026-07-11T16:00:00Z
 
 ## Dossiers
 
+* [Locking Down Science Gateways with Landlock and Seccomp](/dossiers/locking-down-science-gateways-landlock-seccomp.md) — Runtime Landlock/Seccomp confinement for MPI science codes and a public gateway shim, with explicit limits around UDP, resources, kernel bugs, and policy design
 * [Agents’ Last Exam](/dossiers/agents-last-exam.md) — Benchmark of long-horizon, deliverable-verified professional workflows for generalist computer-use agents across 55 industry subdomains
 * [Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP](/dossiers/codebase-memory-tree-sitter-knowledge-graphs.md) — Persistent Tree-Sitter/SQLite code graph for MCP-based structural exploration, incremental refresh, hybrid source fallback, and tool-server supply-chain controls
 * [Automatic Prompt Optimization for Dataset-Level Feature Discovery](/dossiers/automatic-prompt-optimization-dataset-level-feature-discovery.md) — Multi-agent prompt optimization for a shared, interpretable text-feature schema using downstream performance and label-proxy resistance
@@ -81,6 +82,7 @@ timestamp: 2026-07-11T16:00:00Z
 
 ## Vault
 
+* [Runtime-Activated Application Sandboxing](/vault/runtime-activated-application-sandboxing.md)
 * [Artifact-Gated Agent Evaluation](/vault/artifact-gated-agent-evaluation.md)
 * [Assume-Compromise Boundary Testing](/vault/assume-compromise-boundary-testing.md)
 * [Structural Code Retrieval](/vault/structural-code-retrieval.md)
