@@ -41,3 +41,4 @@ Measure latency by planning, routing, and memory transfer; prompt rate and user 
 ## Sources
 
 - [ISOLATE GPT dossier](/dossiers/isolate-gpt-execution-isolation-agentic-systems.md) — proposes process-isolated app spokes, deterministic operators, a hub-mediated inter-spoke protocol with typed messages and ephemeral identifiers, and permission-gated cross-spoke data flow; its protection and performance results are prototype-specific.
+- [Parallax: Why AI Agents That Think Must Never Act dossier](/dossiers/parallax-architecturally-safe-autonomous-execution.md) — applies process separation inside one agent: an untrusted reasoner can propose actions but an engine mediates and executes them; its architecture and reported evaluation remain author-reported prototype evidence.

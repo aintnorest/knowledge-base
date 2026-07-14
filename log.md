@@ -395,3 +395,9 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2603.30016` — `Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks dossier` at `/dossiers/architecting-secure-ai-agents.md` — canonical: https://arxiv.org/abs/2603.30016v1
 * **Archive**: Moved source PDF to [/archive/architecting-secure-ai-agents.pdf](/archive/architecting-secure-ai-agents.pdf)
 * **Vault**: Created [security-aware-replanning](/vault/security-aware-replanning.md), [bounded-model-security-adjudication](/vault/bounded-model-security-adjudication.md)
+
+## 2026-07-14 (Parallax)
+* **Ingest**: `doi:10.48550/arxiv.2604.12986` — `Parallax: Why AI Agents That Think Must Never Act dossier` at `/dossiers/parallax-architecturally-safe-autonomous-execution.md` — canonical: https://arxiv.org/abs/2604.12986v1
+* **Archive**: Moved source PDF to [/archive/parallax-architecturally-safe-autonomous-execution.pdf](/archive/parallax-architecturally-safe-autonomous-execution.pdf)
+* **Vault**: Created [assume-compromise-boundary-testing](/vault/assume-compromise-boundary-testing.md)
+* **Vault**: Updated [mediated-agent-execution-isolation](/vault/mediated-agent-execution-isolation.md), [capability-enforced-agent-execution](/vault/capability-enforced-agent-execution.md)
