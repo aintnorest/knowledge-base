@@ -416,3 +416,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2605.26298` — `Sandlock: Confining AI Agent Code with Unprivileged Linux Primitives dossier` at `/dossiers/sandlock-unprivileged-linux-agent-sandbox.md` — canonical: https://arxiv.org/abs/2605.26298v1
 * **Archive**: Moved source PDF to [/archive/sandlock-unprivileged-linux-agent-sandbox.pdf](/archive/sandlock-unprivileged-linux-agent-sandbox.pdf)
 * **Vault**: Created [kernel-first-split-enforcement](/vault/kernel-first-split-enforcement.md)
+
+## 2026-07-14 (AI Sandboxes)
+* **Ingest**: `doi:10.48550/arxiv.2606.18532` — `AI Sandboxes: A Threat Model, Taxonomy, and Measurement Framework dossier` at `/dossiers/ai-sandboxes-threat-model-measurement-framework.md` — canonical: https://arxiv.org/abs/2606.18532v1
+* **Archive**: Moved source PDF to [/archive/ai-sandboxes-threat-model-measurement-framework.pdf](/archive/ai-sandboxes-threat-model-measurement-framework.pdf)
+* **Vault**: Created [claim-bounded-sandbox-evidence](/vault/claim-bounded-sandbox-evidence.md), [weakest-link-assurance-composition](/vault/weakest-link-assurance-composition.md)
