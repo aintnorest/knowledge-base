@@ -375,3 +375,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2503.18813` — `Defeating Prompt Injections by Design dossier` at `/dossiers/defeating-prompt-injections-by-design.md` — canonical: https://arxiv.org/abs/2503.18813v2
 * **Archive**: Moved source PDF to [/archive/defeating-prompt-injections-by-design.pdf](/archive/defeating-prompt-injections-by-design.pdf)
 * **Vault**: Created [capability-enforced-agent-execution](/vault/capability-enforced-agent-execution.md), [control-data-plane-separation-for-agents](/vault/control-data-plane-separation-for-agents.md)
+
+## 2026-07-14 (Securing LLM Agents against Prompt Injections)
+* **Ingest**: `doi:10.48550/arxiv.2506.08837` — `Design Patterns for Securing LLM Agents against Prompt Injections dossier` at `/dossiers/design-patterns-securing-llm-agents-prompt-injections.md` — canonical: https://arxiv.org/abs/2506.08837v3
+* **Archive**: Moved source PDF to [/archive/design-patterns-securing-llm-agents-prompt-injections.pdf](/archive/design-patterns-securing-llm-agents-prompt-injections.pdf)
+* **Vault**: Created [privileged-quarantined-agent-split](/vault/privileged-quarantined-agent-split.md), [intent-then-isolate-execution](/vault/intent-then-isolate-execution.md)
