@@ -58,3 +58,4 @@ This directory contains immutable raw materials. Files are written once at inges
 | `terag-token-efficient-graph-rag.pdf` | arXiv:2509.18667v3 | 2026-07-14 | [TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation](/dossiers/terag-token-efficient-graph-rag.md) |
 | `reducing-cost-of-llm-agents-trajectory-reduction.pdf` | doi:10.1145/3797084 / arXiv:2509.23586v2 | 2026-07-14 | [Reducing Cost of LLM Agents with Trajectory Reduction](/dossiers/reducing-cost-of-llm-agents-trajectory-reduction.md) |
 | `tearag-token-efficient-agentic-rag.pdf` | arXiv:2511.05385v1 | 2026-07-14 | [TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework](/dossiers/tearag-token-efficient-agentic-rag.md) |
+| `supervisoragent-efficient-runtime-multi-agent-systems.pdf` | arXiv:2510.26585v2 | 2026-07-14 | [Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems](/dossiers/supervisoragent-efficient-runtime-multi-agent-systems.md) |
