@@ -15,6 +15,11 @@ canonical URL without the scheme), or `sha256:…` when no stronger identifier
 exists. Do not add a second ingest entry for a registered key; append subsequent
 maintenance as a non-ingest event.
 
+## 2026-07-14 (TERAG)
+* **Ingest**: `arxiv:2509.18667` — `TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation dossier` at `/dossiers/terag-token-efficient-graph-rag.md` — canonical: https://arxiv.org/abs/2509.18667v3
+* **Archive**: Moved source PDF to [/archive/terag-token-efficient-graph-rag.pdf](/archive/terag-token-efficient-graph-rag.pdf)
+* **Vault**: Created [single-pass-concept-graph-construction](/vault/single-pass-concept-graph-construction.md), [frequency-weighted-personalized-pagerank](/vault/frequency-weighted-personalized-pagerank.md)
+
 ## 2026-07-13 (LLPO)
 * **Ingest**: `doi:10.18653/v1/2026.eacl-long.204` — `Don't Generate, Classify! Low-Latency Prompt Optimization with Structured Complementary Prompt dossier` at `/dossiers/low-latency-prompt-optimization-structured-complementary-prompt.md` — canonical: https://aclanthology.org/2026.eacl-long.204/
 * **Archive**: Moved source PDF to [/archive/low-latency-prompt-optimization-structured-complementary-prompt.pdf](/archive/low-latency-prompt-optimization-structured-complementary-prompt.pdf)
