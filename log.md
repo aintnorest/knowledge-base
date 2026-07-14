@@ -345,3 +345,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2603.27277` — `Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP dossier` at `/dossiers/codebase-memory-tree-sitter-knowledge-graphs.md` — canonical: https://arxiv.org/abs/2603.27277v1
 * **Archive**: Moved source PDF to [/archive/codebase-memory-tree-sitter-knowledge-graphs.pdf](/archive/codebase-memory-tree-sitter-knowledge-graphs.pdf)
 * **Vault**: Created [structural-code-retrieval](/vault/structural-code-retrieval.md), [query-class-retrieval-routing](/vault/query-class-retrieval-routing.md), [mcp-tool-supply-chain-assurance](/vault/mcp-tool-supply-chain-assurance.md)
+
+## 2026-07-14 (Is Grep All You Need?)
+* **Ingest**: `arxiv:2605.15184` — `Is Grep All You Need? How Agent Harnesses Reshape Agentic Search dossier` at `/dossiers/grep-agent-harnesses-agentic-search.md` — canonical: https://arxiv.org/abs/2605.15184v1
+* **Archive**: Moved source PDF to [/archive/grep-agent-harnesses-agentic-search.pdf](/archive/grep-agent-harnesses-agentic-search.pdf)
+* **Vault**: Created [harness-conditioned-retrieval-evaluation](/vault/harness-conditioned-retrieval-evaluation.md)
