@@ -365,3 +365,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.34726/hss.2025.136382` — `Reducing Token Usage of Software Engineering Agents dossier` at `/dossiers/reducing-token-usage-software-engineering-agents.md` — canonical: https://doi.org/10.34726/hss.2025.136382
 * **Archive**: Moved source PDF to [/archive/reducing-token-usage-software-engineering-agents.pdf](/archive/reducing-token-usage-software-engineering-agents.pdf)
 * **Vault**: Created [code-context-minification](/vault/code-context-minification.md), [transformation-aware-patch-application](/vault/transformation-aware-patch-application.md)
+
+## 2026-07-14 (ISOLATE GPT)
+* **Ingest**: `doi:10.14722/ndss.2025.241131` — `ISOLATE GPT: An Execution Isolation Architecture for LLM-Based Agentic Systems dossier` at `/dossiers/isolate-gpt-execution-isolation-agentic-systems.md` — canonical: https://doi.org/10.14722/ndss.2025.241131
+* **Archive**: Moved source PDF to [/archive/isolate-gpt-execution-isolation-agentic-systems.pdf](/archive/isolate-gpt-execution-isolation-agentic-systems.pdf)
+* **Vault**: Created [mediated-agent-execution-isolation](/vault/mediated-agent-execution-isolation.md)
