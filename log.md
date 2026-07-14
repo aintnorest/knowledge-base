@@ -340,3 +340,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2510.26585` — `Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems dossier` at `/dossiers/supervisoragent-efficient-runtime-multi-agent-systems.md` — canonical: https://arxiv.org/abs/2510.26585v2
 * **Archive**: Moved source PDF to [/archive/supervisoragent-efficient-runtime-multi-agent-systems.pdf](/archive/supervisoragent-efficient-runtime-multi-agent-systems.pdf)
 * **Vault**: Created [adaptive-runtime-agent-supervision](/vault/adaptive-runtime-agent-supervision.md)
+
+## 2026-07-14 (State-in-Context Minification)
+* **Ingest**: `arxiv:2606.01326` — `Reducing Token Usage of State-in-Context Agents using Minification dossier` at `/dossiers/minified-state-in-context-agents.md` — canonical: https://arxiv.org/abs/2606.01326v1
+* **Archive**: Moved source PDF to [/archive/minified-state-in-context-agents.pdf](/archive/minified-state-in-context-agents.pdf)
+* **Vault**: Created [code-context-minification](/vault/code-context-minification.md)
