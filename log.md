@@ -390,3 +390,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2603.22868` — `Agent-Sentry: Bounding LLM Agents via Execution Provenance dossier` at `/dossiers/agent-sentry-execution-provenance.md` — canonical: https://arxiv.org/abs/2603.22868v2
 * **Archive**: Moved source PDF to [/archive/agent-sentry-execution-provenance.pdf](/archive/agent-sentry-execution-provenance.pdf)
 * **Vault**: Created [provenance-conditioned-action-admission](/vault/provenance-conditioned-action-admission.md)
+
+## 2026-07-14 (Sandlock)
+* **Ingest**: `doi:10.48550/arxiv.2605.26298` — `Sandlock: Confining AI Agent Code with Unprivileged Linux Primitives dossier` at `/dossiers/sandlock-unprivileged-linux-agent-sandbox.md` — canonical: https://arxiv.org/abs/2605.26298v1
+* **Archive**: Moved source PDF to [/archive/sandlock-unprivileged-linux-agent-sandbox.pdf](/archive/sandlock-unprivileged-linux-agent-sandbox.pdf)
+* **Vault**: Created [kernel-first-split-enforcement](/vault/kernel-first-split-enforcement.md)

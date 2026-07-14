@@ -76,6 +76,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Design Patterns for Securing LLM Agents against Prompt Injections](/dossiers/design-patterns-securing-llm-agents-prompt-injections.md) — System-design patterns that constrain how untrusted language can influence an agent's tools, control flow, and privileged context
 * [Quantifying Frontier LLM Capabilities for Container Sandbox Escape](/dossiers/sandbox-escape-benchmark.md) — Nested-sandbox CTF evaluation of agentic container escape across known orchestration, runtime, and kernel weakness classes
 * [Agent-Sentry: Bounding LLM Agents via Execution Provenance](/dossiers/agent-sentry-execution-provenance.md) — Runtime defense that learns provenance-aware bounds on tool actions, using deterministic checks for routine calls and a bounded LLM judge for residual ambiguity
+* [Sandlock: Confining AI Agent Code with Unprivileged Linux Primitives](/dossiers/sandlock-unprivileged-linux-agent-sandbox.md) — Unprivileged Linux agent sandbox that compiles static policy into Landlock/seccomp and uses a narrow, TOCTOU-conscious supervisor for dynamic decisions and reversible effects
 
 ## Vault
 
@@ -178,6 +179,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Perspective-Diverse Prompt Evolution](/vault/perspective-diverse-prompt-evolution.md)
 * [Validated Fallback Composition](/vault/validated-fallback-composition.md)
 * [Mediated Agent Execution Isolation](/vault/mediated-agent-execution-isolation.md)
+* [Kernel-First Split Enforcement](/vault/kernel-first-split-enforcement.md)
 * [Capability-Enforced Agent Execution](/vault/capability-enforced-agent-execution.md)
 * [Control-Data Plane Separation for Agents](/vault/control-data-plane-separation-for-agents.md)
 * [Privileged–Quarantined Agent Split](/vault/privileged-quarantined-agent-split.md)
