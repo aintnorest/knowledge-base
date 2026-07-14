@@ -31,6 +31,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents](/dossiers/auditable-enterprise-llm-harness.md) — Contract-based enterprise LLM harness with source-backed claim admission, audit traces, output validation, and deterministic fallback composition
 * [Structured Context Engineering for File-Native Agentic Systems](/dossiers/structured-context-engineering-file-native-agents.md) — Empirical comparison of file-native schema retrieval, prompt injection, formats, model tiers, and partitioned navigation for agentic text-to-SQL
 * [How AI Agent Memory Works](/dossiers/how-ai-agent-memory-works.md) — Interactive primer on agent memory as context construction, governed storage, hybrid retrieval, and production infrastructure
+* [Is Grep All You Need? How Agent Harnesses Reshape Agentic Search](/dossiers/grep-agent-harnesses-agentic-search.md) — LongMemEval study of lexical and vector search across agent harnesses, result-delivery paths, and distractor history
 * [Language Models are Few-Shot Learners](/dossiers/language-models-are-few-shot-learners.md) — Foundational GPT-3 paper on in-context learning, scaling, and benchmark contamination
 * [Don't Generate, Classify! Low-Latency Prompt Optimization with Structured Complementary Prompt](/dossiers/low-latency-prompt-optimization-structured-complementary-prompt.md) — EACL 2026 classifier-based system-prompt optimization with an eight-field schema, fixed renderer, and latency-quality trade-off
 * [MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction](/dossiers/maste-zero-shot-aspect-sentiment-triplet-extraction.md) — Training-free, staged LLM extraction of verbatim aspect–opinion–sentiment triplets with triplet-set consistency checks
@@ -104,6 +105,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Metric-Gated Trace Bootstrapping](/vault/metric-gated-trace-bootstrapping.md)
 * [Hybrid Discovery + Verification](/vault/hybrid-discovery-verification.md)
 * [Hybrid Memory Retrieval Pipeline](/vault/hybrid-memory-retrieval-pipeline.md)
+* [Harness-Conditioned Retrieval Evaluation](/vault/harness-conditioned-retrieval-evaluation.md)
 * [Score-Gated Refinement](/vault/score-gated-refinement.md)
 * [Scoped Guideline Memory](/vault/scoped-guideline-memory.md)
 * [Closed-Loop VLM Visual Generation](/vault/closed-loop-vlm-visual-generation.md)

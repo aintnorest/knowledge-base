@@ -335,3 +335,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2511.05385` — `TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework dossier` at `/dossiers/tearag-token-efficient-agentic-rag.md` — canonical: https://arxiv.org/abs/2511.05385v1
 * **Archive**: Moved source PDF to [/archive/tearag-token-efficient-agentic-rag.pdf](/archive/tearag-token-efficient-agentic-rag.pdf)
 * **Vault**: Created [cooccurrence-grounded-retrieval-compression](/vault/cooccurrence-grounded-retrieval-compression.md), [process-aware-trajectory-preference-optimization](/vault/process-aware-trajectory-preference-optimization.md)
+
+## 2026-07-14 (Is Grep All You Need?)
+* **Ingest**: `arxiv:2605.15184` — `Is Grep All You Need? How Agent Harnesses Reshape Agentic Search dossier` at `/dossiers/grep-agent-harnesses-agentic-search.md` — canonical: https://arxiv.org/abs/2605.15184v1
+* **Archive**: Moved source PDF to [/archive/grep-agent-harnesses-agentic-search.pdf](/archive/grep-agent-harnesses-agentic-search.pdf)
+* **Vault**: Created [harness-conditioned-retrieval-evaluation](/vault/harness-conditioned-retrieval-evaluation.md)
