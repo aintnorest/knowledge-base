@@ -375,3 +375,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2503.18813` — `Defeating Prompt Injections by Design dossier` at `/dossiers/defeating-prompt-injections-by-design.md` — canonical: https://arxiv.org/abs/2503.18813v2
 * **Archive**: Moved source PDF to [/archive/defeating-prompt-injections-by-design.pdf](/archive/defeating-prompt-injections-by-design.pdf)
 * **Vault**: Created [capability-enforced-agent-execution](/vault/capability-enforced-agent-execution.md), [control-data-plane-separation-for-agents](/vault/control-data-plane-separation-for-agents.md)
+
+## 2026-07-14 (Agent-Sentry)
+* **Ingest**: `doi:10.48550/arxiv.2603.22868` — `Agent-Sentry: Bounding LLM Agents via Execution Provenance dossier` at `/dossiers/agent-sentry-execution-provenance.md` — canonical: https://arxiv.org/abs/2603.22868v2
+* **Archive**: Moved source PDF to [/archive/agent-sentry-execution-provenance.pdf](/archive/agent-sentry-execution-provenance.pdf)
+* **Vault**: Created [provenance-conditioned-action-admission](/vault/provenance-conditioned-action-admission.md)

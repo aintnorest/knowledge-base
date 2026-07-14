@@ -73,6 +73,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation](/dossiers/terag-token-efficient-graph-rag.md) — Token-budgeted graph RAG that combines one-pass LLM concept extraction, deterministic graph construction, and frequency-aware personalized PageRank
 * [TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework](/dossiers/tearag-token-efficient-agentic-rag.md) — Agentic hybrid RAG that packs co-occurring chunks and triplets with PPR and trains concise evidence-gathering paths with process-aware DPO
 * [ISOLATE GPT: An Execution Isolation Architecture for LLM-Based Agentic Systems](/dossiers/isolate-gpt-execution-isolation-agentic-systems.md) — Hub-and-spoke execution isolation for third-party LLM apps, with typed mediated collaboration and permission-gated cross-app data flow
+* [Agent-Sentry: Bounding LLM Agents via Execution Provenance](/dossiers/agent-sentry-execution-provenance.md) — Runtime defense that learns provenance-aware bounds on tool actions, using deterministic checks for routine calls and a bounded LLM judge for residual ambiguity
 
 ## Vault
 
@@ -177,3 +178,4 @@ timestamp: 2026-07-11T16:00:00Z
 * [Mediated Agent Execution Isolation](/vault/mediated-agent-execution-isolation.md)
 * [Capability-Enforced Agent Execution](/vault/capability-enforced-agent-execution.md)
 * [Control-Data Plane Separation for Agents](/vault/control-data-plane-separation-for-agents.md)
+* [Provenance-Conditioned Action Admission](/vault/provenance-conditioned-action-admission.md)
