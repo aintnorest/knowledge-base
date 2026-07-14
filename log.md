@@ -315,3 +315,8 @@ maintenance as a non-ingest event.
 * **Archive**: Moved source PDF to [/archive/textgrad-automatic-differentiation-via-text.pdf](/archive/textgrad-automatic-differentiation-via-text.pdf)
 * **Vault**: Created [textual-feedback-backpropagation](/vault/textual-feedback-backpropagation.md)
 * **Vault**: Updated [prompt-optimization](/vault/prompt-optimization.md)
+
+## 2026-07-14 (Lost in the Middle)
+* **Ingest**: `arxiv:2307.03172` — `Lost in the Middle: How Language Models Use Long Contexts dossier` at `/dossiers/lost-in-the-middle-long-contexts.md` — canonical: https://arxiv.org/abs/2307.03172v3
+* **Archive**: Moved source PDF to [/archive/lost-in-the-middle-long-contexts.pdf](/archive/lost-in-the-middle-long-contexts.pdf)
+* **Vault**: Created [position-robust-context-evaluation](/vault/position-robust-context-evaluation.md), [context-ordering-as-retrieval-control](/vault/context-ordering-as-retrieval-control.md)

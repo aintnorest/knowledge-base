@@ -38,6 +38,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems](/dossiers/maspo-joint-prompt-optimization.md) — Trace-driven multi-agent prompt optimization using local, successor, and final-outcome evaluation with misalignment-case sampling and beam refresh
 * [Least-to-Most Prompting Enables Complex Reasoning in Large Language Models](/dossiers/least-to-most-prompting.md) — Decomposition-and-sequential-solving prompting for easy-to-hard reasoning generalization
 * [Large Language Models are Zero-Shot Reasoners](/dossiers/large-language-models-are-zero-shot-reasoners.md) — Foundational Zero-shot-CoT paper on eliciting stepwise reasoning without worked examples
+* [Lost in the Middle: How Language Models Use Long Contexts](/dossiers/lost-in-the-middle-long-contexts.md) — Controlled evidence-position evaluation showing that long-context models often underuse relevant information in the middle of an input
 * [Mergeable by Default](/dossiers/context-engineering-talk.md) — Context engine design for coding agents, organizational memory, conflict handling, and permissions
 * [PaperOrchestra](/dossiers/paperorchestra.md) — Multi-agent framework for automated AI research paper writing
 * [Performance vs Practicality: A Comparison of vLLM and Ollama](/dossiers/vllm-ollama-performance-practicality.md) — Practitioner benchmark and deployment trade-off analysis of concurrency-oriented vLLM and locally convenient Ollama
@@ -76,6 +77,8 @@ timestamp: 2026-07-11T16:00:00Z
 * [In-Flow Socratic Prompt Coaching](/vault/in-flow-socratic-prompt-coaching.md)
 * [Evolving Context Playbooks](/vault/evolving-context-playbooks.md)
 * [Context Collapse](/vault/context-collapse.md)
+* [Position-Robust Context Evaluation](/vault/position-robust-context-evaluation.md)
+* [Context Ordering as Retrieval Control](/vault/context-ordering-as-retrieval-control.md)
 * [Intent Engineering for Agents](/vault/intent-engineering-for-agents.md)
 * [Machine-Readable Agent Specifications](/vault/machine-readable-agent-specifications.md)
 * [Configuration-Aware Multi-Agent Prompt Optimization](/vault/configuration-aware-multi-agent-prompt-optimization.md)
