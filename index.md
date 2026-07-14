@@ -82,6 +82,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks](/dossiers/architecting-secure-ai-agents.md) — Position paper advocating security-aware dynamic replanning, bounded learned judgments over structured artifacts, and human resolution of irreducibly ambiguous security decisions
 * [Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents](/dossiers/authgraph-dual-graph-defense.md) — AUTHGRAPH aligns a clean authorization graph with execution provenance to block unauthorized tools and wrong-source parameters
 * [Sandlock: Confining AI Agent Code with Unprivileged Linux Primitives](/dossiers/sandlock-unprivileged-linux-agent-sandbox.md) — Unprivileged Linux agent sandbox that compiles static policy into Landlock/seccomp and uses a narrow, TOCTOU-conscious supervisor for dynamic decisions and reversible effects
+* [AI Code Sandboxes: A Comparative Security Study — Engine-Level Properties](/dossiers/ai-code-sandboxes-engine-level-security-study.md) — Six-axis, time-bounded comparison of sandbox engine surface, leakage, hardening compatibility, CVE history, patch propagation, and public fuzzing posture
 
 ## Vault
 
@@ -199,3 +200,5 @@ timestamp: 2026-07-11T16:00:00Z
 * [Security-Aware Replanning](/vault/security-aware-replanning.md)
 * [Bounded Model Security Adjudication](/vault/bounded-model-security-adjudication.md)
 * [Authorization–Provenance Graph Alignment](/vault/authorization-provenance-graph-alignment.md)
+* [Deployment-Conditioned Sandbox Security](/vault/deployment-conditioned-sandbox-security.md)
+* [Downstream Security Patch Propagation](/vault/downstream-security-patch-propagation.md)

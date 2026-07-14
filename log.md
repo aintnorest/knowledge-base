@@ -421,3 +421,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2606.18532` — `AI Sandboxes: A Threat Model, Taxonomy, and Measurement Framework dossier` at `/dossiers/ai-sandboxes-threat-model-measurement-framework.md` — canonical: https://arxiv.org/abs/2606.18532v1
 * **Archive**: Moved source PDF to [/archive/ai-sandboxes-threat-model-measurement-framework.pdf](/archive/ai-sandboxes-threat-model-measurement-framework.pdf)
 * **Vault**: Created [claim-bounded-sandbox-evidence](/vault/claim-bounded-sandbox-evidence.md), [weakest-link-assurance-composition](/vault/weakest-link-assurance-composition.md)
+
+## 2026-07-14 (AI Code Sandboxes)
+* **Ingest**: `arxiv:2606.08433` — `AI Code Sandboxes: A Comparative Security Study — Engine-Level Properties dossier` at `/dossiers/ai-code-sandboxes-engine-level-security-study.md` — canonical: https://arxiv.org/abs/2606.08433v1
+* **Archive**: Moved source PDF to [/archive/ai-code-sandboxes-engine-level-security-study.pdf](/archive/ai-code-sandboxes-engine-level-security-study.pdf)
+* **Vault**: Created [deployment-conditioned-sandbox-security](/vault/deployment-conditioned-sandbox-security.md), [downstream-security-patch-propagation](/vault/downstream-security-patch-propagation.md)
