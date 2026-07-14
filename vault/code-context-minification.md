@@ -3,7 +3,7 @@ type: Synthesis
 title: Code Context Minification
 description: Reducing code-heavy agent inputs with controlled lexical transformations while preserving the mapping and patch protocol needed to act on the original source.
 tags: [synthesis, software-engineering-agents, context-management, code-minification, token-efficiency, patch-generation]
-timestamp: 2026-07-14T16:02:37Z
+timestamp: 2026-07-14T16:07:15Z
 ---
 
 # Code Context Minification
@@ -31,3 +31,4 @@ Use segmentation rather than one global compression setting. Documentation remov
 ## Sources
 
 - [Reducing Token Usage of State-in-Context Agents using Minification dossier](/dossiers/minified-state-in-context-agents.md) — evaluates code minification in a DirectSolve-style SWE-bench repair agent; reports a 42% input reduction alongside a 12-point resolution loss, with dedentation causing syntax-sensitive patch failures.
+- [Reducing Token Usage of Software Engineering Agents dossier](/dossiers/reducing-token-usage-software-engineering-agents.md) — evaluates source-code minification in a state-in-context repair agent; reports a 42% repair-input reduction alongside patch-validity trade-offs.

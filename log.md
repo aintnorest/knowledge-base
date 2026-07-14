@@ -360,3 +360,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2606.05405` — `Agents’ Last Exam dossier` at `/dossiers/agents-last-exam.md` — canonical: https://arxiv.org/abs/2606.05405v2
 * **Archive**: Moved source PDF to [/archive/agents-last-exam.pdf](/archive/agents-last-exam.pdf)
 * **Vault**: Created [artifact-gated-agent-evaluation](/vault/artifact-gated-agent-evaluation.md)
+
+## 2026-07-14 (Reducing Token Usage of Software Engineering Agents)
+* **Ingest**: `doi:10.34726/hss.2025.136382` — `Reducing Token Usage of Software Engineering Agents dossier` at `/dossiers/reducing-token-usage-software-engineering-agents.md` — canonical: https://doi.org/10.34726/hss.2025.136382
+* **Archive**: Moved source PDF to [/archive/reducing-token-usage-software-engineering-agents.pdf](/archive/reducing-token-usage-software-engineering-agents.pdf)
+* **Vault**: Created [code-context-minification](/vault/code-context-minification.md), [transformation-aware-patch-application](/vault/transformation-aware-patch-application.md)
