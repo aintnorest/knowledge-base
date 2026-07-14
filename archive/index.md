@@ -57,3 +57,4 @@ This directory contains immutable raw materials. Files are written once at inges
 | `lost-in-the-middle-long-contexts.pdf` | arXiv:2307.03172v3 | 2026-07-14 | [Lost in the Middle: How Language Models Use Long Contexts](/dossiers/lost-in-the-middle-long-contexts.md) |
 | `terag-token-efficient-graph-rag.pdf` | arXiv:2509.18667v3 | 2026-07-14 | [TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation](/dossiers/terag-token-efficient-graph-rag.md) |
 | `reducing-cost-of-llm-agents-trajectory-reduction.pdf` | doi:10.1145/3797084 / arXiv:2509.23586v2 | 2026-07-14 | [Reducing Cost of LLM Agents with Trajectory Reduction](/dossiers/reducing-cost-of-llm-agents-trajectory-reduction.md) |
+| `codebase-memory-tree-sitter-knowledge-graphs.pdf` | arXiv:2603.27277v1 / doi:10.48550/arXiv.2603.27277 | 2026-07-14 | [Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP](/dossiers/codebase-memory-tree-sitter-knowledge-graphs.md) |

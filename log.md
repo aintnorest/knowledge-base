@@ -330,3 +330,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2307.03172` — `Lost in the Middle: How Language Models Use Long Contexts dossier` at `/dossiers/lost-in-the-middle-long-contexts.md` — canonical: https://arxiv.org/abs/2307.03172v3
 * **Archive**: Moved source PDF to [/archive/lost-in-the-middle-long-contexts.pdf](/archive/lost-in-the-middle-long-contexts.pdf)
 * **Vault**: Created [position-robust-context-evaluation](/vault/position-robust-context-evaluation.md), [context-ordering-as-retrieval-control](/vault/context-ordering-as-retrieval-control.md)
+
+## 2026-07-14 (Codebase-Memory)
+* **Ingest**: `doi:10.48550/arxiv.2603.27277` — `Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP dossier` at `/dossiers/codebase-memory-tree-sitter-knowledge-graphs.md` — canonical: https://arxiv.org/abs/2603.27277v1
+* **Archive**: Moved source PDF to [/archive/codebase-memory-tree-sitter-knowledge-graphs.pdf](/archive/codebase-memory-tree-sitter-knowledge-graphs.pdf)
+* **Vault**: Created [structural-code-retrieval](/vault/structural-code-retrieval.md), [query-class-retrieval-routing](/vault/query-class-retrieval-routing.md), [mcp-tool-supply-chain-assurance](/vault/mcp-tool-supply-chain-assurance.md)
