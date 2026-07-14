@@ -406,3 +406,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2605.26497` — `Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents dossier` at `/dossiers/authgraph-dual-graph-defense.md` — canonical: https://arxiv.org/abs/2605.26497v1
 * **Archive**: Moved source PDF to [/archive/authgraph-dual-graph-defense.pdf](/archive/authgraph-dual-graph-defense.pdf)
 * **Vault**: Created [authorization-provenance-graph-alignment](/vault/authorization-provenance-graph-alignment.md)
+
+## 2026-07-14 (AI Code Sandboxes)
+* **Ingest**: `arxiv:2606.08433` — `AI Code Sandboxes: A Comparative Security Study — Engine-Level Properties dossier` at `/dossiers/ai-code-sandboxes-engine-level-security-study.md` — canonical: https://arxiv.org/abs/2606.08433v1
+* **Archive**: Moved source PDF to [/archive/ai-code-sandboxes-engine-level-security-study.pdf](/archive/ai-code-sandboxes-engine-level-security-study.pdf)
+* **Vault**: Created [deployment-conditioned-sandbox-security](/vault/deployment-conditioned-sandbox-security.md), [downstream-security-patch-propagation](/vault/downstream-security-patch-propagation.md)
