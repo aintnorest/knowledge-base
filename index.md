@@ -10,6 +10,7 @@ timestamp: 2026-07-11T16:00:00Z
 
 ## Dossiers
 
+* [AI Sandboxes: A Threat Model, Taxonomy, and Measurement Framework](/dossiers/ai-sandboxes-threat-model-measurement-framework.md) — Assurance-oriented framework that bounds AI sandbox claims by explicit assumptions, evidence artifacts, and the weakest claim-relevant dimension
 * [Agents’ Last Exam](/dossiers/agents-last-exam.md) — Benchmark of long-horizon, deliverable-verified professional workflows for generalist computer-use agents across 55 industry subdomains
 * [Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP](/dossiers/codebase-memory-tree-sitter-knowledge-graphs.md) — Persistent Tree-Sitter/SQLite code graph for MCP-based structural exploration, incremental refresh, hybrid source fallback, and tool-server supply-chain controls
 * [Automatic Prompt Optimization for Dataset-Level Feature Discovery](/dossiers/automatic-prompt-optimization-dataset-level-feature-discovery.md) — Multi-agent prompt optimization for a shared, interpretable text-feature schema using downstream performance and label-proxy resistance
@@ -83,6 +84,8 @@ timestamp: 2026-07-11T16:00:00Z
 
 ## Vault
 
+* [Claim-Bounded Sandbox Evidence](/vault/claim-bounded-sandbox-evidence.md)
+* [Weakest-Link Assurance Composition](/vault/weakest-link-assurance-composition.md)
 * [Artifact-Gated Agent Evaluation](/vault/artifact-gated-agent-evaluation.md)
 * [Assume-Compromise Boundary Testing](/vault/assume-compromise-boundary-testing.md)
 * [Structural Code Retrieval](/vault/structural-code-retrieval.md)
