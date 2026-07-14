@@ -390,3 +390,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.48550/arxiv.2603.22868` — `Agent-Sentry: Bounding LLM Agents via Execution Provenance dossier` at `/dossiers/agent-sentry-execution-provenance.md` — canonical: https://arxiv.org/abs/2603.22868v2
 * **Archive**: Moved source PDF to [/archive/agent-sentry-execution-provenance.pdf](/archive/agent-sentry-execution-provenance.pdf)
 * **Vault**: Created [provenance-conditioned-action-admission](/vault/provenance-conditioned-action-admission.md)
+
+## 2026-07-14 (Architecting Secure AI Agents)
+* **Ingest**: `doi:10.48550/arxiv.2603.30016` — `Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks dossier` at `/dossiers/architecting-secure-ai-agents.md` — canonical: https://arxiv.org/abs/2603.30016v1
+* **Archive**: Moved source PDF to [/archive/architecting-secure-ai-agents.pdf](/archive/architecting-secure-ai-agents.pdf)
+* **Vault**: Created [security-aware-replanning](/vault/security-aware-replanning.md), [bounded-model-security-adjudication](/vault/bounded-model-security-adjudication.md)

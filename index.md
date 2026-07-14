@@ -76,6 +76,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Design Patterns for Securing LLM Agents against Prompt Injections](/dossiers/design-patterns-securing-llm-agents-prompt-injections.md) — System-design patterns that constrain how untrusted language can influence an agent's tools, control flow, and privileged context
 * [Quantifying Frontier LLM Capabilities for Container Sandbox Escape](/dossiers/sandbox-escape-benchmark.md) — Nested-sandbox CTF evaluation of agentic container escape across known orchestration, runtime, and kernel weakness classes
 * [Agent-Sentry: Bounding LLM Agents via Execution Provenance](/dossiers/agent-sentry-execution-provenance.md) — Runtime defense that learns provenance-aware bounds on tool actions, using deterministic checks for routine calls and a bounded LLM judge for residual ambiguity
+* [Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks](/dossiers/architecting-secure-ai-agents.md) — Position paper advocating security-aware dynamic replanning, bounded learned judgments over structured artifacts, and human resolution of irreducibly ambiguous security decisions
 
 ## Vault
 
@@ -185,3 +186,5 @@ timestamp: 2026-07-11T16:00:00Z
 * [Nested Sandbox Capability Evaluation](/vault/nested-sandbox-capability-evaluation.md)
 * [Intended-Path Benchmark Validation](/vault/intended-path-benchmark-validation.md)
 * [Provenance-Conditioned Action Admission](/vault/provenance-conditioned-action-admission.md)
+* [Security-Aware Replanning](/vault/security-aware-replanning.md)
+* [Bounded Model Security Adjudication](/vault/bounded-model-security-adjudication.md)
