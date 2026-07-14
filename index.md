@@ -53,6 +53,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](/dossiers/prompt-report.md) — PRISMA-grounded taxonomy of prompting methods, output extraction, evaluation, safety, and engineering practice
 * [ReAct: Synergizing Reasoning and Acting in Language Models](/dossiers/react-synergizing-reasoning-and-acting.md) — Primary ReAct paper on interleaving thoughts, tool actions, and observations for grounded reasoning and decision making
 * [Reducing Cost of LLM Agents with Trajectory Reduction](/dossiers/reducing-cost-of-llm-agents-trajectory-reduction.md) — AgentDiet's delayed local reflection module removes obsolete, redundant, and verbose coding-agent trajectory content while measuring total cost and task success
+* [Reducing Token Usage of Software Engineering Agents](/dossiers/reducing-token-usage-software-engineering-agents.md) — TU Wien thesis on source-code minification in a state-in-context repair agent, its 42% repair-input reduction, and the associated patch-validity trade-offs
 * [Smarter AI Through Prompt Engineering](/dossiers/smarter-ai-through-prompt-engineering.md) — Review of prompt engineering case studies, optimization frameworks, and data science deployment tradeoffs
 * [Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems](/dossiers/supervisoragent-efficient-runtime-multi-agent-systems.md) — Runtime meta-agent supervision that gates error correction, inefficiency guidance, and observation purification to reduce MAS token use
 * [A Systematic Survey of Prompt Engineering in Large Language Models](/dossiers/systematic-survey-prompt-engineering-llms.md) — Application-centric taxonomy of prompt engineering techniques for LLMs
@@ -82,6 +83,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Classifier-Based Prompt Optimization](/vault/classifier-based-prompt-optimization.md)
 * [Bounded Tool Observations](/vault/bounded-tool-observations.md)
 * [Cost-Aware Inference Control](/vault/cost-aware-inference-control.md)
+* [Code-Context Minification](/vault/code-context-minification.md)
 * [Influence-Weighted Topology Search](/vault/influence-weighted-topology-search.md)
 * [In-Context Learning](/vault/in-context-learning.md)
 * [In-Flow Socratic Prompt Coaching](/vault/in-flow-socratic-prompt-coaching.md)
@@ -123,6 +125,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Declarative LM Pipeline Compilation](/vault/declarative-lm-pipeline-compilation.md)
 * [Delayed Local Trajectory Reduction](/vault/delayed-local-trajectory-reduction.md)
 * [Textual Feedback Backpropagation](/vault/textual-feedback-backpropagation.md)
+* [Transformation-Aware Patch Application](/vault/transformation-aware-patch-application.md)
 * [Dominator-Based Agent Validation](/vault/dominator-based-agent-validation.md)
 * [Experimental Log Extraction Prompt](/vault/experimental-log-extraction-prompt.md)
 * [Anti-Leakage System Prompt](/vault/anti-leakage-system-prompt.md)
