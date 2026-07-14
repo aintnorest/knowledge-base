@@ -74,6 +74,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework](/dossiers/tearag-token-efficient-agentic-rag.md) — Agentic hybrid RAG that packs co-occurring chunks and triplets with PPR and trains concise evidence-gathering paths with process-aware DPO
 * [ISOLATE GPT: An Execution Isolation Architecture for LLM-Based Agentic Systems](/dossiers/isolate-gpt-execution-isolation-agentic-systems.md) — Hub-and-spoke execution isolation for third-party LLM apps, with typed mediated collaboration and permission-gated cross-app data flow
 * [Design Patterns for Securing LLM Agents against Prompt Injections](/dossiers/design-patterns-securing-llm-agents-prompt-injections.md) — System-design patterns that constrain how untrusted language can influence an agent's tools, control flow, and privileged context
+* [Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks](/dossiers/architecting-secure-ai-agents.md) — Position paper advocating security-aware dynamic replanning, bounded learned judgments over structured artifacts, and human resolution of irreducibly ambiguous security decisions
 
 ## Vault
 
@@ -180,3 +181,5 @@ timestamp: 2026-07-11T16:00:00Z
 * [Control-Data Plane Separation for Agents](/vault/control-data-plane-separation-for-agents.md)
 * [Privileged–Quarantined Agent Split](/vault/privileged-quarantined-agent-split.md)
 * [Intent-Then-Isolate Execution](/vault/intent-then-isolate-execution.md)
+* [Security-Aware Replanning](/vault/security-aware-replanning.md)
+* [Bounded Model Security Adjudication](/vault/bounded-model-security-adjudication.md)
