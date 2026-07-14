@@ -53,6 +53,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](/dossiers/prompt-report.md) — PRISMA-grounded taxonomy of prompting methods, output extraction, evaluation, safety, and engineering practice
 * [ReAct: Synergizing Reasoning and Acting in Language Models](/dossiers/react-synergizing-reasoning-and-acting.md) — Primary ReAct paper on interleaving thoughts, tool actions, and observations for grounded reasoning and decision making
 * [Reducing Cost of LLM Agents with Trajectory Reduction](/dossiers/reducing-cost-of-llm-agents-trajectory-reduction.md) — AgentDiet's delayed local reflection module removes obsolete, redundant, and verbose coding-agent trajectory content while measuring total cost and task success
+* [Reducing Token Usage of State-in-Context Agents using Minification](/dossiers/minified-state-in-context-agents.md) — DirectSolve replication and SWE-bench study of Python-code minification as a context-cost versus repair-success trade-off
 * [Smarter AI Through Prompt Engineering](/dossiers/smarter-ai-through-prompt-engineering.md) — Review of prompt engineering case studies, optimization frameworks, and data science deployment tradeoffs
 * [Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems](/dossiers/supervisoragent-efficient-runtime-multi-agent-systems.md) — Runtime meta-agent supervision that gates error correction, inefficiency guidance, and observation purification to reduce MAS token use
 * [A Systematic Survey of Prompt Engineering in Large Language Models](/dossiers/systematic-survey-prompt-engineering-llms.md) — Application-centric taxonomy of prompt engineering techniques for LLMs
@@ -82,6 +83,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Classifier-Based Prompt Optimization](/vault/classifier-based-prompt-optimization.md)
 * [Bounded Tool Observations](/vault/bounded-tool-observations.md)
 * [Cost-Aware Inference Control](/vault/cost-aware-inference-control.md)
+* [Code Context Minification](/vault/code-context-minification.md)
 * [Influence-Weighted Topology Search](/vault/influence-weighted-topology-search.md)
 * [In-Context Learning](/vault/in-context-learning.md)
 * [In-Flow Socratic Prompt Coaching](/vault/in-flow-socratic-prompt-coaching.md)

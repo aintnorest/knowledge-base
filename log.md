@@ -350,3 +350,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2605.15184` — `Is Grep All You Need? How Agent Harnesses Reshape Agentic Search dossier` at `/dossiers/grep-agent-harnesses-agentic-search.md` — canonical: https://arxiv.org/abs/2605.15184v1
 * **Archive**: Moved source PDF to [/archive/grep-agent-harnesses-agentic-search.pdf](/archive/grep-agent-harnesses-agentic-search.pdf)
 * **Vault**: Created [harness-conditioned-retrieval-evaluation](/vault/harness-conditioned-retrieval-evaluation.md)
+
+## 2026-07-14 (State-in-Context Minification)
+* **Ingest**: `arxiv:2606.01326` — `Reducing Token Usage of State-in-Context Agents using Minification dossier` at `/dossiers/minified-state-in-context-agents.md` — canonical: https://arxiv.org/abs/2606.01326v1
+* **Archive**: Moved source PDF to [/archive/minified-state-in-context-agents.pdf](/archive/minified-state-in-context-agents.pdf)
+* **Vault**: Created [code-context-minification](/vault/code-context-minification.md)
