@@ -64,6 +64,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [What You're Actually Writing When You Write a SKILL.md](/dossiers/skill-md-loader-specification.md) — Skill architecture as staged context loading, with portable environment guidance and model-aware evaluation
 * [What to Keep, What to Forget: A Rate–Distortion View of Memory Compaction in LLMs and Agents](/dossiers/rate-distortion-memory-compaction.md) — Survey framing KV, prompt, architectural, and agent-memory compaction as a shared rate–distortion decision
 * [TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation](/dossiers/terag-token-efficient-graph-rag.md) — Token-budgeted graph RAG that combines one-pass LLM concept extraction, deterministic graph construction, and frequency-aware personalized PageRank
+* [TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework](/dossiers/tearag-token-efficient-agentic-rag.md) — Agentic hybrid RAG that packs co-occurring chunks and triplets with PPR and trains concise evidence-gathering paths with process-aware DPO
 
 ## Vault
 
@@ -118,6 +119,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Experimental Log Extraction Prompt](/vault/experimental-log-extraction-prompt.md)
 * [Anti-Leakage System Prompt](/vault/anti-leakage-system-prompt.md)
 * [Citation F1 Metric](/vault/citation-f1-metric.md)
+* [Co-occurrence-Grounded Retrieval Compression](/vault/cooccurrence-grounded-retrieval-compression.md)
 * [LLM-as-Judge with Anti-Inflation](/vault/llm-as-judge-with-anti-inflation.md)
 * [Chain-of-Thought Prompting](/vault/chain-of-thought-prompting.md)
 * [Self-Consistency Decoding](/vault/self-consistency-decoding.md)
@@ -133,6 +135,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Prompting Distance](/vault/prompting-distance.md)
 * [Prompt-Technique SWOT Analysis](/vault/prompt-technique-swot-analysis.md)
 * [Prompt Contingency](/vault/prompt-contingency.md)
+* [Process-Aware Trajectory Preference Optimization](/vault/process-aware-trajectory-preference-optimization.md)
 * [Retrieval Augmentation](/vault/retrieval-augmentation.md)
 * [Single-Pass Concept Graph Construction](/vault/single-pass-concept-graph-construction.md)
 * [Frequency-Weighted Personalized PageRank](/vault/frequency-weighted-personalized-pagerank.md)

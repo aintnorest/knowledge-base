@@ -330,3 +330,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2307.03172` — `Lost in the Middle: How Language Models Use Long Contexts dossier` at `/dossiers/lost-in-the-middle-long-contexts.md` — canonical: https://arxiv.org/abs/2307.03172v3
 * **Archive**: Moved source PDF to [/archive/lost-in-the-middle-long-contexts.pdf](/archive/lost-in-the-middle-long-contexts.pdf)
 * **Vault**: Created [position-robust-context-evaluation](/vault/position-robust-context-evaluation.md), [context-ordering-as-retrieval-control](/vault/context-ordering-as-retrieval-control.md)
+
+## 2026-07-14 (TeaRAG)
+* **Ingest**: `arxiv:2511.05385` — `TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework dossier` at `/dossiers/tearag-token-efficient-agentic-rag.md` — canonical: https://arxiv.org/abs/2511.05385v1
+* **Archive**: Moved source PDF to [/archive/tearag-token-efficient-agentic-rag.pdf](/archive/tearag-token-efficient-agentic-rag.pdf)
+* **Vault**: Created [cooccurrence-grounded-retrieval-compression](/vault/cooccurrence-grounded-retrieval-compression.md), [process-aware-trajectory-preference-optimization](/vault/process-aware-trajectory-preference-optimization.md)
