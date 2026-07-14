@@ -61,6 +61,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Designing, Refining, and Maintaining Agent Skills at Perplexity](/dossiers/designing-refining-maintaining-agent-skills-perplexity.md) — Perplexity's guide to Skill routing, progressive context, evaluations, and failure-driven maintenance
 * [What You're Actually Writing When You Write a SKILL.md](/dossiers/skill-md-loader-specification.md) — Skill architecture as staged context loading, with portable environment guidance and model-aware evaluation
 * [What to Keep, What to Forget: A Rate–Distortion View of Memory Compaction in LLMs and Agents](/dossiers/rate-distortion-memory-compaction.md) — Survey framing KV, prompt, architectural, and agent-memory compaction as a shared rate–distortion decision
+* [TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation](/dossiers/terag-token-efficient-graph-rag.md) — Token-budgeted graph RAG that combines one-pass LLM concept extraction, deterministic graph construction, and frequency-aware personalized PageRank
 
 ## Vault
 
@@ -128,6 +129,8 @@ timestamp: 2026-07-11T16:00:00Z
 * [Prompt-Technique SWOT Analysis](/vault/prompt-technique-swot-analysis.md)
 * [Prompt Contingency](/vault/prompt-contingency.md)
 * [Retrieval Augmentation](/vault/retrieval-augmentation.md)
+* [Single-Pass Concept Graph Construction](/vault/single-pass-concept-graph-construction.md)
+* [Frequency-Weighted Personalized PageRank](/vault/frequency-weighted-personalized-pagerank.md)
 * [Retrieval Interface Tax](/vault/retrieval-interface-tax.md)
 * [VLM Prompt Learning](/vault/vlm-prompt-learning.md)
 * [Workload-Aligned Agent Memory Architecture](/vault/workload-aligned-agent-memory-architecture.md)
