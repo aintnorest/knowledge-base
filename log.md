@@ -370,3 +370,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `doi:10.14722/ndss.2025.241131` — `ISOLATE GPT: An Execution Isolation Architecture for LLM-Based Agentic Systems dossier` at `/dossiers/isolate-gpt-execution-isolation-agentic-systems.md` — canonical: https://doi.org/10.14722/ndss.2025.241131
 * **Archive**: Moved source PDF to [/archive/isolate-gpt-execution-isolation-agentic-systems.pdf](/archive/isolate-gpt-execution-isolation-agentic-systems.pdf)
 * **Vault**: Created [mediated-agent-execution-isolation](/vault/mediated-agent-execution-isolation.md)
+
+## 2026-07-14 (CaMeL)
+* **Ingest**: `doi:10.48550/arxiv.2503.18813` — `Defeating Prompt Injections by Design dossier` at `/dossiers/defeating-prompt-injections-by-design.md` — canonical: https://arxiv.org/abs/2503.18813v2
+* **Archive**: Moved source PDF to [/archive/defeating-prompt-injections-by-design.pdf](/archive/defeating-prompt-injections-by-design.pdf)
+* **Vault**: Created [capability-enforced-agent-execution](/vault/capability-enforced-agent-execution.md), [control-data-plane-separation-for-agents](/vault/control-data-plane-separation-for-agents.md)

@@ -27,6 +27,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [Context Engineering: From Prompts to Corporate Multi-Agent Architecture](/dossiers/context-engineering-corporate-multi-agent-architecture.md) — Practitioner framework for engineered agent state, explicit organizational intent, and machine-readable specifications
 * [Prompting Science Report 2: The Decreasing Value of Chain of Thought in Prompting](/dossiers/decreasing-value-chain-of-thought-prompting.md) — GPQA evidence that generic explicit CoT has model- and reliability-dependent value and can impose substantial latency
 * [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](/dossiers/dspy-compiling-declarative-language-model-calls.md) — Original DSPy paper on declarative LM programs, trace bootstrapping, and metric-driven pipeline compilation
+* [Defeating Prompt Injections by Design](/dossiers/defeating-prompt-injections-by-design.md) — CaMeL architecture for isolating untrusted parsing from planning and enforcing provenance-aware, per-tool capability policies
 * [Self-Consistency Improves Chain of Thought Reasoning in Language Models](/dossiers/self-consistency-improves-chain-of-thought-reasoning.md) — ICLR 2023 paper on sampling diverse reasoning paths and voting over final answers instead of greedily decoding one chain
 * [SCOPE: Prompt Evolution for Enhancing Agent Effectiveness](/dossiers/scope-prompt-evolution-agent-effectiveness.md) — Trace-driven, step-level prompt evolution with scoped guideline memory, persistent-memory consolidation, and efficiency/thoroughness strategy streams
 * [Exploring Prompt Engineering](/dossiers/exploring-prompt-engineering-swot.md) — Systematic prompt-engineering review with linguistic framing, SWOT analysis, technique taxonomy, and evaluation metrics
@@ -174,3 +175,5 @@ timestamp: 2026-07-11T16:00:00Z
 * [Perspective-Diverse Prompt Evolution](/vault/perspective-diverse-prompt-evolution.md)
 * [Validated Fallback Composition](/vault/validated-fallback-composition.md)
 * [Mediated Agent Execution Isolation](/vault/mediated-agent-execution-isolation.md)
+* [Capability-Enforced Agent Execution](/vault/capability-enforced-agent-execution.md)
+* [Control-Data Plane Separation for Agents](/vault/control-data-plane-separation-for-agents.md)
