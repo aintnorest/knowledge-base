@@ -355,3 +355,8 @@ maintenance as a non-ingest event.
 * **Ingest**: `arxiv:2606.01326` — `Reducing Token Usage of State-in-Context Agents using Minification dossier` at `/dossiers/minified-state-in-context-agents.md` — canonical: https://arxiv.org/abs/2606.01326v1
 * **Archive**: Moved source PDF to [/archive/minified-state-in-context-agents.pdf](/archive/minified-state-in-context-agents.pdf)
 * **Vault**: Created [code-context-minification](/vault/code-context-minification.md)
+
+## 2026-07-14 (Agents’ Last Exam)
+* **Ingest**: `arxiv:2606.05405` — `Agents’ Last Exam dossier` at `/dossiers/agents-last-exam.md` — canonical: https://arxiv.org/abs/2606.05405v2
+* **Archive**: Moved source PDF to [/archive/agents-last-exam.pdf](/archive/agents-last-exam.pdf)
+* **Vault**: Created [artifact-gated-agent-evaluation](/vault/artifact-gated-agent-evaluation.md)

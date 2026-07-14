@@ -62,3 +62,4 @@ This directory contains immutable raw materials. Files are written once at inges
 | `codebase-memory-tree-sitter-knowledge-graphs.pdf` | arXiv:2603.27277v1 / doi:10.48550/arXiv.2603.27277 | 2026-07-14 | [Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP](/dossiers/codebase-memory-tree-sitter-knowledge-graphs.md) |
 | `grep-agent-harnesses-agentic-search.pdf` | arXiv:2605.15184v1 | 2026-07-14 | [Is Grep All You Need? How Agent Harnesses Reshape Agentic Search](/dossiers/grep-agent-harnesses-agentic-search.md) |
 | `minified-state-in-context-agents.pdf` | arXiv:2606.01326v1 | 2026-07-14 | [Reducing Token Usage of State-in-Context Agents using Minification](/dossiers/minified-state-in-context-agents.md) |
+| `agents-last-exam.pdf` | arXiv:2606.05405v2 | 2026-07-14 | [Agents’ Last Exam](/dossiers/agents-last-exam.md) |
