@@ -71,6 +71,7 @@ timestamp: 2026-07-11T16:00:00Z
 * [What to Keep, What to Forget: A Rate–Distortion View of Memory Compaction in LLMs and Agents](/dossiers/rate-distortion-memory-compaction.md) — Survey framing KV, prompt, architectural, and agent-memory compaction as a shared rate–distortion decision
 * [TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation](/dossiers/terag-token-efficient-graph-rag.md) — Token-budgeted graph RAG that combines one-pass LLM concept extraction, deterministic graph construction, and frequency-aware personalized PageRank
 * [TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework](/dossiers/tearag-token-efficient-agentic-rag.md) — Agentic hybrid RAG that packs co-occurring chunks and triplets with PPR and trains concise evidence-gathering paths with process-aware DPO
+* [Design Patterns for Securing LLM Agents against Prompt Injections](/dossiers/design-patterns-securing-llm-agents-prompt-injections.md) — System-design patterns that constrain how untrusted language can influence an agent's tools, control flow, and privileged context
 
 ## Vault
 
@@ -172,3 +173,5 @@ timestamp: 2026-07-11T16:00:00Z
 * [Source-Backed Claim Admission](/vault/source-backed-claim-admission.md)
 * [Perspective-Diverse Prompt Evolution](/vault/perspective-diverse-prompt-evolution.md)
 * [Validated Fallback Composition](/vault/validated-fallback-composition.md)
+* [Privileged–Quarantined Agent Split](/vault/privileged-quarantined-agent-split.md)
+* [Intent-Then-Isolate Execution](/vault/intent-then-isolate-execution.md)
