@@ -15,6 +15,11 @@ canonical URL without the scheme), or `sha256:…` when no stronger identifier
 exists. Do not add a second ingest entry for a registered key; append subsequent
 maintenance as a non-ingest event.
 
+## 2026-07-14 (Execution-Security Research SoK)
+* **Ingest**: `doi:10.48550/arxiv.2607.05743` — `The Balkanization of Execution-Security Research for AI Coding Agents dossier` at `/dossiers/execution-security-research-ai-coding-agents.md` — canonical: https://arxiv.org/abs/2607.05743v1
+* **Archive**: Moved source PDF to [/archive/execution-security-research-ai-coding-agents.pdf](/archive/execution-security-research-ai-coding-agents.pdf)
+* **Vault**: Created [cross-mechanism-execution-security-evaluation](/vault/cross-mechanism-execution-security-evaluation.md)
+
 ## 2026-07-14 (Landlock/Seccomp Science Gateways)
 * **Ingest**: `doi:10.48550/arxiv.2509.18548` — `Locking Down Science Gateways with Landlock and Seccomp dossier` at `/dossiers/locking-down-science-gateways-landlock-seccomp.md` — canonical: https://arxiv.org/abs/2509.18548v2
 * **Archive**: Moved source PDF to [/archive/locking-down-science-gateways-landlock-seccomp.pdf](/archive/locking-down-science-gateways-landlock-seccomp.pdf)
